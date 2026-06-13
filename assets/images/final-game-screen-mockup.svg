@@ -1,0 +1,13 @@
+<svg width="1000" height="560" viewBox="0 0 1000 560" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1000" height="560" rx="24" fill="#f3f4f6"/>
+  <rect x="90" y="70" width="820" height="420" rx="18" fill="#111827"/>
+  <circle cx="120" cy="100" r="8" fill="#ef4444"/>
+  <circle cx="145" cy="100" r="8" fill="#f59e0b"/>
+  <circle cx="170" cy="100" r="8" fill="#10b981"/>
+  <text x="130" y="155" font-family="Consolas, monospace" font-size="25" fill="#e5e7eb">Aventura del Número Secreto</text>
+  <text x="130" y="205" font-family="Consolas, monospace" font-size="21" fill="#d1d5db">Hola, Luna. Tu misión es adivinar números secretos.</text>
+  <text x="130" y="255" font-family="Consolas, monospace" font-size="21" fill="#93c5fd">--- Nivel: Bosque de Bits ---</text>
+  <text x="130" y="305" font-family="Consolas, monospace" font-size="21" fill="#d1d5db">Intento 1/4. Escribe un número entre 1 y 10: 7</text>
+  <text x="130" y="355" font-family="Consolas, monospace" font-size="21" fill="#facc15">Pista: el número secreto es menor.</text>
+  <text x="130" y="405" font-family="Consolas, monospace" font-size="21" fill="#d1d5db">Vidas restantes: 5.</text>
+</svg>

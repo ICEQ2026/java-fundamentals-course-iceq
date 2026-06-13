@@ -1,0 +1,26 @@
+<svg width="1100" height="420" viewBox="0 0 1100 420" xmlns="http://www.w3.org/2000/svg">
+  <rect width="1100" height="420" rx="28" fill="#f7f7fb"/>
+  <text x="550" y="55" text-anchor="middle" font-family="Arial" font-size="30" font-weight="700" fill="#222">Ruta del curso: de Hola mundo a un juego en Java</text>
+  <line x1="120" y1="205" x2="980" y2="205" stroke="#999" stroke-width="4" stroke-dasharray="12 10"/>
+  <g font-family="Arial" text-anchor="middle">
+    <circle cx="120" cy="205" r="48" fill="#ffffff" stroke="#333" stroke-width="3"/>
+    <text x="120" y="198" font-size="18" font-weight="700">1</text>
+    <text x="120" y="222" font-size="13">Hola mundo</text>
+    <circle cx="292" cy="205" r="48" fill="#ffffff" stroke="#333" stroke-width="3"/>
+    <text x="292" y="198" font-size="18" font-weight="700">2</text>
+    <text x="292" y="222" font-size="13">Variables</text>
+    <circle cx="464" cy="205" r="48" fill="#ffffff" stroke="#333" stroke-width="3"/>
+    <text x="464" y="198" font-size="18" font-weight="700">3</text>
+    <text x="464" y="222" font-size="13">if + for</text>
+    <circle cx="636" cy="205" r="48" fill="#ffffff" stroke="#333" stroke-width="3"/>
+    <text x="636" y="198" font-size="18" font-weight="700">4</text>
+    <text x="636" y="222" font-size="13">Métodos</text>
+    <circle cx="808" cy="205" r="48" fill="#ffffff" stroke="#333" stroke-width="3"/>
+    <text x="808" y="198" font-size="18" font-weight="700">5</text>
+    <text x="808" y="222" font-size="13">Objetos</text>
+    <circle cx="980" cy="205" r="48" fill="#ffffff" stroke="#333" stroke-width="3"/>
+    <text x="980" y="198" font-size="18" font-weight="700">6</text>
+    <text x="980" y="222" font-size="13">Juego</text>
+  </g>
+  <text x="550" y="340" text-anchor="middle" font-family="Arial" font-size="22" fill="#333">Cada lección agrega una pieza al proyecto final.</text>
+</svg>
