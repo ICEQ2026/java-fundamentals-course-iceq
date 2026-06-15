@@ -121,7 +121,7 @@ Período 202610
 1ASI0729 Desarrollo de Aplicaciones Open Source  
 
 **Nombre del equipo**: ICEQ  
-**Líder del equipo**: Pajés León, Mauricio Luis 
+**Líder del equipo**: Pajés León, Mauricio Luis  
 **Integrantes del equipo**:
 - Cabrera Novoa, Leonardo Moisés
 - Espinoza Paredes, Frezzia
