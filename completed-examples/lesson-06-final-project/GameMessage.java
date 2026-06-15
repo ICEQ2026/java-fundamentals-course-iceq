@@ -1,6 +1,9 @@
 /*
+ * Lesson 06 - Complete solution: game messages.
  * Lección 06 - Solución completa: mensajes del juego.
  *
+ * This class concentrates console texts. Separating messages prevents
+ * Game from mixing game rules with too many print lines.
  * Esta clase concentra los textos de consola. Separar los mensajes evita que
  * Game mezcle reglas del juego con demasiadas líneas de impresión.
  */

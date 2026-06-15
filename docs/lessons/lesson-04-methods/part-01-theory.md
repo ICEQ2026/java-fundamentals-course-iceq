@@ -29,7 +29,9 @@
 
 Hasta ahora el programa decide con datos escritos en el código. Esta lección abre la puerta a la interacción: el usuario escribe un dato y el programa lo procesa.
 
-> **Analogía de la lección:** Un método se parece a una receta con nombre. Puedes llamarla varias veces sin volver a escribir todos los pasos.
+> [!TIP]
+> [!NOTE]
+> **Analogía de la lección**: Un método se parece a una receta con nombre. Puedes llamarla varias veces sin volver a escribir todos los pasos.
 
 Antes de abrir Replit, mira el objetivo técnico de esta sesión: al terminar deberías poder **crear métodos simples y leer datos con Scanner**. No memorices cada palabra del código; identifica qué responsabilidad cumple cada bloque.
 

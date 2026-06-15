@@ -1,23 +1,16 @@
 <p align="center">
-  <img src="../../../assets/lesson-04-banner.png" alt="Métodos y entrada por consola" width="100%">
+  <img src="../../../assets/lesson-04-banner.png" alt="Métodos y entrada de datos" width="100%">
 </p>
 
 <div align="center">
 
-# Lección 04: Métodos y entrada por consola
+# Lección 04: Quiz y revisión
 
-### Reutilizar acciones y escuchar al usuario
-
-[![Nivel](https://img.shields.io/badge/Nivel-Básico-brightgreen?style=flat-square)](#)
-[![Duración](https://img.shields.io/badge/Duración-10_min-blue?style=flat-square)](#)
-[![Módulo](https://img.shields.io/badge/Módulo-Quiz-purple?style=flat-square)](#)
-[![Editor](https://img.shields.io/badge/Editor_principal-Replit-blueviolet?style=flat-square)](#)
-[![Sin_instalación](https://img.shields.io/badge/Sin_instalación-Navegador-lightgrey?style=flat-square)](#)
+### Reutiliza código con métodos y lee datos interactivos del usuario
 
 </div>
 
-> **Laboratorio principal:** Replit pendiente.  
-> **Editor de respaldo:** OnlineGDB.
+> **Indicaciones:** selecciona la opción que consideres correcta marcando mentalmente la casilla. Luego despliega la respuesta para verificar tu comprensión.
 
 ---
 
@@ -25,424 +18,257 @@
   <img src="../../../assets/separator.png" alt="Separador visual del curso" width="100%">
 </p>
 
-## Quiz de comprensión
+---
 
-Responde antes de abrir cada solución. Las preguntas están diseñadas para revisar razonamiento, no memoria de sintaxis.
+## Pregunta 1
 
-<details>
-<summary><strong>1. ¿Por qué conviene crear un método para imprimir el inicio?</strong></summary>
+**¿Qué es un método en Java?**
 
-Porque separa una acción con nombre. Aunque sea corta, muestra la idea de organizar responsabilidades.
-
-</details>
-
-<details>
-<summary><strong>2. ¿Qué relación debe existir entre parámetros y argumentos?</strong></summary>
-
-Los parámetros definen qué datos necesita el método; los argumentos son los valores concretos enviados al llamarlo.
-
-</details>
+- [ ] a) Un archivo de extensión `.class` que contiene el ejecutable principal.
+- [ ] b) Un bloque de código con nombre que realiza una tarea específica y que puede ser llamado o invocado en cualquier parte del programa para evitar duplicar código.
+- [ ] c) Un tipo de dato primitivo que almacena exclusivamente textos muy largos.
+- [ ] d) El comando que se escribe en la terminal de Replit para compilar el proyecto.
 
 <details>
-<summary><strong>3. ¿Qué riesgo aparece cuando el usuario escribe texto en vez de número?</strong></summary>
+<summary>Ver respuesta</summary>
 
-El programa puede lanzar una excepción de entrada. Por eso se debe explicar qué debe escribir el estudiante y, más adelante, validar entradas.
+**Respuesta correcta: b)**
 
-</details>
-
-<details>
-<summary><strong>4. ¿Qué evidencia demuestra que esta lección sí se entendió?</strong></summary>
-
-El estudiante puede ejecutar el programa, explicar una línea clave, corregir un error real y justificar por qué conviene separar acciones en métodos.
-
-</details>
-
-<details>
-<summary><strong>5. ¿Qué sería una mejora pequeña y razonable?</strong></summary>
-
-Una mejora razonable cambia un dato, agrega una salida o refina una regla sin introducir temas que todavía no se han explicado.
-
-</details>
-
-## Autoevaluación
-
-- [ ] Puedo explicar el concepto principal sin leer la definición.
-- [ ] Puedo ubicar el error más común de la lección.
-- [ ] Puedo ejecutar el laboratorio en Replit.
-- [ ] Puedo decir cómo esta lección prepara programas más ordenados.
-
-## Diagnóstico de métodos
-
-Lee cada fragmento antes de abrir la respuesta. La meta es reconocer el tipo de problema, no adivinar de memoria.
-
-### Caso A: método que promete devolver pero no devuelve
-
-~~~java
-public static int add(int a, int b) {
-    int result = a + b;
-}
-~~~
-
-<details>
-<summary><strong>¿Qué falta?</strong></summary>
-
-Falta `return`. El método promete devolver un `int`, por eso debe entregar un valor entero.
-
-Versión corregida:
-
-~~~java
-public static int add(int a, int b) {
-    int result = a + b;
-    return result;
-}
-~~~
-
-También se puede escribir:
-
-~~~java
-public static int add(int a, int b) {
-    return a + b;
-}
-~~~
-
-</details>
-
-### Caso B: llamada sin argumentos
-
-~~~java
-int result = add();
-~~~
-
-<details>
-<summary><strong>¿Por qué falla si existe <code>add(int a, int b)</code>?</strong></summary>
-
-Porque el método espera dos argumentos. La llamada no envió ninguno.
-
-Versión corregida:
-
-~~~java
-int result = add(first, second);
-~~~
-
-Mapa mental:
-
-```text
-add(first, second)
-     |       |
-     v       v
- add(int a, int b)
-```
-
-</details>
-
-### Caso C: `void` devolviendo valor
-
-~~~java
-public static void printHeader() {
-    return 10;
-}
-~~~
-
-<details>
-<summary><strong>¿Qué regla rompe?</strong></summary>
-
-Un método `void` no devuelve un valor. Si solo imprime un encabezado, no necesita `return 10`.
-
-Versión corregida:
-
-~~~java
-public static void printHeader() {
-    System.out.println("Calculadora de práctica");
-}
-~~~
-
-</details>
-
-### Caso D: método dentro de otro método
-
-~~~java
-public static void main(String[] args) {
-    public static int add(int a, int b) {
-        return a + b;
-    }
-}
-~~~
-
-<details>
-<summary><strong>¿Dónde está el problema?</strong></summary>
-
-El método `add` está declarado dentro de `main`. En Java, los métodos se declaran dentro de la clase, no dentro de otros métodos.
-
-Estructura correcta:
-
-~~~java
-public class Main {
-    public static void main(String[] args) {
-        int result = add(2, 3);
-    }
-
-    public static int add(int a, int b) {
-        return a + b;
-    }
-}
-~~~
+Los métodos son bloques lógicos estructurados a los que asignas un nombre para poder reutilizarlos (por ejemplo, `calcularPrecio`). Al meter código repetido en un método, solo debes escribirlo una vez; si necesitas cambiar algo de la fórmula, lo corriges en el método y se actualiza en todo el flujo del programa.
 
 </details>
 
 ---
 
-## Diagnóstico de Scanner
+## Pregunta 2
 
-### Caso A: falta import
+**¿Qué palabra clave se utiliza dentro de un método para enviar un resultado de regreso al bloque de código que lo invocó?**
 
-~~~java
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-    }
-}
-~~~
+- [ ] a) `void`
+- [ ] b) `System.out.println`
+- [ ] c) `return`
+- [ ] d) `public static`
 
 <details>
-<summary><strong>¿Qué puede faltar?</strong></summary>
+<summary>Ver respuesta</summary>
 
-Falta importar `Scanner`:
+**Respuesta correcta: c)**
 
-~~~java
-import java.util.Scanner;
-~~~
-
-Debe ir antes de `public class Main`.
+La palabra clave `return` detiene la ejecución del método de inmediato y devuelve el valor especificado (por ejemplo, `return resultado;`) al punto donde el método fue llamado. Si el método tiene un tipo de retorno definido (como `int` o `double`), el valor de `return` debe coincidir estrictamente con ese tipo.
 
 </details>
 
-### Caso B: entrada incompatible
+---
 
-El programa ejecuta:
+## Pregunta 3
 
-~~~java
-int age = scanner.nextInt();
-~~~
+**Si un método solo realiza una acción física (como imprimir mensajes en la consola) pero no necesita retornar ningún valor al programa, ¿qué tipo de retorno se debe indicar en su declaración?**
 
-El usuario escribe:
+- [ ] a) `int`
+- [ ] b) `void`
+- [ ] c) `String`
+- [ ] d) `double`
 
-```text
-quince
+<details>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: b)**
+
+La palabra reservada `void` (vacío) indica al compilador de Java que el método no devolverá ningún valor. Es útil para métodos que actúan como "subrutinas" encargadas puramente de mostrar textos, actualizar estados globales o realizar tareas directas de visualización en consola.
+
+</details>
+
+---
+
+## Pregunta 4
+
+**¿Qué diferencia hay entre un "parámetro" y un "argumento" en el contexto de los métodos de Java?**
+
+- [ ] a) Los parámetros se declaran en la firma del método; los argumentos son los valores reales que envías al llamarlo.
+- [ ] b) Los parámetros son para variables numéricas; los argumentos son exclusivamente para texto.
+- [ ] c) No existe ninguna diferencia, ambos se escriben dentro de la clase `Scanner`.
+- [ ] d) Los parámetros los escribe el compilador; los argumentos los ingresa el usuario final.
+
+<details>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: a)**
+
+Los **parámetros** son las variables definidas entre los paréntesis de la firma del método que le indican qué datos necesita recibir para trabajar (por ejemplo, en `public static void saludar(String nombre)`, `nombre` es el parámetro). Los **argumentos** son los valores concretos que pasas al invocarlo (por ejemplo, en `saludar("Luis")`, `"Luis"` es el argumento).
+
+</details>
+
+---
+
+## Pregunta 5
+
+**¿Qué clase de la biblioteca estándar de Java se utiliza comúnmente para capturar y leer la entrada del usuario escrita en la consola?**
+
+- [ ] a) `System.in`
+- [ ] b) `java.util.Scanner`
+- [ ] c) `public class Main`
+- [ ] d) `java.lang.String`
+
+<details>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: b)**
+
+La clase `Scanner` (que vive en el paquete `java.util`) facilita enormemente la lectura de flujos de texto de entrada. Para usarla en tu programa, debes importarla en la parte superior del archivo con `import java.util.Scanner;` e instanciarla pasando el flujo de entrada del sistema (`System.in`).
+
+</details>
+
+---
+
+## Pregunta 6
+
+**¿Qué método de la clase `Scanner` debes usar si quieres leer una cadena de texto completa (que puede incluir espacios en blanco) ingresada por el usuario?**
+
+- [ ] a) `nextInt()`
+- [ ] b) `nextDouble()`
+- [ ] c) `nextLine()`
+- [ ] d) `readString()`
+
+<details>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: c)**
+
+El método `nextLine()` avanza el objeto `Scanner` más allá de la línea actual y devuelve toda la entrada de texto ingresada hasta encontrar un salto de línea (cuando el usuario presiona **Enter**). Es el método ideal para capturar frases completas, nombres de usuario con apellidos o respuestas abiertas.
+
+</details>
+
+---
+
+## Pregunta 7
+
+**Si esperas que el usuario ingrese un número entero en consola (por ejemplo, su edad o un número de opción de menú), ¿qué método de `Scanner` debes invocar?**
+
+- [ ] a) `nextInt()`
+- [ ] b) `nextLine()`
+- [ ] c) `nextDouble()`
+- [ ] d) `readInt()`
+
+<details>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: a)**
+
+El método `nextInt()` lee e interpreta el siguiente elemento de entrada como un número entero (`int`). Si el usuario ingresa un texto no numérico (por ejemplo, `"quince"` en lugar de `15`), Java lanzará una excepción de error de entrada (`InputMismatchException`) y detendrá el programa si no se controla.
+
+</details>
+
+---
+
+## Pregunta 8
+
+**¿Por qué escribimos `import java.util.Scanner;` al inicio de nuestro archivo de código Java?**
+
+- [ ] a) Para indicarle a Replit qué versión de compilador de Java debe ejecutar.
+- [ ] b) Porque la clase `Scanner` no forma parte del paquete base por defecto (`java.lang`) y necesitamos indicarle a Java en qué biblioteca externa del SDK encontrar su definición.
+- [ ] c) Para importar todos los archivos java contenidos en el directorio `starter-files`.
+- [ ] d) Es una línea opcional que se puede borrar sin afectar la funcionalidad del programa.
+
+<details>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: b)**
+
+Las clases más básicas de Java (como `System` o `String`) se importan automáticamente porque viven en el paquete `java.lang`. Sin embargo, herramientas específicas como `Scanner` viven en paquetes especializados (en este caso, `java.util`). Los imports le dicen de forma exacta al compilador de dónde tomar la definición para que pueda resolver la palabra `Scanner`.
+
+</details>
+
+---
+
+<p align="center">
+  <img src="../../../assets/separator.png" alt="Separador visual del curso" width="100%">
+</p>
+
+---
+
+## Diagnóstico de errores
+
+### Caso A: Intentar retornar valor en un método void
+
+Un estudiante escribe el siguiente método para imprimir una advertencia, pero desea detener la ejecución del método devolviendo un mensaje de estado:
+
+```java
+public static void mostrarAlerta() {
+    System.out.println("¡Advertencia de seguridad!");
+    return "Alerta impresa";
+}
 ```
 
 <details>
-<summary><strong>¿Qué puede ocurrir?</strong></summary>
+<summary>Ver respuesta</summary>
 
-Puede aparecer `java.util.InputMismatchException`, porque `nextInt()` espera un número entero y recibió texto.
+**Explicación del error:**
 
-Para esta lección, la corrección práctica es escribir un entero como `15`. En una aplicación más cuidada se agrega validación.
+El método está declarado con tipo de retorno `void` (vacío), lo que significa que tiene prohibido devolver valores. Sin embargo, la instrucción `return "Alerta impresa";` intenta retornar una cadena de texto.
 
-</details>
+La solución correcta depende de lo que busques:
+1. Si de verdad no debe retornar nada, usa solo `return;` (sin valor) para salir anticipadamente del método.
+2. Si debe retornar el texto de confirmación, cambia el tipo `void` en la firma a `String`:
+`public static String mostrarAlerta() { ... }`
 
-### Caso C: declarar Scanner fuera del método por accidente
-
-~~~java
-import java.util.Scanner;
-
-public class Main {
-    Scanner scanner = new Scanner(System.in);
-
-    public static void main(String[] args) {
-        int number = scanner.nextInt();
-    }
-}
-~~~
-
-<details>
-<summary><strong>¿Por qué puede confundir a un principiante?</strong></summary>
-
-Porque `main` es `static` y `scanner` no lo es. Para esta lección, mantén el `Scanner` dentro de `main`.
-
-Versión simple:
-
-~~~java
-public static void main(String[] args) {
-    Scanner scanner = new Scanner(System.in);
-    int number = scanner.nextInt();
-}
-~~~
+El compilador reportará el error:
+`error: incompatible types: unexpected return value`.
 
 </details>
 
 ---
 
-## Relaciona conceptos
+### Caso B: Scanner no importado
 
-| Concepto | Pregunta que responde | Ejemplo |
-|---|---|---|
-| Método | ¿Qué acción quiero nombrar? | `add` |
-| Parámetro | ¿Qué dato necesita el método? | `int a` |
-| Argumento | ¿Qué valor envío al método? | `add(4, 5)` |
-| `return` | ¿Qué valor entrega el método? | `return a + b;` |
-| `void` | ¿El método solo hace una acción? | `printHeader()` |
-| `Scanner` | ¿Cómo leo datos del usuario? | `new Scanner(System.in)` |
-| `nextInt()` | ¿Cómo leo un entero? | `scanner.nextInt()` |
+Un estudiante crea una instancia de Scanner para capturar datos en el método `main`, pero la compilación falla antes de correr:
 
-<details>
-<summary><strong>¿Cuál se conecta más con programas grandes?</strong></summary>
-
-Varios conceptos se conectan. `Scanner` permite leer datos del usuario. Los métodos permiten separar acciones como mostrar bienvenida, leer un número, calcular un resultado y mostrar un resumen final.
-
-</details>
-
----
-
-## Completa el código
-
-~~~java
-import java.util.Scanner;
-
+```java
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Primer número: ");
-        int first = scanner.________();
-
-        System.out.print("Segundo número: ");
-        int second = scanner.________();
-
-        int result = add(_____, _____);
-        System.out.println("Resultado: " + result);
-    }
-
-    public static int add(int a, int b) {
-        return _______;
+        Scanner lector = new Scanner(System.in);
+        System.out.print("Ingresa tu nombre: ");
+        String nombre = lector.nextLine();
+        System.out.println("Hola " + nombre);
     }
 }
-~~~
-
-<details>
-<summary><strong>Respuesta</strong></summary>
-
-~~~java
-import java.util.Scanner;
-
-public class Main {
-    public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-
-        System.out.print("Primer número: ");
-        int first = scanner.nextInt();
-
-        System.out.print("Segundo número: ");
-        int second = scanner.nextInt();
-
-        int result = add(first, second);
-        System.out.println("Resultado: " + result);
-    }
-
-    public static int add(int a, int b) {
-        return a + b;
-    }
-}
-~~~
-
-</details>
-
----
-
-## Preguntas de diseño
-
-<details>
-<summary><strong>1. ¿Por qué no dejar todo dentro de <code>main</code>?</strong></summary>
-
-Porque `main` se vuelve difícil de leer cuando concentra todas las responsabilidades. Es mejor que coordine acciones y delegue tareas específicas a métodos.
-
-</details>
-
-<details>
-<summary><strong>2. ¿Cuándo un método debería ser <code>void</code>?</strong></summary>
-
-Cuando solo realiza una acción y no necesita devolver un valor. Por ejemplo, imprimir un encabezado o mostrar instrucciones.
-
-</details>
-
-<details>
-<summary><strong>3. ¿Cuándo un método debería devolver <code>int</code>?</strong></summary>
-
-Cuando calcula o produce un número entero que se usará después. Por ejemplo, sumar dos números o calcular puntaje.
-
-</details>
-
-<details>
-<summary><strong>4. ¿Qué ventaja tiene <code>add(first, second)</code> frente a escribir <code>first + second</code> directamente?</strong></summary>
-
-Para una suma simple, ambas opciones funcionan. La ventaja del método aparece cuando quieres nombrar la operación, reutilizarla o preparar operaciones más complejas.
-
-</details>
-
-<details>
-<summary><strong>5. ¿Por qué <code>Scanner</code> no debería mezclarse con demasiadas reglas en la misma línea?</strong></summary>
-
-Porque leer datos ya es una responsabilidad. Si además validas, calculas e imprimes en la misma zona, el programa se vuelve difícil de seguir para principiantes.
-
-</details>
-
----
-
-## Ordena el flujo
-
-Ordena mentalmente estas acciones:
-
-```text
-mostrar resultado
-crear Scanner
-pedir primer número
-llamar add
-pedir segundo número
-mostrar encabezado
 ```
 
 <details>
-<summary><strong>Orden sugerido</strong></summary>
+<summary>Ver respuesta</summary>
 
-```text
-crear Scanner
-mostrar encabezado
-pedir primer número
-pedir segundo número
-llamar add
-mostrar resultado
-```
+**Explicación del error:**
 
-Ese orden permite que el usuario entienda qué está pasando antes de escribir datos.
+El compilador no sabe qué es `Scanner` porque el estudiante olvidó colocar la línea de importación necesaria en la parte superior del archivo (antes de la definición de `public class Main`).
+
+La solución es agregar esta línea al inicio del archivo:
+`import java.util.Scanner;`
+
+El error de compilación dirá:
+`error: cannot find symbol` apuntando a la palabra `Scanner`.
 
 </details>
 
 ---
 
-## Rúbrica corta
-
-| Criterio | Logrado | En proceso | Repasar |
-|---|---:|---:|---:|
-| Importa `Scanner` correctamente. |  |  |  |
-| Lee dos enteros desde consola. |  |  |  |
-| Crea un método `void`. |  |  |  |
-| Crea un método con `return`. |  |  |  |
-| Diferencia parámetro y argumento. |  |  |  |
-| Corrige una llamada sin argumentos. |  |  |  |
-| Explica cómo esto ayuda a ordenar un programa. |  |  |  |
+<p align="center">
+  <img src="../../../assets/separator.png" alt="Separador visual del curso" width="100%">
+</p>
 
 ---
 
-## Revisión para avanzar
+## Autoevaluación por niveles
 
-Puedes continuar si respondes:
+### Nivel inicial
+- [ ] Entiendo cómo llamar a un método que ya existe y pasarle datos entre paréntesis.
+- [ ] Puedo crear un objeto `Scanner` y usar `nextLine()` para leer el nombre del usuario.
 
-1. ¿Qué es un parámetro?
-2. ¿Qué es un argumento?
-3. ¿Qué hace `return`?
-4. ¿Qué significa `void`?
-5. ¿Por qué se importa `Scanner`?
-6. ¿Qué lee `nextInt()`?
-7. ¿Dónde se declara un método en Java?
-8. ¿Cómo se conecta esta lección con una aplicación de consola más completa?
+### Nivel básico
+- [ ] Sé cuándo declarar un método con tipo de retorno `void` y cuándo con tipos específicos (`int`, `String`).
+- [ ] Comprendo la necesidad de importar la clase `Scanner` desde `java.util`.
+
+### Nivel sólido
+- [ ] Puedo diseñar métodos personalizados que reciban múltiples parámetros y devuelvan cálculos procesados.
+- [ ] Entiendo el problema que ocurre si el usuario ingresa texto en un método `nextInt()` y sé que la entrada debe ser validada.
 
 ---
 
@@ -451,7 +277,3 @@ Puedes continuar si respondes:
 **Volver al [plan de curso](../../../course-plan.md)**
 
 </div>
-
-
-
-

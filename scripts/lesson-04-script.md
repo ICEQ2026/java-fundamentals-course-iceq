@@ -49,37 +49,37 @@ El video debe explicar **métodos, parámetros, return y Scanner** usando una de
 
 ### Escena 2: código incorrecto controlado
 
-**Visual:** mostrar el bloque incorrecto del archivo part-01-theory.md.
+**Visual:** mostrar un error de compilación por omitir la importación de Scanner (ej: `error: cannot find symbol - class Scanner`).
 
 **Narración sugerida:**
 
-> Este fragmento parece cercano a la solución, pero falla por una razón concreta. Java no solo revisa la intención; también revisa estructura, nombres, tipos y símbolos. Vamos a ejecutar para leer el mensaje y ubicar el problema pequeño, no para borrar todo el programa.
+> En esta escena, intentamos usar la clase `Scanner` para leer la entrada del usuario, pero el compilador nos dice `error: cannot find symbol: class Scanner`. Esto pasa porque Java está organizado en paquetes y no carga todo automáticamente para mantener el programa ligero. Para usar la clase `Scanner`, debemos importarla explícitamente agregando la línea `import java.util.Scanner;` al inicio de nuestro archivo, fuera de la clase.
 
-**Punto didáctico:** leer el error literal, señalar la línea y traducirlo a lenguaje simple.
+**Punto didáctico:** explicar que el compilador no reconoce clases externas si no se importan, y cómo agregar el `import` correspondiente en la línea 1.
 
 ### Escena 3: construcción de la solución mínima
 
-**Visual:** reemplazar el fragmento incorrecto por la versión correcta.
+**Visual:** corregir la importación de `Scanner` y crear un método auxiliar `public static int add(int firstNumber, int secondNumber)`.
 
 **Narración sugerida:**
 
-> Ahora corregimos solo lo necesario. Observa que cada línea tiene un lugar y una responsabilidad. La meta no es escribir muchas líneas, sino que el programa sea entendible para Java y para otra persona del equipo.
+> Con la importación de `Scanner` resuelta, ahora organizamos el código. Para no sobrecargar el método `main`, delegamos la operación matemática de suma a un nuevo método estático llamado `add`. Este método recibe dos parámetros enteros y devuelve el resultado usando la instrucción `return`. Así, nuestro programa gana legibilidad y orden.
 
 ### Escena 4: ejecución y comprobación
 
-**Visual:** ejecutar el programa y mostrar consola.
+**Visual:** presionar **Run**, escribir interactivamente dos números (ej: 12 y 8) en la consola de Replit y observar la salida "12 + 8 = 20".
 
 **Narración sugerida:**
 
-> La salida confirma que el programa compila y produce un resultado. Esa es la primera prueba. La segunda prueba es hacer un cambio pequeño y verificar que el resultado cambia de forma predecible.
+> Ejecutamos el programa. La consola nos pide ingresar el primer número. Escribo `12` y presiono Enter. Luego nos pide el segundo número, escribo `8` y presiono Enter. El programa lee ambos valores usando `scanner.nextInt()`, invoca a nuestro método `add` y muestra el resultado sumado en pantalla. ¡Acabamos de crear nuestro primer programa interactivo!
 
 ### Escena 5: cierre técnico
 
-**Visual:** mostrar la tabla de criterios de finalización de part-02-practice.md.
+**Visual:** mostrar la sección de criterios de éxito de la práctica 4.
 
 **Narración sugerida:**
 
-> Antes de avanzar, revisa tres puntos: el archivo correcto, la salida esperada y un error que puedas explicar. Si puedes explicar el error, no solo copiaste código; entendiste una regla.
+> Al terminar tu laboratorio de la lección 4, verifica tres puntos clave: que hayas importado correctamente `Scanner`, que llames a tu método estático desde el bloque `main` pasándole los argumentos adecuados, y no olvides escribir `scanner.close()` al final para liberar la memoria. ¡Nos vemos en el próximo video!
 
 ## Lista de control de grabación
 

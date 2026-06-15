@@ -34,13 +34,13 @@ Esta primera lección debe resolver una ansiedad común: muchas personas creen q
 > Si las instrucciones tienen forma válida, las ejecuta.  
 > Si algo no encaja, muestra un error.
 
-Java es estricto, pero esa exigencia no es un obstáculo. Es una forma de recibir retroalimentación clara. El compilador no se burla del estudiante; señala una regla que todavía no se cumplió.
+Java es estricto, pero esa exigencia no es un obstáculo. Es una forma de recibir retroalimentación clara. El compilador no se burla tuyo; señala una regla que todavía no se cumplió.
 
-En esta lección no buscamos que el estudiante entienda todo lo que aparece en `public static void main(String[] args)`. Eso llegará después. Buscamos que pueda abrir Replit, reconocer el archivo principal, ejecutar un programa mínimo y modificar una salida en consola sin destruir la estructura.
+En esta lección no buscamos que entiendas todo lo que aparece en `public static void main(String[] args)`. Eso llegará después. Buscamos que puedas abrir Replit, reconocer el archivo principal, ejecutar un programa mínimo y modificar una salida en consola sin destruir la estructura.
 
 ### Resultado esperado
 
-Al terminar esta parte, el estudiante debe poder:
+Al terminar esta parte, debes poder:
 
 - abrir un proyecto Java en Replit;
 - identificar el archivo `Main.java`;
@@ -52,7 +52,7 @@ Al terminar esta parte, el estudiante debe poder:
 
 ### Lo que todavía no se espera
 
-No se espera que el estudiante pueda explicar:
+No te preocupes si no puedes explicar todavía:
 
 - qué significa internamente `static`;
 - cómo funciona la JVM;
@@ -67,9 +67,9 @@ Mantener esos límites hace que el curso sea más realista. Un buen curso introd
 
 ## Replit como aula de programación
 
-Replit será el entorno principal del curso porque cumple el requisito central del enunciado: el estudiante solo necesita un navegador. No se instalará Java localmente y no se pedirá configurar IntelliJ, Eclipse o Visual Studio Code.
+Replit será el entorno principal del curso porque cumple el requisito central del enunciado: solo necesitas un navegador. No se instalará Java localmente y no se pedirá configurar IntelliJ, Eclipse o Visual Studio Code.
 
-Cuando un estudiante abre Replit para Java, normalmente verá tres zonas:
+Cuando abres Replit para Java, normalmente verás tres zonas:
 
 ```text
 +---------------------------------------------------------------+
@@ -108,7 +108,8 @@ No es porque Java quiera ser difícil. Es porque la computadora necesita instruc
 
 La consola muestra el resultado del programa. En esta lección solo usaremos salida de texto, así que todo lo visible ocurrirá ahí.
 
-> **Consejo de lectura:** aumenta el tamaño de fuente de Replit si el código se ve pequeño. El objetivo es leer cada símbolo sin forzar la vista.
+> [!TIP]
+> **Consejo de lectura**: Aumenta el tamaño de fuente de Replit si el código se ve pequeño. El objetivo es leer cada símbolo sin forzar la vista.
 
 ---
 
@@ -177,7 +178,7 @@ Java se utiliza en:
 - videojuegos y proyectos de escritorio;
 - plataformas de gran escala.
 
-No necesitamos mostrar esos sistemas ahora. Basta con que el estudiante entienda que lo que aprende no es un truco de aula, sino una base técnica usada en el mundo real.
+No necesitamos mostrar esos sistemas ahora. Basta con que entiendas que lo que aprendes no es un truco de aula, sino una base técnica usada en el mundo real.
 
 ### Java es estricto
 
@@ -284,7 +285,7 @@ public class Main {
 
 Esta línea dice: "declaro una clase pública llamada Main".
 
-Para el estudiante:
+Para ti:
 
 - no cambies `Main` en esta lección;
 - no borres la llave `{`;
@@ -298,7 +299,7 @@ Para el estudiante:
 
 Esta línea abre el método donde comienza el programa.
 
-Para el estudiante:
+Para ti:
 
 - escríbela exactamente;
 - respeta paréntesis;
@@ -313,7 +314,7 @@ Para el estudiante:
 
 Esta línea produce el resultado visible.
 
-Para el estudiante:
+Para ti:
 
 - puedes cambiar el texto dentro de comillas;
 - no cambies `System.out.println` todavía;
@@ -339,7 +340,7 @@ Cierra la clase `Main`.
 
 ## Qué se puede modificar sin romper la estructura
 
-En la primera práctica, el estudiante debe distinguir entre partes seguras y partes delicadas.
+En tu primera práctica, debes distinguir entre partes seguras y partes delicadas.
 
 ### Seguro para modificar
 
@@ -414,6 +415,9 @@ Código incorrecto:
 System.out.println("Hola Java")
 ```
 
+> [!IMPORTANT]
+> **El punto y coma (`;`) es obligatorio** en Java al final de cada instrucción de impresión o asignación. Omitir el punto y coma causará un error de compilación inmediato (`error: ';' expected`).
+
 Mensaje probable:
 
 ```text
@@ -437,6 +441,9 @@ Código incorrecto:
 ```java
 system.out.println("Hola Java");
 ```
+
+> [!WARNING]
+> **Java es Case-Sensitive**: Java distingue estrictamente entre letras mayúsculas y minúsculas. Escribir `system` en lugar de `System` (con S mayúscula) provocará que el compilador no reconozca la clase base del sistema, arrojando el error `cannot find symbol`.
 
 Mensaje probable:
 
@@ -647,7 +654,7 @@ System.out.println("Fin de la primera prueba");
 
 Los mensajes de consola serán la primera forma de comunicarse con el usuario.
 
-Por eso esta lección no es decorativa. Enseña la primera interacción visible entre programa y estudiante.
+Por eso esta lección no es decorativa. Enseña la primera interacción visible entre el programa y tú.
 
 ---
 
@@ -708,7 +715,7 @@ escribir -> ejecutar -> observar -> corregir -> volver a ejecutar
 
 Ese ciclo se repetirá en todas las lecciones. La diferencia es que cada vez habrá más elementos: variables, condiciones, bucles, métodos, objetos y reglas protegidas.
 
-El objetivo inmediato es simple: que el estudiante llegue al laboratorio sabiendo qué puede cambiar, qué debe cuidar y cómo interpretar la primera respuesta de Replit.
+El objetivo inmediato es simple: que llegues al laboratorio sabiendo qué puede cambiar, qué debe cuidar y cómo interpretar la primera respuesta de Replit.
 
 ---
 

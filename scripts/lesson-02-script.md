@@ -49,37 +49,37 @@ El video debe explicar **String, int, double, boolean y concatenación** usando 
 
 ### Escena 2: código incorrecto controlado
 
-**Visual:** mostrar el bloque incorrecto del archivo part-01-theory.md.
+**Visual:** mostrar un error de discrepancia de tipos en Replit (por ejemplo, declarar `int age = "quince";`).
 
 **Narración sugerida:**
 
-> Este fragmento parece cercano a la solución, pero falla por una razón concreta. Java no solo revisa la intención; también revisa estructura, nombres, tipos y símbolos. Vamos a ejecutar para leer el mensaje y ubicar el problema pequeño, no para borrar todo el programa.
+> En esta escena, observa lo que sucede si intentamos guardar el texto `"quince"` dentro de una variable de tipo `int`. Al ejecutar, Java nos arrojará un error de tipos incompatibles: `error: incompatible types: String cannot be converted to int`. A diferencia de otros lenguajes, Java tiene tipado estático, lo que significa que debemos ser estrictamente claros sobre qué tipo de caja fuerte usamos para cada tipo de dato.
 
-**Punto didáctico:** leer el error literal, señalar la línea y traducirlo a lenguaje simple.
+**Punto didáctico:** señalar el error en la consola, explicar la diferencia entre números enteros y texto con comillas, y por qué falló la compilación.
 
 ### Escena 3: construcción de la solución mínima
 
-**Visual:** reemplazar el fragmento incorrecto por la versión correcta.
+**Visual:** corregir la asignación a `int age = 15;` y declarar variables adicionales (`String studentName`, `double averageGrade`, `boolean active`).
 
 **Narración sugerida:**
 
-> Ahora corregimos solo lo necesario. Observa que cada línea tiene un lugar y una responsabilidad. La meta no es escribir muchas líneas, sino que el programa sea entendible para Java y para otra persona del equipo.
+> Para resolverlo, asignamos el valor numérico `15` a nuestra variable `age`. Además, declaramos `studentName` como `String` para textos, `averageGrade` como `double` para decimales y `active` como `boolean` para valores lógicos de verdadero o falso. Ahora cada caja fuerte tiene la etiqueta y el contenido correspondiente.
 
 ### Escena 4: ejecución y comprobación
 
-**Visual:** ejecutar el programa y mostrar consola.
+**Visual:** imprimir los datos en la consola usando la concatenación con el operador `+`. Ejecutar y ver los datos mostrados con etiquetas claras.
 
 **Narración sugerida:**
 
-> La salida confirma que el programa compila y produce un resultado. Esa es la primera prueba. La segunda prueba es hacer un cambio pequeño y verificar que el resultado cambia de forma predecible.
+> Ahora unimos nuestros datos usando el operador `+` para la concatenación, por ejemplo: `"Nombre: " + studentName`. Al presionar **Run**, la consola imprime una hermosa ficha del estudiante con etiquetas legibles. Los datos dinámicos guardados en memoria ahora son visibles en la interfaz.
 
 ### Escena 5: cierre técnico
 
-**Visual:** mostrar la tabla de criterios de finalización de part-02-practice.md.
+**Visual:** mostrar la sección de criterios de éxito de la práctica 2.
 
 **Narración sugerida:**
 
-> Antes de avanzar, revisa tres puntos: el archivo correcto, la salida esperada y un error que puedas explicar. Si puedes explicar el error, no solo copiaste código; entendiste una regla.
+> Antes de pasar a la lección 3, completa la práctica: crea tus propias variables, experimenta combinando texto y números al imprimir, y verifica que comprendes la diferencia entre tipos primitivos como `int` y tipos complejos como `String`. ¡Nos vemos en el siguiente módulo!
 
 ## Lista de control de grabación
 

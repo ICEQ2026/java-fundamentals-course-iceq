@@ -268,7 +268,7 @@ Ejecuta antes de continuar.
 
 ## Variación 1: datos de estudiante
 
-Agrega una variable relacionada con el perfil del estudiante:
+Agrega una variable relacionada con el perfil tuyo:
 
 ```java
 int attendanceCount = 3;

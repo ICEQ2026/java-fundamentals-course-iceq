@@ -49,37 +49,37 @@ El video debe explicar **estructura mínima, método main y salida con System.ou
 
 ### Escena 2: código incorrecto controlado
 
-**Visual:** mostrar el bloque incorrecto del archivo part-01-theory.md.
+**Visual:** mostrar el bloque de código incorrecto (falta de punto y coma en System.out.println) en Replit.
 
 **Narración sugerida:**
 
-> Este fragmento parece cercano a la solución, pero falla por una razón concreta. Java no solo revisa la intención; también revisa estructura, nombres, tipos y símbolos. Vamos a ejecutar para leer el mensaje y ubicar el problema pequeño, no para borrar todo el programa.
+> Observa este código en pantalla. A primera vista parece completo, pero si intentamos ejecutarlo, la consola nos arrojará un error inmediato: `error: ';' expected`. En Java, el punto y coma es el delimitador oficial para indicar el fin de una instrucción. Sin él, el compilador se confunde y no puede avanzar. Aprender a leer este error es nuestro primer paso como desarrolladores.
 
-**Punto didáctico:** leer el error literal, señalar la línea y traducirlo a lenguaje simple.
+**Punto didáctico:** señalar la línea marcada por el compilador, resaltar el símbolo faltante y explicar que el compilador ayuda a corregir.
 
 ### Escena 3: construcción de la solución mínima
 
-**Visual:** reemplazar el fragmento incorrecto por la versión correcta.
+**Visual:** agregar el punto y coma al final de la línea e inspeccionar la clase Main y el método main.
 
 **Narración sugerida:**
 
-> Ahora corregimos solo lo necesario. Observa que cada línea tiene un lugar y una responsabilidad. La meta no es escribir muchas líneas, sino que el programa sea entendible para Java y para otra persona del equipo.
+> Corregimos el error simplemente colocando el punto y coma al final de `System.out.println("Hello, World")`. Nota que todo nuestro código vive dentro de la clase `Main`, la cual debe llamarse exactamente igual que nuestro archivo `Main.java`. Además, está envuelto en el bloque `public static void main`, que funciona como el punto de inicio que Java busca para ejecutar el programa.
 
 ### Escena 4: ejecución y comprobación
 
-**Visual:** ejecutar el programa y mostrar consola.
+**Visual:** presionar el botón **Run** y ver "Hello, World" en la consola. Luego, cambiar el texto a "Bienvenido a Java" y ejecutar de nuevo.
 
 **Narración sugerida:**
 
-> La salida confirma que el programa compila y produce un resultado. Esa es la primera prueba. La segunda prueba es hacer un cambio pequeño y verificar que el resultado cambia de forma predecible.
+> Al presionar **Run**, la consola muestra limpiamente nuestro mensaje. ¡Nuestra primera compilación exitosa! Ahora hagamos una prueba de control: cambiemos el texto entre las comillas dobles por "Bienvenido a Java" y ejecutemos de nuevo. La salida cambia inmediatamente, demostrando que controlamos el flujo de salida.
 
 ### Escena 5: cierre técnico
 
-**Visual:** mostrar la tabla de criterios de finalización de part-02-practice.md.
+**Visual:** mostrar la sección de criterios de éxito de la práctica 1.
 
 **Narración sugerida:**
 
-> Antes de avanzar, revisa tres puntos: el archivo correcto, la salida esperada y un error que puedas explicar. Si puedes explicar el error, no solo copiaste código; entendiste una regla.
+> Antes de avanzar a la lección 2, realiza tu autoevaluación: asegúrate de que tu Repl compile de forma limpia, que comprendas el papel de la clase `Main` y el método `main`, y que hayas experimentado provocando y solucionando el error del punto y coma. ¡Nos vemos en el próximo video!
 
 ## Lista de control de grabación
 

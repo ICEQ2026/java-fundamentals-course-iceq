@@ -2,8 +2,12 @@ import java.util.Random;
 import java.util.Scanner;
 
 /*
+ * Lesson 06 - Complete solution: game coordination.
  * Lección 06 - Solución completa: coordinación del juego.
  *
+ * Game controls the general flow: welcome, reading the player, levels,
+ * attempts, score, lives, and closing. Player, GameMessage, and InputHelper
+ * classes separate responsibilities so that the file does not do everything alone.
  * Game controla el flujo general: bienvenida, lectura del jugador, niveles,
  * intentos, puntaje, vidas y cierre. Las clases Player, GameMessage e
  * InputHelper separan responsabilidades para que el archivo no haga todo solo.
@@ -13,6 +17,7 @@ public class Game {
     private final Random random;
     private final InputHelper inputHelper;
 
+    // Each position of these arrays represents the same level.
     // Cada posición de estos arreglos representa el mismo nivel.
     private final String[] levelNames = {
         "Bosque de Bits",
@@ -36,6 +41,7 @@ public class Game {
 
         GameMessage.printRules(player.getName());
 
+        // The game progresses level by level as long as the player has lives.
         // El juego avanza nivel por nivel mientras el jugador conserve vidas.
         for (int levelIndex = 0; levelIndex < levelNames.length && player.hasLives(); levelIndex++) {
             playRound(player, levelIndex);
@@ -54,6 +60,7 @@ public class Game {
 
         GameMessage.printLevelIntro(levelName, limit, attemptsAllowed, player.getLives());
 
+        // Each round has a maximum of attempts and also respects the remaining lives.
         // Cada ronda tiene un máximo de intentos y también respeta las vidas restantes.
         for (int attempt = 1; attempt <= attemptsAllowed && player.hasLives(); attempt++) {
             int guess = inputHelper.readNumber(

@@ -38,7 +38,8 @@ La práctica final no busca añadir temas nuevos. Busca integrar lo aprendido en
 3. Presiona **Run** una vez antes de editar.
 4. Lee la consola. Si aparece un error, úsalo como pista.
 
-> **Respaldo:** si Replit no está disponible, usa OnlineGDB copiando los archivos Java de esta carpeta. La entrega oficial debe mantener Replit como enlace principal.
+> [!TIP]
+> **Editor de respaldo**: si Replit no está disponible, usa OnlineGDB copiando los archivos Java de esta carpeta. La entrega oficial debe mantener Replit como enlace principal.
 
 ## Trabajo paso a paso
 

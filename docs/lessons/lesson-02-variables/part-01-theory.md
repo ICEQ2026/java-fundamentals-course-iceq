@@ -322,7 +322,7 @@ No se recomienda para variables:
 StudentName
 average_grade
 TOTAL_ATTENDANCE_COUNT
-nombre del estudiante
+nombre tuyo
 ```
 
 ### ¿Por qué importa?

@@ -38,7 +38,8 @@ La práctica convierte variables sueltas en un modelo simple. Es el puente entre
 3. Presiona **Run** una vez antes de editar.
 4. Lee la consola. Si aparece un error, úsalo como pista.
 
-> **Respaldo:** si Replit no está disponible, usa JDoodle copiando los archivos Java de esta carpeta. La entrega oficial debe mantener Replit como enlace principal.
+> [!TIP]
+> **Editor de respaldo**: si Replit no está disponible, usa JDoodle copiando los archivos Java de esta carpeta. La entrega oficial debe mantener Replit como enlace principal.
 
 ## Trabajo paso a paso
 

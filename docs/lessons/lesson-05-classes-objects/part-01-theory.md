@@ -27,9 +27,11 @@
 
 ## Punto de partida
 
-El proyecto ya tiene datos, reglas e interacción. Ahora necesita un modelo. En lugar de tener variables sueltas, el estudiante agrupa nombre, puntaje y comportamiento en una clase.
+El proyecto ya tiene datos, reglas e interacción. Ahora necesita un modelo. En lugar de tener variables sueltas, agrupas nombre, puntaje y comportamiento en una clase.
 
-> **Analogía de la lección:** Una clase es un plano. Un objeto es una construcción concreta hecha con ese plano. Puedes tener muchos jugadores desde la misma clase.
+> [!TIP]
+> [!NOTE]
+> **Analogía de la lección**: Una clase es un plano. Un objeto es una construcción concreta hecha con ese plano. Puedes tener muchos jugadores desde la misma clase.
 
 Antes de abrir Replit, mira el objetivo técnico de esta sesión: al terminar deberías poder **crear una clase Player, instanciar objetos y llamar métodos**. No memorices cada palabra del código; identifica qué responsabilidad cumple cada bloque.
 

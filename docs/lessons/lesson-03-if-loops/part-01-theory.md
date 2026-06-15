@@ -27,9 +27,11 @@
 
 ## Punto de partida
 
-El estudiante ya puede guardar datos; ahora necesita reglas. El curso introduce decisiones concretas: si una condición se cumple, se ejecuta un camino; si no, se ejecuta otro.
+Ya puedes guardar datos; ahora necesitas reglas. El curso introduce decisiones concretas: si una condición se cumple, se ejecuta un camino; si no, se ejecuta otro.
 
-> **Analogía de la lección:** Un if funciona como un control de ingreso: revisa una condición y decide qué camino se abre. Un bucle es una rutina repetida con límite.
+> [!TIP]
+> [!NOTE]
+> **Analogía de la lección**: Un `if` funciona como un control de ingreso: revisa una condición y decide qué camino se abre. Un bucle es una rutina repetida con límite.
 
 Antes de abrir Replit, mira el objetivo técnico de esta sesión: al terminar deberías poder **usar if/else y for para representar reglas y repeticiones simples**. No memorices cada palabra del código; identifica qué responsabilidad cumple cada bloque.
 
@@ -151,7 +153,9 @@ Una condición en Java debe responder con `true` o `false`. No responde con "má
 
 En esta lección se trabajará sobre todo con números. Por eso usarás operadores como `==`, `!=`, `<`, `<=`, `>` y `>=`.
 
-> **Consejo técnico:** para comparar números se usa `==`. Para comparar texto, más adelante conviene usar `.equals(...)`. Java distingue estos casos porque los tipos de datos no se comportan igual internamente.
+> [!TIP]
+> [!TIP]
+> **Consejo técnico**: Para comparar números se usa `==`. Para comparar texto, más adelante conviene usar `.equals(...)`. Java distingue estos casos porque los tipos de datos no se comportan igual internamente.
 
 ## Operadores de comparación
 

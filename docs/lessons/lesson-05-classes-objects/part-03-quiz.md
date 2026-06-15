@@ -4,20 +4,13 @@
 
 <div align="center">
 
-# Lección 05: Clases y objetos
+# Lección 05: Quiz y revisión
 
-### Modelar una idea con datos y comportamiento
-
-[![Nivel](https://img.shields.io/badge/Nivel-Intermedio_inicial-brightgreen?style=flat-square)](#)
-[![Duración](https://img.shields.io/badge/Duración-12_min-blue?style=flat-square)](#)
-[![Módulo](https://img.shields.io/badge/Módulo-Quiz-purple?style=flat-square)](#)
-[![Editor](https://img.shields.io/badge/Editor_principal-Replit-blueviolet?style=flat-square)](#)
-[![Sin_instalación](https://img.shields.io/badge/Sin_instalación-Navegador-lightgrey?style=flat-square)](#)
+### Comprende el molde (Clase) y sus creaciones (Objetos) en Java
 
 </div>
 
-> **Laboratorio principal:** Replit pendiente.  
-> **Editor de respaldo:** JDoodle.
+> **Indicaciones:** selecciona la opción que consideres correcta marcando mentalmente la casilla. Luego despliega la respuesta para verificar tu comprensión.
 
 ---
 
@@ -25,330 +18,261 @@
   <img src="../../../assets/separator.png" alt="Separador visual del curso" width="100%">
 </p>
 
-## Quiz de comprensión
+---
 
-Responde antes de abrir cada solución. Las preguntas están diseñadas para revisar razonamiento, no memoria de sintaxis.
+## Pregunta 1
+
+**En la Programación Orientada a Objetos, ¿cuál es la analogía o definición más correcta de una "Clase"?**
+
+- [ ] a) El resultado final de la ejecución de una aplicación en Replit.
+- [ ] b) Un molde, plano o plantilla que define los atributos (datos) y métodos (comportamientos) comunes que tendrán los objetos creados a partir de ella.
+- [ ] c) Un tipo de dato primitivo que solo puede almacenar números enteros de gran escala.
+- [ ] d) El conjunto de llaves `{}` que cierran el método `main`.
 
 <details>
-<summary><strong>1. ¿Por qué una clase no es lo mismo que un objeto?</strong></summary>
+<summary>Ver respuesta</summary>
 
-La clase describe la estructura. El objeto es una instancia concreta con valores propios.
+**Respuesta correcta: b)**
+
+Una clase no es un objeto en sí, sino la plantilla conceptual que define cómo se construirá. Por ejemplo, la clase `Player` define que cada jugador tendrá un atributo `name` y un método `scorePoint()`, pero no representa a ningún jugador específico en memoria hasta que sea instanciada.
 
 </details>
 
-<details>
-<summary><strong>2. ¿Qué problema resuelve un constructor?</strong></summary>
+---
 
-Evita crear objetos incompletos, porque obliga a entregar los datos mínimos al momento de instanciar.
+## Pregunta 2
+
+**¿Qué es un "Objeto" o "Instancia" en el contexto de Java?**
+
+- [ ] a) El archivo de texto plano `.java` que escribimos en el editor.
+- [ ] b) Una copia o creación física y concreta en memoria basada en el plano de una Clase, con valores particulares y existencia propia.
+- [ ] c) El comando que se usa para ejecutar el proyecto en la terminal.
+- [ ] d) Un comentario dentro del código que documenta los avances del equipo.
+
+<details>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: b)**
+
+El objeto es la realización física de la clase. Usando la analogía del plano arquitectónico (la Clase), el objeto sería la casa real construida en la calle (el Objeto). Puedes instanciar múltiples objetos independientes basados en la misma clase, y cada uno tendrá sus propios valores específicos (por ejemplo, el jugador `"Ana"` con nivel 3 y el jugador `"Luis"` con nivel 1).
 
 </details>
 
-<details>
-<summary><strong>3. ¿Por qué el proyecto final necesita una clase Player?</strong></summary>
+---
 
-Porque el jugador tiene estado y reglas: nombre, puntaje, vidas y acciones. Eso es más claro en un objeto que en variables sueltas.
+## Pregunta 3
+
+**¿Qué palabra clave reservada utiliza Java para reservar memoria y crear un nuevo objeto a partir de una clase específica (por ejemplo, `Player p = ___ Player();`)?**
+
+- [ ] a) `class`
+- [ ] b) `void`
+- [ ] c) `new`
+- [ ] d) `this`
+
+<details>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: c)**
+
+La palabra clave `new` le indica a la máquina virtual de Java (JVM) que debe reservar el espacio de memoria dinámico necesario para un nuevo objeto del tipo especificado, y ejecutar inmediatamente el constructor correspondiente para inicializar sus atributos.
 
 </details>
 
-<details>
-<summary><strong>4. ¿Qué evidencia demuestra que esta lección sí se entendió?</strong></summary>
+---
 
-El estudiante puede ejecutar el programa, explicar una línea clave, corregir un error real y conectar el concepto con el proyecto final.
+## Pregunta 4
+
+**¿Qué es un "Constructor" en una clase de Java?**
+
+- [ ] a) La herramienta de compilación integrada que genera archivos `.class`.
+- [ ] b) Un método especial con el mismo nombre de la clase que se ejecuta automáticamente al crear una instancia con `new` para inicializar sus atributos.
+- [ ] c) La variable que almacena la cantidad de objetos creados por el programa.
+- [ ] d) Un tipo de datos que une enteros y decimales en una sola variable.
+
+<details>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: b)**
+
+El constructor es el bloque de inicialización del objeto. Se define dentro de la clase y tiene dos reglas muy específicas en Java: debe llamarse exactamente igual que la clase (respetando mayúsculas) y no puede especificar ningún tipo de retorno (ni siquiera `void`). Es el encargado de recibir los parámetros iniciales para darle valores de partida a los atributos.
 
 </details>
 
-<details>
-<summary><strong>5. ¿Qué sería una mejora pequeña y razonable?</strong></summary>
+---
 
-Una mejora razonable cambia un dato, agrega una salida o refina una regla sin introducir temas que todavía no se han explicado.
+## Pregunta 5
+
+**¿Cómo se denominan las variables declaradas dentro de una clase (fuera de los métodos) que representan las características, propiedades o estado de los objetos?**
+
+- [ ] a) Parámetros
+- [ ] b) Argumentos
+- [ ] c) Atributos (o variables de instancia)
+- [ ] d) Clases locales
+
+<details>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: c)**
+
+Los **atributos** definen el estado de un objeto. Cada instancia del objeto almacena sus propios valores para estos atributos (por ejemplo, un atributo `health` en la clase `Player` guardará `100` para un jugador y `50` para otro). Estos atributos viven mientras el objeto siga existiendo en la memoria.
 
 </details>
 
-## Autoevaluación
+---
 
-- [ ] Puedo explicar el concepto principal sin leer la definición.
-- [ ] Puedo ubicar el error más común de la lección.
-- [ ] Puedo ejecutar el laboratorio en Replit.
-- [ ] Puedo decir cómo esta lección prepara el proyecto final.
+## Pregunta 6
 
-## Clase u objeto
+**¿Para qué sirve la palabra clave `this` dentro de los métodos o constructores de una clase en Java?**
 
-Marca mentalmente si cada frase habla de clase u objeto.
-
-| Frase | Clase u objeto |
-|---|---|
-| Define que un jugador tiene nombre y puntaje. |  |
-| Representa a Alex con 10 puntos. |  |
-| Vive en `Player.java`. |  |
-| Se crea con `new Player("Alex")`. |  |
-| Puede tener valores distintos de otro jugador. |  |
+- [ ] a) Para finalizar la ejecución del constructor y salir del programa de inmediato.
+- [ ] b) Hace referencia explícita al objeto actual que se está ejecutando, permitiendo diferenciar entre un atributo de la clase y un parámetro de método con el mismo nombre.
+- [ ] c) Para duplicar la variable en un espacio de memoria temporal seguro.
+- [ ] d) Sirve para heredar los comportamientos de otra clase de la biblioteca estándar.
 
 <details>
-<summary><strong>Respuesta</strong></summary>
+<summary>Ver respuesta</summary>
 
-| Frase | Clase u objeto |
-|---|---|
-| Define que un jugador tiene nombre y puntaje. | Clase |
-| Representa a Alex con 10 puntos. | Objeto |
-| Vive en `Player.java`. | Clase |
-| Se crea con `new Player("Alex")`. | Objeto |
-| Puede tener valores distintos de otro jugador. | Objeto |
+**Respuesta correcta: b)**
+
+Es muy común que los parámetros de un constructor tengan el mismo nombre que los atributos de la clase (por ejemplo, recibir `String name` en el constructor e inicializar el atributo `name`). Escribir `this.name = name;` le dice de forma clara a Java: "asigna el valor del parámetro `name` al atributo `name` de este objeto actual".
 
 </details>
+
+---
+
+## Pregunta 7
+
+**¿Qué operador se utiliza en Java para acceder a los métodos o atributos de un objeto que ya ha sido instanciado (por ejemplo, llamar a `saludar` en un objeto `jugador`)?**
+
+- [ ] a) El operador flecha `->`
+- [ ] b) El operador doble dos puntos `::`
+- [ ] c) El operador punto `.` (ej: `jugador.saludar();`)
+- [ ] d) El operador suma `+`
+
+<details>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: c)**
+
+El operador punto `.` conecta la referencia de la variable del objeto con sus miembros públicos (atributos y métodos). Si escribes `jugador.health`, accedes a su valor de salud; si escribes `jugador.takeDamage(10);`, invocas el comportamiento para recibir daño sobre ese jugador en específico.
+
+</details>
+
+---
+
+## Pregunta 8
+
+**¿Qué ocurre en Java si intentas llamar a un método o acceder a un atributo a través de una variable de objeto que no ha sido instanciada (cuyo valor actual es `null`)?**
+
+- [ ] a) El navegador corrige la llamada asignándole un objeto aleatorio.
+- [ ] b) El código compila pero no realiza ninguna acción en consola.
+- [ ] c) Se genera un error en tiempo de ejecución de tipo `NullPointerException` y el programa se detiene de golpe.
+- [ ] d) El compilador detecta que es nulo y lo ignora de forma silenciosa.
+
+<details>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: c)**
+
+Una variable de objeto que se declara pero no se inicializa con `new` apunta a `null` (la nada). Intentar navegar con el operador punto `.` sobre `null` genera la famosa excepción `NullPointerException`. Debes asegurarte de instanciar siempre tus objetos con `new` antes de llamarlos en el código.
+
+</details>
+
+---
+
+<p align="center">
+  <img src="../../../assets/separator.png" alt="Separador visual del curso" width="100%">
+</p>
 
 ---
 
 ## Diagnóstico de errores
 
-### Caso A
+### Caso A: El constructor con tipo de retorno
 
-~~~java
-Player.name = "Alex";
-~~~
+Un estudiante escribe la clase `Player` pero al intentar compilarla, Java marca errores de tipo o no ejecuta el constructor esperado:
 
-<details>
-<summary><strong>¿Por qué está mal?</strong></summary>
-
-`name` pertenece a un objeto específico. Primero debes crear un objeto.
-
-~~~java
-Player player = new Player("Alex");
-~~~
-
-</details>
-
-### Caso B
-
-~~~java
-Player player;
-player.showStatus();
-~~~
-
-<details>
-<summary><strong>¿Qué falta?</strong></summary>
-
-Falta crear el objeto con `new`.
-
-~~~java
-Player player = new Player("Alex");
-player.showStatus();
-~~~
-
-</details>
-
-### Caso C
-
-~~~java
-Player player = new Player();
-~~~
-
-Constructor:
-
-~~~java
-public Player(String name) {
-    this.name = name;
-}
-~~~
-
-<details>
-<summary><strong>¿Por qué falla?</strong></summary>
-
-El constructor pide un `String`. La llamada no envió ningún argumento.
-
-~~~java
-Player player = new Player("Alex");
-~~~
-
-</details>
-
-### Caso D
-
-~~~java
+```java
 public class Player {
-    String name;
-
-    public void Player(String name) {
-        this.name = name;
+    public String name;
+    
+    // Constructor con error
+    public void Player(String inputName) {
+        this.name = inputName;
     }
 }
-~~~
+```
 
 <details>
-<summary><strong>¿Es constructor?</strong></summary>
+<summary>Ver respuesta</summary>
 
-No. Tiene `void`, por eso es un método, no un constructor. Un constructor no declara tipo de retorno.
+**Explicación del error:**
 
-Correcto:
+El estudiante agregó la palabra clave `void` en la declaración del constructor (`public void Player`). En Java, los constructores **nunca deben tener tipo de retorno**. Al ponerle `void`, Java ya no lo considera un constructor, sino un método ordinario que casualmente se llama `Player`. Cuando el estudiante intente inicializarlo con `new Player("Luis")`, Java fallará porque no encontrará el constructor sin tipo de retorno.
 
-~~~java
-public Player(String name) {
-    this.name = name;
+La solución correcta es eliminar la palabra `void`:
+```java
+public Player(String inputName) {
+    this.name = inputName;
 }
-~~~
+```
 
 </details>
 
 ---
 
-## Completa la clase
+### Caso B: Acceso a objeto nulo
 
-~~~java
-public class Player {
-    String ______;
-    int ______;
+Un estudiante declara un objeto de clase `Player` y quiere restarle vida, pero el programa aborta su ejecución:
 
-    public Player(String name) {
-        this.name = ______;
-        this.score = ______;
-    }
-
-    public void showStatus() {
-        System.out.println(name + " tiene " + score + " puntos.");
-    }
-}
-~~~
-
-<details>
-<summary><strong>Respuesta</strong></summary>
-
-~~~java
-public class Player {
-    String name;
-    int score;
-
-    public Player(String name) {
-        this.name = name;
-        this.score = 0;
-    }
-
-    public void showStatus() {
-        System.out.println(name + " tiene " + score + " puntos.");
-    }
-}
-~~~
-
-</details>
-
----
-
-## Completa `Main`
-
-~~~java
+```java
 public class Main {
     public static void main(String[] args) {
-        Player player = new ______("Alex");
-        player.__________();
+        Player jugador1 = null;
+        jugador1.takeDamage(20);
     }
 }
-~~~
+```
 
 <details>
-<summary><strong>Respuesta</strong></summary>
+<summary>Ver respuesta</summary>
 
-~~~java
-public class Main {
-    public static void main(String[] args) {
-        Player player = new Player("Alex");
-        player.showStatus();
-    }
-}
-~~~
+**Explicación del error:**
+
+La variable `jugador1` apunta a `null`. Al intentar ejecutar `jugador1.takeDamage(20)`, Java busca el método `takeDamage` en un objeto físico que no existe, provocando un error fatal en tiempo de ejecución.
+
+La solución correcta es crear la instancia del objeto antes de invocar el método:
+```java
+Player jugador1 = new Player("Carlos");
+jugador1.takeDamage(20);
+```
+
+El error reportado en la consola de ejecución será:
+`Exception in thread "main" java.lang.NullPointerException`.
 
 </details>
 
 ---
 
-## Preguntas de diseño
-
-<details>
-<summary><strong>1. ¿Por qué <code>Player</code> merece ser una clase?</strong></summary>
-
-Porque agrupa datos y comportamiento relacionados: nombre, puntaje, sumar puntos y mostrar estado.
-
-</details>
-
-<details>
-<summary><strong>2. ¿Por qué no basta con variables sueltas?</strong></summary>
-
-Porque si hay más de un jugador, las variables sueltas se multiplican y el programa se vuelve difícil de mantener.
-
-</details>
-
-<details>
-<summary><strong>3. ¿Qué responsabilidad debería tener <code>Main</code>?</strong></summary>
-
-Crear objetos y coordinar la demostración. No debería contener toda la lógica interna de `Player`.
-
-</details>
-
-<details>
-<summary><strong>4. ¿Qué aporta <code>TreasureRoom</code>?</strong></summary>
-
-Muestra que una aplicación puede tener más de un modelo. No todo debe ser `Player`; también puede haber salas, niveles u otros elementos.
-
-</details>
+<p align="center">
+  <img src="../../../assets/separator.png" alt="Separador visual del curso" width="100%">
+</p>
 
 ---
 
-## Mapa de memoria
+## Autoevaluación por niveles
 
-Observa:
+### Nivel inicial
+- [ ] Entiendo que una clase contiene la plantilla del código y que los objetos son las instancias de ese molde.
+- [ ] Puedo crear un nuevo objeto usando la palabra clave `new` e imprimir uno de sus atributos en consola.
 
-~~~java
-Player firstPlayer = new Player("Alex");
-Player secondPlayer = new Player("Valeria");
+### Nivel básico
+- [ ] Sé cómo escribir un constructor que reciba parámetros e inicialice los atributos de la clase usando la palabra clave `this`.
+- [ ] Comprendo por qué un constructor no debe tener un tipo de retorno especificado (como `void`).
 
-firstPlayer.addPoints(10);
-secondPlayer.addPoints(20);
-~~~
-
-Completa:
-
-| Objeto | name | score |
-|---|---|---:|
-| `firstPlayer` |  |  |
-| `secondPlayer` |  |  |
-
-<details>
-<summary><strong>Respuesta</strong></summary>
-
-| Objeto | name | score |
-|---|---|---:|
-| `firstPlayer` | Alex | 10 |
-| `secondPlayer` | Valeria | 20 |
-
-Ambos objetos usan la misma clase, pero conservan estado distinto.
-
-</details>
-
----
-
-## Revisión para avanzar
-
-Puedes continuar si respondes:
-
-1. ¿Qué es una clase?
-2. ¿Qué es un objeto?
-3. ¿Qué es un atributo?
-4. ¿Qué hace un constructor?
-5. ¿Para qué sirve `this`?
-6. ¿Qué hace `new`?
-7. ¿Por qué un objeto puede tener valores distintos de otro?
-8. ¿Qué se protegerá en la lección de encapsulación?
-
----
-
-## Rúbrica corta
-
-| Criterio | Logrado | En proceso | Repasar |
-|---|---:|---:|---:|
-| Diferencia clase y objeto. |  |  |  |
-| Crea un objeto con `new`. |  |  |  |
-| Usa constructor con argumento. |  |  |  |
-| Llama métodos de objeto. |  |  |  |
-| Explica `this`. |  |  |  |
-| Trabaja con varios archivos Java. |  |  |  |
-| Conecta POO con el proyecto final. |  |  |  |
+### Nivel sólido
+- [ ] Puedo diseñar múltiples clases independientes (ej: `Player` y `TreasureRoom`) y hacerlas interactuar entre sí en un programa principal.
+- [ ] Identifico y corrijo de forma proactiva problemas de referencia nula (`NullPointerException`) al llamar métodos de objetos.
 
 ---
 
@@ -357,7 +281,3 @@ Puedes continuar si respondes:
 **Volver al [plan de curso](../../../course-plan.md)**
 
 </div>
-
-
-
-

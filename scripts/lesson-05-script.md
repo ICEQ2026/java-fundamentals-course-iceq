@@ -49,37 +49,37 @@ El video debe explicar **clases, objetos, atributos, constructores y new** usand
 
 ### Escena 2: código incorrecto controlado
 
-**Visual:** mostrar el bloque incorrecto del archivo part-01-theory.md.
+**Visual:** mostrar un error de compilación en Replit al intentar acceder directamente a un campo privado (ej: `firstPlayer.score = 50;` en `Main.java`).
 
 **Narración sugerida:**
 
-> Este fragmento parece cercano a la solución, pero falla por una razón concreta. Java no solo revisa la intención; también revisa estructura, nombres, tipos y símbolos. Vamos a ejecutar para leer el mensaje y ubicar el problema pequeño, no para borrar todo el programa.
+> Observa el error en pantalla: `error: score has private access in Player`. Esto ocurre porque hemos declarado el atributo `score` como `private` dentro de la clase `Player`. En Programación Orientada a Objetos, esto se llama encapsulación: protegemos los datos de un objeto para evitar que código externo los modifique sin control. Intentar saltarse esta regla provoca un error de compilación inmediato.
 
-**Punto didáctico:** leer el error literal, señalar la línea y traducirlo a lenguaje simple.
+**Punto didáctico:** explicar que el modificador `private` restringe el acceso directo y obliga a usar métodos controlados (interfaz pública de la clase).
 
 ### Escena 3: construcción de la solución mínima
 
-**Visual:** reemplazar el fragmento incorrecto por la versión correcta.
+**Visual:** modificar el código para llamar al método público `addScore(50)` y revisar la declaración del constructor y getters en `Player.java`.
 
 **Narración sugerida:**
 
-> Ahora corregimos solo lo necesario. Observa que cada línea tiene un lugar y una responsabilidad. La meta no es escribir muchas líneas, sino que el programa sea entendible para Java y para otra persona del equipo.
+> Para solucionarlo, usamos la interfaz pública de la clase llamando al método `firstPlayer.addScore(50)`. Además, revisemos la clase `Player`: usamos un constructor para inicializar el nombre mediante `this.name = name`, y proveemos métodos "getters" públicos como `getName()` y `getScore()` para permitir una lectura segura del estado interno de nuestro objeto.
 
 ### Escena 4: ejecución y comprobación
 
-**Visual:** ejecutar el programa y mostrar consola.
+**Visual:** ejecutar el programa en Replit, instanciando a "Valeria" y "Mateo", mostrando cómo cada objeto mantiene su puntaje de forma aislada.
 
 **Narración sugerida:**
 
-> La salida confirma que el programa compila y produce un resultado. Esa es la primera prueba. La segunda prueba es hacer un cambio pequeño y verificar que el resultado cambia de forma predecible.
+> Presionamos **Run**. La consola muestra que Valeria tiene 50 puntos y Mateo 30. Aunque ambos se crearon a partir de la misma plantilla o clase `Player`, cada uno es un objeto independiente en memoria. Si modificamos el puntaje de Valeria, el de Mateo permanece inalterado. ¡Esta es la magia de la instanciación!
 
 ### Escena 5: cierre técnico
 
-**Visual:** mostrar la tabla de criterios de finalización de part-02-practice.md.
+**Visual:** mostrar la sección de Criterios de éxito de la práctica 5.
 
 **Narración sugerida:**
 
-> Antes de avanzar, revisa tres puntos: el archivo correcto, la salida esperada y un error que puedas explicar. Si puedes explicar el error, no solo copiaste código; entendiste una regla.
+> Para superar la lección 5, completa tu laboratorio: implementa los atributos privados en la clase `Player`, inicialízalos en el constructor y escribe los getters públicos. Asegúrate también de instanciar y usar la clase de apoyo `TreasureRoom` desde tu clase principal. ¡Nos vemos en el proyecto final!
 
 ## Lista de control de grabación
 

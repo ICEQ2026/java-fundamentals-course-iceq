@@ -1,23 +1,16 @@
 <p align="center">
-  <img src="../../../assets/lesson-06-banner.png" alt="Encapsulación y proyecto final" width="100%">
+  <img src="../../../assets/lesson-06-banner.png" alt="Proyecto final" width="100%">
 </p>
 
 <div align="center">
 
-# Lección 06: Encapsulación y proyecto final
+# Lección 06: Quiz y revisión
 
-### Proteger reglas internas en un juego pequeño
-
-[![Nivel](https://img.shields.io/badge/Nivel-Intermedio_inicial-brightgreen?style=flat-square)](#)
-[![Duración](https://img.shields.io/badge/Duración-12_min-blue?style=flat-square)](#)
-[![Módulo](https://img.shields.io/badge/Módulo-Quiz-purple?style=flat-square)](#)
-[![Editor](https://img.shields.io/badge/Editor_principal-Replit-blueviolet?style=flat-square)](#)
-[![Sin_instalación](https://img.shields.io/badge/Sin_instalación-Navegador-lightgrey?style=flat-square)](#)
+### Revisa la lógica e integración del proyecto "Número Secreto"
 
 </div>
 
-> **Laboratorio principal:** Replit pendiente.  
-> **Editor de respaldo:** OnlineGDB.
+> **Indicaciones:** selecciona la opción que consideres correcta marcando mentalmente la casilla. Luego despliega la respuesta para verificar tu comprensión de la lógica general.
 
 ---
 
@@ -25,351 +18,280 @@
   <img src="../../../assets/separator.png" alt="Separador visual del curso" width="100%">
 </p>
 
-## Quiz de comprensión
+---
 
-Responde antes de abrir cada solución. Las preguntas están diseñadas para revisar razonamiento, no memoria de sintaxis.
+## Pregunta 1
+
+**¿Qué clase provista por Java (dentro del paquete `java.util`) es la más adecuada para generar el número aleatorio que el usuario debe adivinar en el juego?**
+
+- [ ] a) `java.util.Scanner`
+- [ ] b) `java.util.Random`
+- [ ] c) `java.util.System`
+- [ ] d) `java.util.ArrayList`
 
 <details>
-<summary><strong>1. ¿Por qué <code>score</code> debe ser privado?</strong></summary>
+<summary>Ver respuesta</summary>
 
-Porque el puntaje tiene reglas. Si cualquier archivo puede cambiarlo, también puede dejarlo en un estado inválido.
+**Respuesta correcta: b)**
+
+La clase `Random` de `java.util` permite generar diferentes tipos de valores pseudoaleatorios de forma limpia. Por ejemplo, instanciando `Random rnd = new Random();` y llamando a `rnd.nextInt(100) + 1;` generamos un entero aleatorio entre 1 y 100 para usarlo como el número secreto del juego.
 
 </details>
 
-<details>
-<summary><strong>2. ¿Qué responsabilidad debería tener <code>Main</code> en el proyecto final?</strong></summary>
+---
 
-Debe iniciar la aplicación. La lógica del juego debería vivir en `Game` para mantener el punto de entrada limpio.
+## Pregunta 2
+
+**¿Cuál es la función principal del bucle del juego (usualmente implementado con `while`) en el diseño del proyecto final?**
+
+- [ ] a) Cargar todas las librerías necesarias del JDK al inicio de la partida.
+- [ ] b) Mantener al programa ejecutándose continuamente, solicitando intentos al jugador y evaluándolos repetidas veces hasta que se cumpla la condición de parada (ganar o quedarse sin intentos).
+- [ ] c) Evitar tener que escribir la clase `Player` y centralizar todo el código del juego en una sola clase.
+- [ ] d) Limpiar la consola de Replit después de cada intento del jugador.
+
+<details>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: b)**
+
+Un juego interactivo requiere un bucle principal (game loop). Sin él, el programa correría una sola vez, pediría un solo número y terminaría de inmediato. El bucle `while` mantiene activa la partida pidiendo intentos sucesivamente mientras el estado del juego sea "en progreso" (intentos restantes > 0 y no se haya adivinado aún).
 
 </details>
 
-<details>
-<summary><strong>3. ¿Por qué varias clases pequeñas pueden ser más claras que una clase enorme?</strong></summary>
+---
 
-Porque cada clase tiene una responsabilidad más fácil de explicar, probar y modificar.
+## Pregunta 3
+
+**¿Por qué se considera una buena práctica de ingeniería de software separar el código del juego en clases independientes como `Game`, `Player` y `InputHelper`?**
+
+- [ ] a) Porque es un requisito sintáctico obligatorio de Java para poder ejecutar cualquier programa interactivo.
+- [ ] b) Reduce el tamaño de los archivos para que Replit los compile más rápido.
+- [ ] c) Sigue el principio de responsabilidad única, facilitando la organización del código, su mantenimiento futuro, la depuración de errores y el trabajo ordenado en equipo.
+- [ ] d) Evita tener que usar importaciones de paquetes externos de Java.
+
+<details>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: c)**
+
+Si metes toda la lógica en un solo archivo Main, el código se volverá largo, complejo y difícil de entender. Separar responsabilidades (ej: `Player` maneja los datos del jugador; `InputHelper` encapsula la lectura de la consola; `Game` gestiona las reglas de la partida) hace que el proyecto sea modular, limpio y muy fácil de ampliar o corregir.
 
 </details>
 
-<details>
-<summary><strong>4. ¿Qué evidencia demuestra que esta lección sí se entendió?</strong></summary>
+---
 
-El estudiante puede ejecutar el programa, explicar una línea clave, corregir un error real y conectar el concepto con el proyecto final.
+## Pregunta 4
+
+**En el proyecto del Número Secreto, ¿qué lógica condicional se debe usar para determinar si el intento del usuario es correcto y darle pistas útiles si falla?**
+
+- [ ] a) Un bucle `for` que cuente de 1 a 100 de forma consecutiva.
+- [ ] b) Una estructura condicional `if (intento == numeroSecreto)` para la victoria, combinada con un `else if (intento < numeroSecreto)` para indicar que el número es mayor, y un `else` para indicar que es menor.
+- [ ] c) Un método de tipo `void` que llame al constructor de la clase `Player` de nuevo.
+- [ ] d) Un bloque `try-catch` que capture excepciones lógicas automáticas.
+
+<details>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: b)**
+
+Para guiar al jugador hacia la respuesta correcta, no basta con decirle si ganó o perdió. Usar un `else if` adicional para indicarle si el número secreto es mayor o menor que su propuesta ("El número secreto es mayor" o "El número secreto es menor") añade interactividad y permite resolver el enigma utilizando una estrategia lógica.
 
 </details>
 
-<details>
-<summary><strong>5. ¿Qué sería una mejora pequeña y razonable?</strong></summary>
+---
 
-Una mejora razonable cambia un dato, agrega una salida o refina una regla sin introducir temas que todavía no se han explicado.
+## Pregunta 5
+
+**¿Cuál es la ventaja de diseñar la clase `GameMessage` para gestionar las cadenas de texto impresas en consola de forma centralizada?**
+
+- [ ] a) Hace que el compilador de Java optimice el rendimiento visual de los mensajes en consola.
+- [ ] b) Permite que el programa se ejecute sin requerir una clase contenedora.
+- [ ] c) Facilita cambiar los textos en un solo archivo, corregir faltas de ortografía o implementar soporte bilingüe (inglés/español) de forma limpia y ordenada.
+- [ ] d) Hace que el objeto `Scanner` funcione de forma más rápida al leer los datos.
+
+<details>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: c)**
+
+Si distribuyes los mensajes `System.out.println` por todo el código del juego, cambiar un texto o corregir un error tipográfico te obligará a buscar en múltiples archivos. Centralizarlos en una clase como `GameMessage` (o un diccionario de constantes) permite modificar o traducir toda la interfaz del juego en un único punto del proyecto de manera inmediata.
 
 </details>
 
-## Diagnóstico de encapsulación
+---
+
+## Pregunta 6
+
+**¿Por qué es importante reiniciar o inicializar el estado del juego (por ejemplo, definir los intentos en cero y generar un nuevo número secreto) al comenzar una nueva partida?**
+
+- [ ] a) Para liberar la memoria caché que utiliza el navegador al conectarse a Replit.
+- [ ] b) Evita arrastrar variables o datos obsoletos de la ejecución anterior, asegurando que cada partida comience con las condiciones limpias del juego.
+- [ ] c) Es un paso necesario para que el objeto `Scanner` no conserve textos escritos previamente por el usuario.
+- [ ] d) Para que Java no compile de nuevo los archivos fuente de la lección.
 
 <details>
-<summary><strong>6. ¿Qué problema tiene este diseño?</strong></summary>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: b)**
+
+Si juegas una segunda partida en el mismo programa y no reinicias las variables, el juego podría comenzar con el contador de intentos al máximo o evaluar la victoria usando el número secreto de la partida anterior. Inicializar correctamente el estado al arrancar garantiza que la lógica del juego sea confiable.
+
+</details>
+
+---
+
+## Pregunta 7
+
+**Si el usuario ingresa accidentalmente una palabra (por ejemplo, `"diez"`) cuando el programa le solicita un número entero usando `lector.nextInt()`, ¿qué ocurre?**
+
+- [ ] a) Java convierte la palabra al número `10` de forma automática usando inteligencia artificial.
+- [ ] b) El programa ignora la entrada y espera en silencio a que el usuario escriba un número correcto.
+- [ ] c) Se lanza un error fatal en tiempo de ejecución (`InputMismatchException`) que congela o detiene el programa de inmediato.
+- [ ] d) El valor del intento se guarda como cero y continúa el bucle sin problemas.
+
+<details>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: c)**
+
+El método `nextInt()` espera estrictamente caracteres que representen un número entero. Si la entrada no coincide con ese formato, el motor de Java no sabe cómo interpretarlo y lanza un error crítico (`InputMismatchException`). Para que el programa sea profesional y robusto, el programador debe prever estas situaciones y validar la entrada del usuario antes de leer.
+
+</details>
+
+---
+
+## Pregunta 8
+
+**¿Qué función cumple la variable `System.in` al instanciar un objeto `Scanner` con `new Scanner(System.in)` en el helper de entrada?**
+
+- [ ] a) Permite que el programa imprima texto con formato especial en la consola.
+- [ ] b) Conecta el `Scanner` con el teclado o flujo de entrada estándar del sistema para capturar lo que el usuario tipea en la consola.
+- [ ] c) Le indica al programa que debe leer datos desde un archivo local guardado en Replit.
+- [ ] d) Genera los números aleatorios requeridos por el juego.
+
+<details>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: b)**
+
+`System.in` representa la entrada estándar del sistema (que por defecto es la entrada de teclado vinculada a la consola). Al pasarlo como parámetro al constructor de `Scanner`, le indicamos de forma explícita que queremos que el lector escuche y capture las pulsaciones de teclado del usuario en la terminal.
+
+</details>
+
+---
+
+<p align="center">
+  <img src="../../../assets/separator.png" alt="Separador visual del curso" width="100%">
+</p>
+
+---
+
+## Diagnóstico de errores
+
+### Caso A: El bucle de juego infinito por falta de actualización del estado
+
+Un estudiante implementa el bucle de juego del Número Secreto pero el programa se congela imprimiendo el menú de ingreso sin detenerse:
 
 ```java
-public class Player {
-    public String name;
-    public int score;
-}
-```
-
-Los atributos son públicos. Cualquier clase podría cambiar `score` directamente, incluso con valores inválidos.
-
-Una versión más cuidada usa `private`:
-
-```java
-public class Player {
-    private String name;
-    private int score;
-}
-```
-
-Luego se agregan métodos para leer o modificar datos con reglas.
-
-</details>
-
-<details>
-<summary><strong>7. ¿Por qué este método protege el puntaje?</strong></summary>
-
-```java
-public void addScore(int points) {
-    if (points > 0) {
-        score = score + points;
+public class Game {
+    private int numeroSecreto = 42;
+    private boolean juegoTerminado = false;
+    
+    public void jugar() {
+        while (juegoTerminado == false) {
+            System.out.println("Ingresa tu intento: ");
+            // Lee intento
+            int intento = 10; // Valor fijo de prueba
+            
+            if (intento == numeroSecreto) {
+                System.out.println("Ganaste.");
+            }
+        }
     }
 }
 ```
 
-Porque no permite sumar valores negativos o cero. La regla queda dentro de `Player`, que es la clase dueña del puntaje.
-
-</details>
-
 <details>
-<summary><strong>8. ¿Qué diferencia hay entre getter y setter?</strong></summary>
+<summary>Ver respuesta</summary>
 
-Un getter permite leer un dato:
+**Explicación del error:**
 
+La condición del bucle `while` depende de que `juegoTerminado` pase a ser `true`. En la condición interna del `if (intento == numeroSecreto)`, el estudiante imprime `"Ganaste."`, pero olvidó cambiar el estado de la variable controladora a `true` (`juegoTerminado = true;`). Como resultado, aunque el jugador acierte, el bucle continuará por siempre pidiendo intentos.
+
+La solución es actualizar el estado de la variable de control al detectar la victoria:
 ```java
-public int getScore() {
-    return score;
-}
-```
-
-Un setter permite reemplazar un dato:
-
-```java
-public void setScore(int score) {
-    this.score = score;
-}
-```
-
-En este proyecto conviene evitar un `setScore` directo, porque saltaría la regla de sumar puntos solo cuando sean válidos.
-
-</details>
-
-## Responsabilidades por clase
-
-Relaciona cada clase con su responsabilidad principal.
-
-| Clase | Responsabilidad |
-|---|---|
-| `Main` | Iniciar la aplicación. |
-| `Game` | Coordinar el flujo del programa. |
-| `Player` | Proteger nombre y puntaje. |
-| `InputHelper` | Leer datos desde consola. |
-| `GameMessage` | Agrupar mensajes de salida. |
-
-<details>
-<summary><strong>9. ¿Por qué no conviene que <code>Main</code> tenga toda la lógica?</strong></summary>
-
-Porque `Main` se volvería difícil de leer. Si todo vive ahí, cualquier cambio obliga a revisar una clase enorme. Un punto de entrada pequeño facilita entender dónde empieza el programa.
-
-</details>
-
-<details>
-<summary><strong>10. ¿Por qué <code>InputHelper</code> no debería calcular puntaje?</strong></summary>
-
-Porque su responsabilidad es leer datos. Calcular puntaje pertenece a la lógica del juego o al objeto que protege el puntaje.
-
-</details>
-
-<details>
-<summary><strong>11. ¿Por qué <code>GameMessage</code> no debería leer teclado?</strong></summary>
-
-Porque su responsabilidad es mostrar mensajes. Si también lee teclado, mezcla salida con entrada y se vuelve más difícil de mantener.
-
-</details>
-
-## Detecta el error de diseño
-
-<details>
-<summary><strong>12. ¿Qué está mal en este fragmento?</strong></summary>
-
-```java
-Player player = new Player("Ana");
-player.score = -100;
-```
-
-El código intenta modificar `score` directamente. Si `score` es privado, Java no lo permitirá. Esa restricción es positiva porque evita estados inválidos.
-
-Forma correcta:
-
-```java
-player.addScore(10);
-```
-
-</details>
-
-<details>
-<summary><strong>13. ¿Qué problema aparece si el constructor no asigna <code>name</code>?</strong></summary>
-
-```java
-public Player(String name) {
-    score = 0;
-}
-```
-
-El atributo `name` quedaría sin el valor recibido. Luego `getName()` podría devolver `null`.
-
-Versión correcta:
-
-```java
-public Player(String name) {
-    this.name = name;
-    this.score = 0;
+if (intento == numeroSecreto) {
+    System.out.println("Ganaste.");
+    juegoTerminado = true;
 }
 ```
 
 </details>
 
-<details>
-<summary><strong>14. ¿Por qué se usa <code>this.name</code>?</strong></summary>
+---
 
-Porque el parámetro y el atributo tienen el mismo nombre. `this.name` se refiere al atributo del objeto; `name` se refiere al parámetro recibido.
+### Caso B: Error de acceso nulo en componentes del juego
 
-</details>
-
-## Completa el código
-
-<details>
-<summary><strong>15. Completa el constructor</strong></summary>
+El estudiante ejecuta su juego y se produce un error fatal en el método `main` al intentar iniciar la partida:
 
 ```java
-public Player(String name) {
-    ____________;
-    ____________;
+public class Main {
+    public static void main(String[] args) {
+        Game juego = new Game();
+        juego.iniciarPartida();
+    }
 }
 ```
 
-Respuesta:
-
+Y en la clase `Game` tiene definido:
 ```java
-public Player(String name) {
-    this.name = name;
-    this.score = 0;
+public class Game {
+    private Player jugador; // Atributo sin inicializar
+    
+    public void iniciarPartida() {
+        System.out.println("Bienvenido, " + jugador.getName());
+    }
 }
 ```
-
-</details>
 
 <details>
-<summary><strong>16. Completa el getter de puntaje</strong></summary>
+<summary>Ver response</summary>
 
+**Explicación del error:**
+
+El atributo `jugador` de la clase `Game` se declaró (`private Player jugador;`) pero nunca fue inicializado con `new Player(...)`. Al ejecutar `jugador.getName()`, el programa intenta leer un atributo en una referencia nula, interrumpiendo el juego con un `NullPointerException`.
+
+La solución es inicializar al jugador en el constructor de la clase `Game` o pedir el nombre al iniciar la partida y construir el objeto:
 ```java
-public int getScore() {
-    ____________;
-}
-```
-
-Respuesta:
-
-```java
-public int getScore() {
-    return score;
+public void iniciarPartida() {
+    this.jugador = new Player("Jugador 1");
+    System.out.println("Bienvenido, " + jugador.getName());
 }
 ```
 
 </details>
 
-<details>
-<summary><strong>17. Completa una llamada desde <code>Main</code> o <code>Game</code></strong></summary>
+---
 
-Objetivo: crear un jugador llamado Ana y sumar 10 puntos.
+<p align="center">
+  <img src="../../../assets/separator.png" alt="Separador visual del curso" width="100%">
+</p>
 
-```java
-Player player = new Player("Ana");
-player.__________(10);
-```
+---
 
-Respuesta:
+## Autoevaluación por niveles
 
-```java
-Player player = new Player("Ana");
-player.addScore(10);
-```
+### Nivel inicial
+- [ ] Comprendo la lógica básica del juego del Número Secreto y cómo interactúan los intentos.
+- [ ] Puedo ejecutar la solución completa en Replit y jugar de principio a fin sin errores.
 
-</details>
+### Nivel básico
+- [ ] Identifico el propósito de la clase `Random` y puedo generar valores aleatorios en rangos específicos.
+- [ ] Sé cómo centralizar los textos en `GameMessage` para poder actualizarlos o traducirlos con facilidad.
 
-## Arquitectura del proyecto final
-
-<details>
-<summary><strong>18. ¿Qué archivo revisarías si el programa no muestra bienvenida?</strong></summary>
-
-Primero revisaría `Game.start()` para confirmar que llama a `GameMessage.printWelcome()`. Luego revisaría `GameMessage`.
-
-</details>
-
-<details>
-<summary><strong>19. ¿Qué archivo revisarías si el nombre del jugador aparece como <code>null</code>?</strong></summary>
-
-Revisaría `Player`, especialmente el constructor. Es probable que falte `this.name = name;`.
-
-</details>
-
-<details>
-<summary><strong>20. ¿Qué archivo revisarías si el programa falla al leer un número?</strong></summary>
-
-Revisaría `InputHelper`, porque allí está centralizada la lectura de consola. Si el usuario escribe texto cuando el programa espera número, puede aparecer `NumberFormatException`.
-
-</details>
-
-## Decisiones de mejora
-
-<details>
-<summary><strong>21. ¿Conviene agregar vidas, niveles o dificultad en esta entrega?</strong></summary>
-
-Solo si no rompe el alcance del curso. Una mejora razonable debe reforzar variables, condiciones, métodos, clases o encapsulación. Si exige arreglos complejos que no se enseñaron, es mejor dejarla como idea futura.
-
-</details>
-
-<details>
-<summary><strong>22. ¿Qué mejora pequeña sí es coherente?</strong></summary>
-
-Agregar un mensaje final con nombre y puntaje:
-
-```java
-System.out.println("Jugador: " + player.getName());
-System.out.println("Puntaje final: " + player.getScore());
-```
-
-Usa getters y refuerza encapsulación sin introducir temas avanzados.
-
-</details>
-
-<details>
-<summary><strong>23. ¿Qué mejora requiere más cuidado?</strong></summary>
-
-Validar entrada cuando el usuario escribe texto en lugar de número. Es útil, pero puede requerir `try/catch`, un tema que quizá no se explique con profundidad en este curso.
-
-</details>
-
-## Prueba de comprensión integral
-
-Lee este flujo:
-
-```text
-Main crea Game.
-Game muestra bienvenida.
-Game lee nombre.
-Game crea Player.
-Game ejecuta rondas.
-Player protege score.
-Game muestra resumen.
-```
-
-<details>
-<summary><strong>24. ¿Qué principio se observa en ese flujo?</strong></summary>
-
-Separación de responsabilidades. Cada clase tiene un rol reconocible y el programa completo se entiende como colaboración entre clases.
-
-</details>
-
-<details>
-<summary><strong>25. ¿Qué pasaría si todas esas acciones estuvieran dentro de <code>Main</code>?</strong></summary>
-
-El programa podría funcionar, pero sería más difícil de explicar, corregir y ampliar. El objetivo de la lección no es solo que corra, sino que tenga una estructura razonable.
-
-</details>
-
-## Mini rúbrica
-
-| Criterio | Logrado | En proceso | Pendiente |
-|---|---|---|---|
-| Explica `private`. |  |  |  |
-| Usa getters para leer datos. |  |  |  |
-| Evita modificar `score` directamente. |  |  |  |
-| Identifica la responsabilidad de cada clase. |  |  |  |
-| Mantiene `Main` pequeño. |  |  |  |
-| Ejecuta el proyecto final en Replit. |  |  |  |
-
-## Autoevaluación
-
-- [ ] Puedo explicar el concepto principal sin leer la definición.
-- [ ] Puedo ubicar el error más común de la lección.
-- [ ] Puedo ejecutar el laboratorio en Replit.
-- [ ] Puedo decir cómo esta lección prepara el proyecto final.
+### Nivel sólido
+- [ ] Puedo explicar la arquitectura modular del proyecto final (`Game`, `Player`, `InputHelper`) y cómo se comunican las clases a través de sus objetos.
+- [ ] Comprendo cómo capturar errores de tipo de entrada (`InputMismatchException`) cuando el usuario introduce valores no numéricos.
 
 ---
 
@@ -378,6 +300,3 @@ El programa podría funcionar, pero sería más difícil de explicar, corregir y
 **Volver al [plan de curso](../../../course-plan.md)**
 
 </div>
-
-
-

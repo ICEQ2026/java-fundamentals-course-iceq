@@ -4,9 +4,9 @@
 
 <div align="center">
 
-# Lecciones
+# Lecciones del Curso
 
-### Ruta de estudio para estudiantes
+### Ruta de estudio para Fundamentos de Java
 
 [![Editor](https://img.shields.io/badge/Editor_principal-Replit-blueviolet?style=flat-square)](#)
 [![Nivel](https://img.shields.io/badge/Nivel-Principiante-brightgreen?style=flat-square)](#)
@@ -18,15 +18,18 @@
 
 ## Cómo estudiar
 
-Cada lección se divide en tres archivos:
+Para sacar el máximo provecho de este curso, cada lección está dividida en tres partes importantes:
 
-1. `part-01-theory.md`: lectura guiada, conceptos y ejemplos.
-2. `part-02-practice.md`: laboratorio para trabajar en Replit.
-3. `part-03-quiz.md`: preguntas, casos y autoevaluación.
+1. `part-01-theory.md`: **Teoría y Conceptos.** Aquí aprenderás el *qué* y el *por qué* con explicaciones sencillas y analogías de la vida real.
+2. `part-02-practice.md`: **Práctica y Laboratorio.** ¡Hora de ensuciarse las manos! Instrucciones paso a paso para escribir código Java en Replit.
+3. `part-03-quiz.md`: **Autoevaluación.** Cuestionarios interactivos de opción múltiple para asegurar que retuviste los conceptos clave antes de avanzar.
 
-Antes de iniciar los laboratorios, revisa la preparación del entorno en `../replit-lab-guide.md`. El código inicial está en `../../starter-files`. Las soluciones completas están en `../../completed-examples`.
+> [!TIP]
+> Antes de iniciar la primera lección, te recomendamos leer la **[Guía de Uso de Replit](../replit-lab-guide.md)** para familiarizarte con el entorno de desarrollo que usaremos para programar.
 
-## Ruta
+---
+
+## Ruta de Lecciones
 
 | Lección | Tema | Teoría | Práctica | Quiz |
 |---|---|---|---|---|
@@ -37,8 +40,12 @@ Antes de iniciar los laboratorios, revisa la preparación del entorno en `../rep
 | 05 | Clases y objetos | [Abrir](lesson-05-classes-objects/part-01-theory.md) | [Abrir](lesson-05-classes-objects/part-02-practice.md) | [Abrir](lesson-05-classes-objects/part-03-quiz.md) |
 | 06 | Encapsulación y proyecto final | [Abrir](lesson-06-final-project/part-01-theory.md) | [Abrir](lesson-06-final-project/part-02-practice.md) | [Abrir](lesson-06-final-project/part-03-quiz.md) |
 
-## Recomendación
+---
 
-No abras la solución completa antes de intentar la práctica. El valor del curso está en ejecutar, equivocarse, leer el error y corregir.
+## Una recomendación final
+
+La programación se aprende **haciendo**. No te saltes las prácticas. Si algo no funciona a la primera (¡y te aseguramos que pasará!), no te rindas. Leer los mensajes de error e intentar descubrir por qué falta un punto y coma o por qué una variable tiene el tipo incorrecto es el 90% del trabajo de un desarrollador profesional.
+
+¡Mucho éxito!
 
 

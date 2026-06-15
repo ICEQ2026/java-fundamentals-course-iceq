@@ -1,6 +1,9 @@
 /*
+ * Lesson 06 - Complete solution: player state.
  * Lección 06 - Solución completa: estado del jugador.
  *
+ * Player protects name, score, lives, and rounds won. Game does not change
+ * this data directly; it uses public methods to respect encapsulation.
  * Player protege el nombre, puntaje, vidas y rondas ganadas. Game no cambia
  * esos datos directamente; usa métodos públicos para respetar encapsulación.
  */

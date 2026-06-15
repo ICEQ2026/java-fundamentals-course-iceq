@@ -6,17 +6,17 @@
 
 # Lección 01: Quiz y revisión
 
-### Comprobar que entiendes tu primer programa Java
+### Comprueba que entiendes tu primer programa Java
 
 [![Nivel](https://img.shields.io/badge/Nivel-Principiante-brightgreen?style=flat-square)](#)
-[![Duración](https://img.shields.io/badge/Duración-10_a_15_min-blue?style=flat-square)](#)
+[![Duración](https://img.shields.io/badge/Duración-15_min-blue?style=flat-square)](#)
 [![Módulo](https://img.shields.io/badge/Módulo-Quiz-purple?style=flat-square)](#)
 [![Editor](https://img.shields.io/badge/Editor_principal-Replit-blueviolet?style=flat-square)](#)
 [![Sin_instalación](https://img.shields.io/badge/Sin_instalación-Navegador-lightgrey?style=flat-square)](#)
 
 </div>
 
-> **Indicaciones:** responde antes de abrir cada solución. El objetivo no es memorizar frases, sino comprobar si puedes explicar el programa con tus propias palabras.
+> **Indicaciones:** selecciona la opción que consideres correcta marcando mentalmente la casilla. Luego despliega la respuesta para verificar tu comprensión. El objetivo no es memorizar, sino comprobar si puedes explicar el flujo con tus propias palabras.
 
 ---
 
@@ -26,694 +26,261 @@
 
 ---
 
-## Cómo usar este quiz
+## Pregunta 1
 
-Este quiz no funciona como un examen escolar tradicional. Está diseñado como una revisión guiada después del laboratorio.
+**¿Cuál es el punto de entrada obligatorio para que cualquier aplicación Java comience a ejecutarse?**
 
-Úsalo así:
+- [ ] a) La primera línea del archivo `.java` que contenga código.
+- [ ] b) El método `public static void main(String[] args)`.
+- [ ] c) La clase pública llamada `Main` que envuelve el código.
+- [ ] d) El archivo `README.md` que indica la configuración del proyecto.
 
-1. Lee la pregunta.
-2. Escribe o piensa una respuesta corta.
-3. Abre el bloque `<details>`.
-4. Compara tu respuesta con la explicación.
-5. Si fallaste, vuelve al archivo `part-01-theory.md` o `part-02-practice.md`.
+<details>
+<summary>Ver respuesta</summary>
 
-No avances si todavía no puedes ejecutar el programa en Replit. La comprensión debe estar conectada con una experiencia real de ejecución.
+**Respuesta correcta: b)**
+
+Java busca exactamente el método `public static void main(String[] args)` para iniciar la ejecución del programa. Aunque el código esté dentro de una clase (como `Main`), si este método no existe o tiene un error tipográfico en su firma (por ejemplo, escribir `Main` con mayúscula o no poner `String[] args`), el compilador o la máquina virtual de Java (JVM) no sabrán por dónde empezar y marcarán un error.
+
+</details>
 
 ---
 
-## Revisión rápida de conceptos
+## Pregunta 2
 
-Antes de las preguntas largas, marca tu nivel de seguridad.
+**¿Qué hace la instrucción `System.out.println("Hola");` al ejecutarse?**
 
-| Concepto | Puedo explicarlo | Necesito repasar |
-|---|---:|---:|
-| Replit como editor online |  |  |
-| Archivo `Main.java` |  |  |
-| Clase `Main` |  |  |
-| Método `main` |  |  |
-| Consola |  |  |
-| `System.out.println` |  |  |
-| Punto y coma |  |  |
-| Comillas dobles |  |  |
-| Error de compilación |  |  |
-| Botón **Run** |  |  |
+- [ ] a) Envía un correo electrónico de bienvenida al programador.
+- [ ] b) Crea una nueva clase en Replit de forma automática.
+- [ ] c) Imprime el texto `"Hola"` en la consola y salta a la línea siguiente.
+- [ ] d) Traduce el archivo Java a un ejecutable del sistema operativo.
+
+<details>
+<summary>Ver respuesta</summary>
+
+**Respuesta correcta: c)**
+
+`System.out.println` (abreviación de "print line") es la forma estándar en Java de enviar información a la salida estándar del sistema, que Replit muestra en el panel de la consola. El sufijo `ln` asegura que después de imprimir el texto entre comillas, el cursor salte a la siguiente línea, por lo que cualquier impresión posterior se verá abajo.
+
+</details>
 
 ---
 
-## Preguntas principales
+## Pregunta 3
+
+**¿Qué ocurre en Java si omites el punto y coma (`;`) al final de una instrucción de impresión?**
+
+- [ ] a) El navegador se cierra silenciosamente sin avisar.
+- [ ] b) Java inserta automáticamente el punto y coma al compilar.
+- [ ] c) El programa se ejecuta pero muestra el texto con errores de ortografía.
+- [ ] d) Se produce un error de compilación inmediato indicando `';' expected`.
 
 <details>
-<summary><strong>1. ¿Cuál es el objetivo real de la Lección 01?</strong></summary>
+<summary>Ver respuesta</summary>
 
-El objetivo no es aprender todo Java. El objetivo es ejecutar una aplicación mínima, ubicar la estructura básica y modificar una salida de consola sin romper el programa.
+**Respuesta correcta: d)**
 
-Una respuesta completa debería mencionar:
-
-- Replit;
-- `Main.java`;
-- método `main`;
-- `System.out.println`;
-- consola;
-- ejecución con **Run**.
+A diferencia de lenguajes de marcado como HTML o CSS que tienen "fallo silencioso", Java es un lenguaje estricto y con tipado fuerte. Cada instrucción individual debe cerrarse obligatoriamente con un punto y coma (`;`). Si falta, el compilador detendrá el proceso y mostrará el error literal en consola para que lo corrijas.
 
 </details>
 
+---
+
+## Pregunta 4
+
+**¿Qué significa que Java sea un lenguaje "Case-Sensitive" (sensible a mayúsculas)?**
+
+- [ ] a) Que todo el código debe escribirse obligatoriamente en mayúsculas.
+- [ ] b) Que Java distingue estrictamente entre letras mayúsculas y minúsculas.
+- [ ] c) Que las variables con texto solo pueden almacenar palabras en mayúsculas.
+- [ ] d) Que el compilador prefiere nombres largos sobre nombres cortos.
+
 <details>
-<summary><strong>2. ¿Por qué el curso usa Replit como herramienta principal?</strong></summary>
+<summary>Ver respuesta</summary>
 
-Porque el enunciado exige herramientas online y gratuitas. Replit permite escribir y ejecutar Java desde el navegador, sin pedir instalación local de Java, JDK o IDE.
+**Respuesta correcta: b)**
 
-JDoodle y OnlineGDB pueden ser respaldo, pero el flujo oficial del curso debe ser Replit para mantener consistencia.
+En Java, no es lo mismo escribir `System` que `system`, ni `main` que `Main`. Si escribes `system.out.println` con `s` minúscula, el compilador arrojará un error de tipo `cannot find symbol` porque no reconoce el contenedor del sistema. Debes ser muy preciso al tipear el código.
 
 </details>
 
+---
+
+## Pregunta 5
+
+**¿Cuál es la relación correcta entre el nombre del archivo de código fuente y la clase en Java?**
+
+- [ ] a) Pueden llamarse de forma completamente diferente sin ningún problema.
+- [ ] b) El archivo debe terminar con `.html` y la clase con `.java`.
+- [ ] c) Si tienes una clase pública llamada `Main`, el archivo obligatoriamente debe llamarse `Main.java`.
+- [ ] d) El nombre del archivo se asigna de forma aleatoria por el navegador.
+
 <details>
-<summary><strong>3. ¿Qué representa el archivo <code>Main.java</code>?</strong></summary>
+<summary>Ver respuesta</summary>
 
-Representa el archivo principal de esta primera práctica. En Java, si una clase pública se llama `Main`, el archivo debe llamarse `Main.java`.
+**Respuesta correcta: c)**
 
-Ese vínculo ayuda a Java a organizar el código antes de ejecutarlo.
+En Java, la regla fundamental de organización exige que el nombre de la clase pública coincida de forma exacta y sensible a mayúsculas con el nombre del archivo físico en el disco (incluyendo la extensión `.java`). Por eso, en tu Repl inicial, el código vive dentro de `public class Main` y el archivo se llama `Main.java`.
 
 </details>
 
+---
+
+## Pregunta 6
+
+**¿Qué diferencia principal hay entre el "Editor" y la "Consola" en Replit?**
+
+- [ ] a) El Editor muestra la memoria del sistema y la Consola muestra la velocidad de red.
+- [ ] b) En el Editor escribes y modificas el código; en la Consola observas el resultado o la salida del programa al presionar **Run**.
+- [ ] c) El Editor es para el profesor y la Consola es de uso exclusivo del alumno.
+- [ ] d) No existe diferencia, ambos términos se refieren al mismo espacio web.
+
 <details>
-<summary><strong>4. ¿Qué parte del programa se ejecuta primero?</strong></summary>
+<summary>Ver respuesta</summary>
 
-El método:
+**Respuesta correcta: b)**
 
-```java
-public static void main(String[] args)
-```
-
-En esta etapa no necesitas explicar cada palabra. Sí necesitas reconocer que ese método es la entrada del programa.
+El Editor de Replit es tu área de escritura donde editas el archivo `Main.java`. La Consola (o Terminal) es la ventana negra o gris a la derecha donde la máquina virtual de Java muestra lo que imprimes con `System.out.println` y donde puedes interactuar con el programa una vez iniciado.
 
 </details>
 
+---
+
+## Pregunta 7
+
+**¿Cuál es el valor real de usar Replit en este curso en lugar de configurar herramientas en tu computadora local?**
+
+- [ ] a) Hace que el código de Java corra más rápido que de forma local.
+- [ ] b) Permite empezar a programar de inmediato en el navegador sin perder tiempo instalando Java, el JDK o configurando un IDE pesado.
+- [ ] c) Replit escribe el código por ti de forma automática.
+- [ ] d) Evita tener que conectarse a internet para hacer las prácticas.
+
 <details>
-<summary><strong>5. ¿Qué hace <code>System.out.println</code>?</strong></summary>
+<summary>Ver respuesta</summary>
 
-Imprime una línea de texto en la consola.
+**Respuesta correcta: b)**
 
-Ejemplo:
-
-```java
-System.out.println("Hola");
-```
-
-Salida:
-
-```text
-Hola
-```
+Configurar un entorno local de Java (descargar el JDK, configurar variables de entorno en el sistema y elegir un IDE como IntelliJ) puede tardar más de una hora y provocar frustración inicial. Replit proporciona un entorno en la nube preconfigurado que funciona al instante en cualquier navegador web moderno, permitiendo que te enfoques únicamente en los fundamentos de programación.
 
 </details>
 
+---
+
+## Pregunta 8
+
+**¿Qué parte de la instrucción `System.out.println("Hola Estudiante");` puedes modificar de forma segura sin peligro de romper la estructura del programa?**
+
+- [ ] a) El nombre de la clase `System`.
+- [ ] b) La palabra `println` por cualquier otra palabra en español.
+- [ ] c) Únicamente el texto que se encuentra dentro de las comillas dobles (por ejemplo, cambiar `"Hola Estudiante"` a `"¡Hola, mundo!"`).
+- [ ] d) Las llaves externas `{}` del bloque de clase.
+
 <details>
-<summary><strong>6. ¿Qué puedes modificar con seguridad en esta lección?</strong></summary>
+<summary>Ver respuesta</summary>
 
-Puedes modificar el texto dentro de las comillas:
+**Respuesta correcta: c)**
 
-```java
-System.out.println("Este texto sí puedo cambiar");
-```
-
-Todavía no conviene cambiar la firma del método `main`, el nombre de la clase o la instrucción `System.out.println`.
+La firma de la clase, el método `main` y la estructura sintáctica de Java no son negociables para el compilador. Si los cambias al azar, el código fallará. Sin embargo, el texto plano dentro de las comillas dobles (un valor literal tipo `String`) es completamente libre: puedes escribir lo que quieras y se imprimirá tal cual en la consola.
 
 </details>
 
-<details>
-<summary><strong>7. ¿Por qué Java necesita punto y coma?</strong></summary>
+---
 
-El punto y coma marca el final de una instrucción. Ayuda a Java a saber dónde termina una orden.
-
-Sin punto y coma, puede aparecer:
-
-```text
-error: ';' expected
-```
-
-</details>
-
-<details>
-<summary><strong>8. ¿Por qué el texto va entre comillas dobles?</strong></summary>
-
-Porque Java necesita distinguir entre una palabra del lenguaje y un texto que debe mostrarse en consola.
-
-Esto es texto:
-
-```java
-"Hola"
-```
-
-Esto no es texto válido por sí mismo:
-
-```java
-Hola
-```
-
-</details>
-
-<details>
-<summary><strong>9. ¿Qué diferencia hay entre editor y consola?</strong></summary>
-
-El editor es donde escribes el código. La consola es donde aparece el resultado del programa.
-
-En Replit, normalmente ves ambos espacios en pantalla, pero cumplen responsabilidades diferentes.
-
-</details>
-
-<details>
-<summary><strong>10. ¿Qué significa que Java distinga mayúsculas y minúsculas?</strong></summary>
-
-Significa que `System`, `system`, `SYSTEM` y `SyStem` no son lo mismo.
-
-La instrucción correcta es:
-
-```java
-System.out.println("texto");
-```
-
-</details>
+<p align="center">
+  <img src="../../../assets/separator.png" alt="Separador visual del curso" width="100%">
+</p>
 
 ---
 
 ## Diagnóstico de errores
 
-Lee cada caso y decide qué error hay antes de abrir la respuesta.
+Identifica qué error de sintaxis tiene cada uno de los siguientes ejemplos antes de abrir el bloque desplegable.
 
-### Caso A
+### Caso A: El punto y coma olvidado
 
 ```java
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hola Java")
+        System.out.println("Bienvenidos al curso de Java")
     }
 }
 ```
 
 <details>
-<summary><strong>Respuesta del caso A</strong></summary>
+<summary>Ver respuesta</summary>
 
-Falta el punto y coma al final de la instrucción:
+**Explicación del error:**
 
-```java
-System.out.println("Hola Java");
-```
-
-Mensaje probable:
-
-```text
-error: ';' expected
-```
-
-</details>
-
-### Caso B
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hola Java);
-    }
-}
-```
-
-<details>
-<summary><strong>Respuesta del caso B</strong></summary>
-
-Falta cerrar las comillas del texto.
-
-Versión correcta:
-
-```java
-System.out.println("Hola Java");
-```
-
-Mensaje probable:
-
-```text
-error: unclosed string literal
-```
-
-</details>
-
-### Caso C
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        system.out.println("Hola Java");
-    }
-}
-```
-
-<details>
-<summary><strong>Respuesta del caso C</strong></summary>
-
-`System` debe empezar con mayúscula.
-
-Versión correcta:
-
-```java
-System.out.println("Hola Java");
-```
-
-Java diferencia mayúsculas y minúsculas.
-
-</details>
-
-### Caso D
-
-```java
-public class Main {
-    System.out.println("Hola Java");
-}
-```
-
-<details>
-<summary><strong>Respuesta del caso D</strong></summary>
-
-La instrucción está dentro de la clase, pero fuera del método `main`.
-
-Versión correcta:
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hola Java");
-    }
-}
-```
-
-</details>
-
-### Caso E
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hola Java");
-}
-```
-
-<details>
-<summary><strong>Respuesta del caso E</strong></summary>
-
-Falta una llave de cierre. Se abrió la clase y se abrió el método, pero solo se cerró uno de los dos bloques.
-
-Una versión correcta:
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hola Java");
-    }
-}
-```
+Falta el punto y coma (`;`) al final de la línea de impresión. En Java, cada instrucción ejecutable debe cerrarse obligatoriamente con un `;`. El compilador de Java te lo advertirá de esta forma:
+`error: ';' expected` en la línea correspondiente.
 
 </details>
 
 ---
 
-## Ordena el programa
-
-Las siguientes líneas están desordenadas:
-
-```text
-}
-System.out.println("Hola");
-public class Main {
-public static void main(String[] args) {
-}
-```
-
-Intenta ordenarlas antes de abrir la respuesta.
-
-<details>
-<summary><strong>Respuesta ordenada</strong></summary>
+### Caso B: Las comillas abiertas
 
 ```java
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hola");
-    }
-}
-```
-
-Primero va la clase, dentro va el método, dentro va la instrucción.
-
-</details>
-
----
-
-## Completa los espacios
-
-Completa mentalmente el programa:
-
-```java
-public class ______ {
-    public static void ______(String[] args) {
-        System.out.println("Aprendo Java en ______");
+        System.out.println("Hola estudiantes);
     }
 }
 ```
 
 <details>
-<summary><strong>Respuesta esperada</strong></summary>
+<summary>Ver respuesta</summary>
+
+**Explicación del error:**
+
+Falta cerrar las comillas dobles de la cadena de texto antes del paréntesis de cierre. Java no sabe dónde termina el texto que quieres imprimir y considera que toda la línea es parte de una cadena de texto sin terminar. El compilador reportará un error similar a:
+`error: unclosed string literal`.
+
+</details>
+
+---
+
+### Caso C: El uso incorrecto de minúsculas
 
 ```java
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Aprendo Java en Replit");
+        system.out.println("Hola Mundo");
     }
 }
 ```
 
-La clase principal es `Main`, el método de entrada es `main` y el editor principal del curso es Replit.
+<details>
+<summary>Ver respuesta</summary>
+
+**Explicación del error:**
+
+Se usó `system` con inicial minúscula en lugar de `System`. Java distingue mayúsculas y minúsculas de forma estricta. Como `system` no es una clase reconocida en el paquete básico, la compilación fallará diciendo:
+`error: package system does not exist` o `error: cannot find symbol` apuntando a `system`.
 
 </details>
 
 ---
 
-## Explica con tus palabras
-
-Responde en una o dos frases.
-
-### Pregunta 1
-
-¿Qué ocurre cuando presionas **Run**?
-
-<details>
-<summary><strong>Respuesta orientativa</strong></summary>
-
-Replit intenta compilar y ejecutar el programa. Java busca el método `main` y ejecuta las instrucciones dentro de ese método.
-
-</details>
-
-### Pregunta 2
-
-¿Qué ocurre si el código tiene un error de sintaxis?
-
-<details>
-<summary><strong>Respuesta orientativa</strong></summary>
-
-Java no puede ejecutar el programa y muestra un mensaje de error. Ese mensaje ayuda a encontrar qué regla falta cumplir.
-
-</details>
-
-### Pregunta 3
-
-¿Por qué no debes borrar todo cuando aparece un error?
-
-<details>
-<summary><strong>Respuesta orientativa</strong></summary>
-
-Porque muchas veces el error es pequeño: un punto y coma, una comilla o una mayúscula. Es mejor revisar el último cambio.
-
-</details>
-
----
-
-## Preguntas de transferencia
-
-Estas preguntas conectan la lección con situaciones nuevas.
-
-<details>
-<summary><strong>1. Si quieres imprimir tres mensajes, ¿necesitas tres clases?</strong></summary>
-
-No. Puedes usar tres instrucciones `System.out.println` dentro del mismo método `main`.
-
-```java
-System.out.println("Mensaje 1");
-System.out.println("Mensaje 2");
-System.out.println("Mensaje 3");
-```
-
-</details>
-
-<details>
-<summary><strong>2. Si quieres cambiar el saludo, ¿debes cambiar el método main?</strong></summary>
-
-No. Solo debes cambiar el texto dentro de las comillas.
-
-</details>
-
-<details>
-<summary><strong>3. Si Replit no muestra la salida esperada, ¿qué revisas primero?</strong></summary>
-
-Primero revisas si presionaste **Run**, si el archivo correcto está abierto y si la consola muestra un error.
-
-</details>
-
-<details>
-<summary><strong>4. Si más adelante haremos programas más completos, ¿por qué empezamos imprimiendo texto?</strong></summary>
-
-Porque cualquier aplicación de consola necesita mostrar instrucciones, resultados y errores. La salida de texto es la primera forma de comunicación con el usuario.
-
-</details>
+<p align="center">
+  <img src="../../../assets/separator.png" alt="Separador visual del curso" width="100%">
+</p>
 
 ---
 
 ## Autoevaluación por niveles
 
 ### Nivel inicial
-
-Marca si puedes:
-
-- [ ] abrir Replit;
-- [ ] ubicar `Main.java`;
-- [ ] presionar **Run**;
-- [ ] ver la salida en consola.
+- [ ] Entiendo que el código Java debe estar guardado en un archivo con extensión `.java`.
+- [ ] Puedo ubicar el botón **Run** en Replit y ver el texto impreso en consola.
 
 ### Nivel básico
-
-Marca si puedes:
-
-- [ ] cambiar texto dentro de comillas;
-- [ ] agregar otra línea `System.out.println`;
-- [ ] corregir un punto y coma faltante;
-- [ ] corregir comillas sin cerrar.
+- [ ] Identifico que el método `main` es el punto de inicio de la ejecución.
+- [ ] Sé qué error ocurre si olvido poner un punto y coma (`;`) al final de una instrucción.
 
 ### Nivel sólido
-
-Marca si puedes:
-
-- [ ] explicar qué hace el método `main`;
-- [ ] explicar por qué el código debe estar dentro de una clase;
-- [ ] leer un error literal sin borrar todo;
-- [ ] explicar por qué la consola es útil antes de aprender temas más avanzados.
-
----
-
-## Rubrica corta de la lección
-
-| Criterio | Logrado | En proceso | Necesita repaso |
-|---|---:|---:|---:|
-| Ejecuta el programa en Replit. |  |  |  |
-| Modifica texto sin romper estructura. |  |  |  |
-| Agrega varias salidas en consola. |  |  |  |
-| Corrige un error provocado. |  |  |  |
-| Explica `System.out.println`. |  |  |  |
-| Reconoce `main` como punto de entrada. |  |  |  |
-| Mantiene el archivo `Main.java`. |  |  |  |
-
----
-
-## Preguntas para discusión
-
-Estas preguntas pueden usarse para conversar, repasar o preparar una explicación oral:
-
-1. ¿Por qué una computadora no entiende instrucciones ambiguas?
-2. ¿Qué parte del código parece más extraña al inicio?
-3. ¿Qué error fue más fácil de corregir?
-4. ¿Qué parte del programa se parece a una estructura de inicio?
-5. ¿Qué frase imprimirías para saludar a un usuario?
-6. ¿Qué información mostraría un programa antes de pedir datos?
-7. ¿Por qué el curso evita instalaciones locales?
-8. ¿Qué ventaja tiene poder ejecutar en el navegador?
-
----
-
-## Revisión de vocabulario técnico
-
-Relaciona cada palabra con su explicación.
-
-| Palabra | Explicación |
-|---|---|
-| Clase | Contenedor principal de código Java. |
-| Método | Bloque con instrucciones. |
-| Consola | Espacio donde aparece la salida. |
-| String | Texto entre comillas. |
-| Compilar | Revisar y traducir código. |
-| Ejecutar | Hacer correr el programa. |
-| Error | Mensaje que indica una regla incumplida. |
-| Replit | Editor online principal del curso. |
-
-### Pregunta
-
-¿Cuál de esas palabras se relaciona directamente con `System.out.println`?
-
-<details>
-<summary><strong>Respuesta</strong></summary>
-
-Se relaciona con consola, String, ejecutar y método. La instrucción vive dentro del método, imprime un String y muestra el resultado en consola al ejecutar.
-
-</details>
-
----
-
-## Mini caso: explicación a un compañero
-
-Imagina que un compañero dice:
-
-> "Solo copié el código, pero no sé qué hace."
-
-Redacta una explicación de cuatro frases:
-
-```text
-1. El archivo Main.java contiene el programa.
-2. La clase Main organiza el código.
-3. El método main es donde Java empieza.
-4. System.out.println muestra texto en la consola.
-```
-
-<details>
-<summary><strong>Versión mejorada</strong></summary>
-
-`Main.java` es el archivo principal del proyecto. Dentro está `public class Main`, que funciona como contenedor. Java empieza a ejecutar dentro del método `main`. La línea `System.out.println` muestra el mensaje que escribimos entre comillas.
-
-</details>
-
----
-
-## Mini caso: revisión de entrega
-
-Un estudiante entrega este código:
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hola");
-        System.out.println("Soy Luis");
-        System.out.println("Aprendo Java");
-    }
-}
-```
-
-### Pregunta
-
-¿Cumple el objetivo de la lección?
-
-<details>
-<summary><strong>Respuesta</strong></summary>
-
-Sí, cumple el objetivo básico. El programa conserva la estructura, ejecuta desde `main` e imprime varias líneas en consola.
-
-Podría mejorar agregando un mensaje más claro, una segunda línea o una indicación para quien ejecuta el programa.
-
-</details>
-
----
-
-## Mini caso: entrega con error
-
-Un estudiante entrega este código:
-
-```java
-public class Main {
-    public static void main(String[] args) {
-        System.out.println("Hola")
-        System.out.println("Soy Luis");
-    }
-}
-```
-
-### Pregunta
-
-¿Qué comentario técnico le darías?
-
-<details>
-<summary><strong>Respuesta</strong></summary>
-
-El programa está casi correcto, pero falta un punto y coma después de la primera instrucción.
-
-Comentario sugerido:
-
-> Revisa el final de la línea que imprime `"Hola"`. En Java cada instrucción debe cerrar con `;`.
-
-</details>
-
----
-
-## Preguntas de metacognición
-
-Estas preguntas revisan cómo estás aprendiendo.
-
-1. ¿Qué hiciste cuando apareció el primer error?
-2. ¿Leíste el mensaje o solo miraste que estaba en rojo?
-3. ¿Qué cambio pequeño produjo una salida visible?
-4. ¿Qué parte del código ya reconoces sin ayuda?
-5. ¿Qué parte prefieres repasar antes de la lección 02?
-
----
-
-## Registro personal
-
-Completa:
-
-```text
-Hoy aprendí que Java necesita:
-
-Lo más fácil fue:
-
-Lo más difícil fue:
-
-El error que corregí fue:
-
-En la siguiente lección quiero entender:
-```
-
-Este registro puede servir para el reporte de participación del equipo si se usa como evidencia de aprendizaje.
-
----
-
-## Cierre del quiz
-
-Si puedes responder estas tres preguntas sin abrir la teoría, estás listo para avanzar:
-
-1. ¿Dónde empieza un programa Java?
-2. ¿Qué instrucción imprime texto?
-3. ¿Qué haces cuando Replit muestra un error?
-
-Respuestas esperadas:
-
-```text
-1. En el método main.
-2. System.out.println.
-3. Leo el error, ubico la línea y corrijo el cambio más pequeño.
-```
-
----
-
-## Puente hacia la Lección 02
-
-En esta lección, el texto estuvo fijo:
-
-```java
-System.out.println("Nombre: Valeria");
-```
-
-En la siguiente, el texto podrá usar datos guardados:
-
-```java
-String name = "Valeria";
-System.out.println("Nombre: " + name);
-```
-
-La diferencia es que el programa empieza a recordar información. Esa es la función de las variables.
-
----
+- [ ] Explico por qué `System` empieza con mayúscula y `main` con minúscula basándome en las reglas del lenguaje.
+- [ ] Puedo corregir de forma autónoma errores básicos de comillas sin cerrar o palabras mal tipeadas en el código inicial.
 
 ---
 
@@ -722,9 +289,3 @@ La diferencia es que el programa empieza a recordar información. Esa es la func
 **Volver al [plan de curso](../../../course-plan.md)**
 
 </div>
-
-
-
-
-
-

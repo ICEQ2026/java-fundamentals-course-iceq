@@ -30,15 +30,15 @@
 
 ## Propósito del laboratorio
 
-Este laboratorio no busca que el estudiante copie un programa terminado. Busca que practique el ciclo básico de programación:
+Este laboratorio no busca que tú copies un programa terminado. Busca que practiques el ciclo básico de programación:
 
 ```text
 abrir -> ejecutar -> observar -> modificar -> ejecutar -> corregir
 ```
 
-La actividad debe sentirse pequeña, pero completa. Un estudiante debe terminar con una presentación en consola hecha por él o ella, no con una línea genérica que no entiende.
+La actividad debe sentirse pequeña, pero completa. Debes terminar con una presentación en consola hecha por ti, no con una línea genérica que no entiendas.
 
-Al finalizar, el estudiante tendrá:
+Al finalizar, tendrás:
 
 - un programa Java que compila;
 - varias líneas impresas en consola;
@@ -125,7 +125,8 @@ Si aparece eso, el entorno funciona. Este paso importa porque separa dos tipos d
 - problemas del entorno;
 - problemas causados por cambios en el código.
 
-> **Consejo:** si algo falla antes de modificar, no intentes resolverlo cambiando muchas líneas. Primero verifica que el archivo esté completo y que Replit esté usando Java.
+> [!TIP]
+> Si algo falla antes de modificar, no intentes resolverlo cambiando muchas líneas. Primero verifica que el archivo esté completo y que Replit esté usando Java.
 
 ---
 
@@ -357,7 +358,7 @@ Java encontró el inicio de un texto, pero no encontró el cierre.
 System.out.println("Estoy aprendiendo Java");
 ```
 
-### Nota para el estudiante
+### Nota para ti
 
 Las comillas dobles no son decoración. Marcan dónde empieza y termina un texto.
 
@@ -519,7 +520,7 @@ Este reto confirma que cada instrucción produce una línea visible. Más adelan
 
 ---
 
-## Bitácora del estudiante
+## Tu bitácora
 
 Completa esta bitácora después de practicar.
 
@@ -560,7 +561,7 @@ Antes de compartir tu práctica, verificar:
 
 ## Entrega de la práctica
 
-Para considerar terminada la práctica, el estudiante debe tener un programa que:
+Para considerar terminada la práctica, debes tener un programa que:
 
 - compile sin errores;
 - imprima una presentación personalizada;

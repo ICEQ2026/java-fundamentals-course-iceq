@@ -1,78 +1,131 @@
 <p align="center">
-  <img src="assets/banner.png" alt="Java Fundamentals Course ICEQ" width="100%">
+  <img src="assets/banner.png" alt="Java Fundamentals Course" width="100%">
 </p>
 
 <div align="center">
 
-# Java Fundamentals Course ICEQ
+# Fundamentos de Java para Principiantes
 
-### Material de curso introductorio de Java para estudiantes de secundaria
+### Curso Introductorio para Responsabilidad Social - UPC Pre 2026
 
-[![Java](https://img.shields.io/badge/Java-Fundamentals-orange?style=flat-square)](#)
-[![Replit](https://img.shields.io/badge/Editor-Replit-blueviolet?style=flat-square)](#)
-[![Audiencia](https://img.shields.io/badge/Audiencia-Secundaria-brightgreen?style=flat-square)](#)
-[![Sin_instalación](https://img.shields.io/badge/Sin_instalación-Solo_navegador-lightgrey?style=flat-square)](#)
+[![Curso](https://img.shields.io/badge/Curso-1ASI0729-blue?style=flat-square)](#)
+[![Duración](https://img.shields.io/badge/Duración_aprox.-60_min-blueviolet?style=flat-square)](#)
+[![Plataforma](https://img.shields.io/badge/Plataforma-Replit-orange?style=flat-square)](#)
+[![Audiencia](https://img.shields.io/badge/Audiencia-Principiantes-brightgreen?style=flat-square)](#)
 
 </div>
 
 ---
 
-## Propósito
+## Resumen
 
-Este repositorio contiene el material fuente para un curso introductorio de aproximadamente una hora sobre fundamentos de Java y Programación Orientada a Objetos. Está orientado a estudiantes de secundaria sin experiencia previa.
+Este curso de aproximadamente 1 hora introduce a estudiantes de secundaria a la programación y a la Programación Orientada a Objetos (POO) usando Java. **No requiere descargas ni instalaciones.** Solo abre tu navegador web.
 
-La herramienta principal de práctica es **Replit**. JDoodle y OnlineGDB quedan como respaldo operativo si Replit no está disponible durante una sesión.
+**Duración total**: ~60 minutos  
+**Público objetivo**: Estudiantes de 12 a 17 años sin experiencia en programación  
+**Prerrequisitos**: Ninguno  
+**Herramientas necesarias**: Solo tu navegador web (Chrome, Firefox, Safari, Edge)
 
-## Estructura
+---
 
+## Público Objetivo
+
+- **Edad**: Estudiantes de 12 a 17 años.
+- **Experiencia**: Sin experiencia previa en programación o desarrollo de software.
+- **Prerrequisitos**: Solo necesitan saber usar un navegador web moderno (Chrome, Firefox, Safari, Edge).
+- **Estilo de aprendizaje**: Preferencia por resultados interactivos rápidos, explicaciones concisas con analogías y laboratorios guiados en Replit.
+
+---
+
+## Repositorio
+
+- **Repositorio GitHub**: [https://github.com/ICEQ2026/java-fundamentals-course-iceq](https://github.com/ICEQ2026/java-fundamentals-course-iceq)
+- **Contenido del estudiante**: `docs/lessons/`
+- **Código inicial Java**: `starter-files/`
+- **Soluciones completas**: `completed-examples/`
+- **Guiones de video**: `scripts/`
+- **Estructura general del repositorio**:
 ```text
-starter-files/
-  lesson-XX-topic/
-    *.java
-
-docs/
-  replit-lab-guide.md
-  online-editor-links.md
-  communication-style-guide.md
-  reference-notes.md
-  lessons/
-    lesson-XX-topic/
-      part-01-theory.md
-      part-02-practice.md
-      part-03-quiz.md
-
-completed-examples/
-  lesson-XX-topic/
-    *.java
-    README.md
-
-scripts/
-  video-production-checklist.md
-  rubric-self-review.md
-  lesson-XX-script.md
+java-fundamentals-course-iceq/
+├── README.md                          ← Este archivo
+├── course-plan.md                     ← Plan de curso detallado
+├── assets/                            ← Recursos visuales y gráficos
+│   ├── banner.png
+│   └── separator.png
+├── docs/                              ← Guías y material del estudiante
+│   ├── replit-lab-guide.md            ← Guía de entorno Replit
+│   ├── online-editor-links.md         ← Enlaces de editores alternativos
+│   ├── communication-style-guide.md   ← Guía de estilo de comunicación
+│   ├── reference-notes.md             ← Notas de referencia técnica
+│   └── lessons/                       ← Lecciones y laboratorios
+│       ├── README.md                  ← Indice de lecciones
+│       ├── lesson-01-hello-world/     ← Hola mundo y estructura básica
+│       ├── lesson-02-variables/       ← Variables y tipos de datos
+│       ├── lesson-03-if-loops/        ← Condiciones y bucles for/while
+│       ├── lesson-04-methods/         ← Métodos, return y Scanner
+│       ├── lesson-05-classes-objects/ ← Clases, constructores y objetos
+│       └── lesson-06-final-project/   ← Proyecto integrador "Número Secreto"
+├── starter-files/                     ← Plantillas Java iniciales (starters)
+│   ├── lesson-01-hello-world/
+│   ├── lesson-02-variables/
+│   ├── lesson-03-if-loops/
+│   ├── lesson-04-methods/
+│   ├── lesson-05-classes-objects/
+│   └── lesson-06-final-project/
+├── completed-examples/                ← Soluciones completas de referencia
+│   ├── lesson-01-hello-world/
+│   ├── lesson-02-variables/
+│   ├── lesson-03-if-loops/
+│   ├── lesson-04-methods/
+│   ├── lesson-05-classes-objects/
+│   └── lesson-06-final-project/
+└── scripts/                           ← Guiones de video del equipo
+    ├── lesson-01-script.md
+    ├── lesson-02-script.md
+    ├── lesson-03-script.md
+    ├── lesson-04-script.md
+    ├── lesson-05-script.md
+    └── lesson-06-script.md
 ```
+
+---
 
 ## Orden recomendado
 
 1. Leer `course-plan.md`.
 2. Preparar el entorno con `docs/replit-lab-guide.md`.
-3. Estudiar cada lección desde `docs/lessons`.
-4. Crear un Repl por lección usando solo el código de `starter-files`.
-5. Comparar la práctica terminada con `completed-examples`.
-6. Revisar `course-plan.md` para enlaces pendientes y evidencias del curso.
-
+3. Estudiar cada lección desde `docs/lessons/`.
+4. Importar o copiar el código de `starter-files/` en Replit para trabajar la práctica.
+5. Comparar la práctica terminada con `completed-examples/`.
+6. Resolver el quiz de autoevaluación correspondiente al final de cada lección.
+---
 
 >[!NOTE]
 > **Cada carpeta de `starter-files` y `completed-examples` está pensada para copiarse y ejecutarse como un Repl independiente. Por eso varias lecciones tienen una clase `Main` en el default package. Si un IDE local intenta compilar todas las carpetas a la vez, puede marcar clases duplicadas; la validación correcta es compilar cada lección por separado.**
 
-## Reglas de comunicación
+---
 
-El curso usa español técnico claro. Se priorizan términos como biblioteca, requisito, aplicación, desplegar, probar y hacer commit, de acuerdo con el enunciado UPC.
+## Referencias
 
-## Estado pendiente
+- Oracle Java Tutorials: Java Language Basics, Classes and Objects.
+- Dev.java: Learn Java Tutorials by Oracle.
+- Replit Docs: Workspace guide and Java project importing.
 
-- Enlace del repositorio GitHub público.
-- Enlaces Replit por lección.
-- Enlaces YouTube no listados.
-- Reporte de participación del equipo.
+---
 
+## Elaboración
+
+**Universidad Peruana de Ciencias Aplicadas**  
+Carrera de Ingeniería de Software  
+Período 202610  
+1ASI0729 Desarrollo de Aplicaciones Open Source  
+
+**Nombre del equipo**: ICEQ  
+**Líder del equipo**: Pajés León, Mauricio Luis 
+**Integrantes del equipo**:
+- Cabrera Novoa, Leonardo Moisés
+- Espinoza Paredes, Frezzia
+- Morales Venegas, David Joel
+- Videla Ventura, Jorge Joseph
+
+**Fecha de entrega**: 14/06/25

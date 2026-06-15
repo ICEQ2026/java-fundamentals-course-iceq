@@ -49,37 +49,37 @@ El video debe explicar **private, getters, métodos públicos, arrays y proyecto
 
 ### Escena 2: código incorrecto controlado
 
-**Visual:** mostrar el bloque incorrecto del archivo part-01-theory.md.
+**Visual:** mostrar un fallo lógico en el juego donde el jugador pierde todas sus vidas pero la ronda continúa pidiéndole números (ej. el bucle del juego no verifica si `player.hasLives()` es verdadero).
 
 **Narración sugerida:**
 
-> Este fragmento parece cercano a la solución, pero falla por una razón concreta. Java no solo revisa la intención; también revisa estructura, nombres, tipos y símbolos. Vamos a ejecutar para leer el mensaje y ubicar el problema pequeño, no para borrar todo el programa.
+> Observa este comportamiento inesperado. El jugador se ha quedado sin vidas, pero el juego le sigue pidiendo que intente adivinar el número. Esto es un error de lógica. El código compila perfectamente, pero no se comporta como queremos porque omitimos controlar el estado del jugador dentro de la condición de continuidad del bucle.
 
-**Punto didáctico:** leer el error literal, señalar la línea y traducirlo a lenguaje simple.
+**Punto didáctico:** diferenciar entre errores de compilación y errores lógicos (bugs de comportamiento) en tiempo de ejecución, y cómo identificarlos probando el programa con casos límite.
 
 ### Escena 3: construcción de la solución mínima
 
-**Visual:** reemplazar el fragmento incorrecto por la versión correcta.
+**Visual:** corregir la condición del bucle en `Game.java` agregando `&& player.hasLives()`, y mostrar la estructura del proyecto con múltiples archivos cooperando.
 
 **Narración sugerida:**
 
-> Ahora corregimos solo lo necesario. Observa que cada línea tiene un lugar y una responsabilidad. La meta no es escribir muchas líneas, sino que el programa sea entendible para Java y para otra persona del equipo.
+> Para solucionarlo, añadimos la comprobación `&& player.hasLives()` tanto en el bucle del nivel como en el de intentos. Ahora, el flujo se detendrá inmediatamente si el jugador pierde su última vida. Nota cómo este proyecto final se divide en varios archivos: `Main` inicia, `Game` coordina, `Player` guarda el estado, `InputHelper` valida la entrada y `GameMessage` maneja los textos. Esta estructura modular hace que el código sea mantenible.
 
 ### Escena 4: ejecución y comprobación
 
-**Visual:** ejecutar el programa y mostrar consola.
+**Visual:** ejecutar el juego completo e interactuar en consola pasando de nivel al acertar el número, mostrando el cálculo dinámico de puntaje y el mensaje final de victoria.
 
 **Narración sugerida:**
 
-> La salida confirma que el programa compila y produce un resultado. Esa es la primera prueba. La segunda prueba es hacer un cambio pequeño y verificar que el resultado cambia de forma predecible.
+> Ejecutamos la "Aventura del Número Secreto". Ingreso mi nombre, juego el primer nivel buscando un número del 1 al 10. Acierto y gano puntos. Al avanzar al nivel 2, el límite aumenta a 20. Todo el flujo interactivo, la validación de que no ingrese letras y el cálculo de puntaje funcionan perfectamente en la consola. ¡El proyecto integrador está completo y responde con total precisión!
 
 ### Escena 5: cierre técnico
 
-**Visual:** mostrar la tabla de criterios de finalización de part-02-practice.md.
+**Visual:** mostrar la sección de criterios de éxito del proyecto final.
 
 **Narración sugerida:**
 
-> Antes de avanzar, revisa tres puntos: el archivo correcto, la salida esperada y un error que puedas explicar. Si puedes explicar el error, no solo copiaste código; entendiste una regla.
+> ¡Felicitaciones por llegar al final! Al completar este proyecto, asegúrate de que todos tus archivos (`Main.java`, `Game.java`, `Player.java`, `InputHelper.java`, `GameMessage.java`) compilen de manera conjunta en Replit y que el juego termine limpiamente cuando el jugador gane o se quede sin vidas. Estás listo para compartir tu creación. ¡Hasta la próxima!
 
 ## Lista de control de grabación
 

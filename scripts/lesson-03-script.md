@@ -49,37 +49,37 @@ El video debe explicar **if, else, operadores relacionales y for** usando una de
 
 ### Escena 2: código incorrecto controlado
 
-**Visual:** mostrar el bloque incorrecto del archivo part-01-theory.md.
+**Visual:** mostrar un error de compilación en Replit al usar `=` de asignación en lugar de `==` de comparación (ej: `if (guess = expectedNumber)`).
 
 **Narración sugerida:**
 
-> Este fragmento parece cercano a la solución, pero falla por una razón concreta. Java no solo revisa la intención; también revisa estructura, nombres, tipos y símbolos. Vamos a ejecutar para leer el mensaje y ubicar el problema pequeño, no para borrar todo el programa.
+> Mira con atención la condición dentro del bloque `if`. Hemos usado un solo signo igual. En Java, un solo signo igual significa "guardar un valor en una variable", es decir, asignación. Al intentar compilar, Java nos dirá que no puede convertir un número entero en un valor lógico verdadero o falso. Para realizar comparaciones de igualdad, la regla de oro es utilizar el doble signo igual: `==`.
 
-**Punto didáctico:** leer el error literal, señalar la línea y traducirlo a lenguaje simple.
+**Punto didáctico:** explicar la diferencia entre asignar con `=` y comparar con `==`, y cómo el compilador de Java previene errores lógicos en tiempo de ejecución.
 
 ### Escena 3: construcción de la solución mínima
 
-**Visual:** reemplazar el fragmento incorrecto por la versión correcta.
+**Visual:** cambiar `=` por `==` en la comparación y estructurar el bucle `for` (`for (int attempt = 1; attempt <= 5; attempt++)`).
 
 **Narración sugerida:**
 
-> Ahora corregimos solo lo necesario. Observa que cada línea tiene un lugar y una responsabilidad. La meta no es escribir muchas líneas, sino que el programa sea entendible para Java y para otra persona del equipo.
+> Corregimos la comparación cambiando el operador a `==`. Ahora, construimos un bucle `for` para repetir nuestros intentos de adivinación. La estructura básica del `for` consta de tres partes: dónde empezamos con `int attempt = 1`, la regla de parada `attempt <= 5` y el incremento paso a paso `attempt++`. Todo lo que esté dentro de las llaves se ejecutará repetidamente bajo estas reglas.
 
 ### Escena 4: ejecución y comprobación
 
-**Visual:** ejecutar el programa y mostrar consola.
+**Visual:** ejecutar el programa en Replit, mostrando cómo itera a través de los números `{3, 9, 7, 2, 1}` y se detiene en el intento 3 al encontrar el `7` gracias a la instrucción `break`.
 
 **Narración sugerida:**
 
-> La salida confirma que el programa compila y produce un resultado. Esa es la primera prueba. La segunda prueba es hacer un cambio pequeño y verificar que el resultado cambia de forma predecible.
+> Presionamos **Run**. Observa en la consola cómo el programa recorre los intentos. Al llegar al intento número 3, encuentra que el número propuesto es exactamente el esperado. En ese momento, se ejecuta la instrucción `break`. Esto detiene el bucle inmediatamente y salta fuera de él, evitando que realicemos los intentos restantes. ¡El flujo responde con total precisión!
 
 ### Escena 5: cierre técnico
 
-**Visual:** mostrar la tabla de criterios de finalización de part-02-practice.md.
+**Visual:** mostrar la sección de criterios de éxito de la práctica 3.
 
 **Narración sugerida:**
 
-> Antes de avanzar, revisa tres puntos: el archivo correcto, la salida esperada y un error que puedas explicar. Si puedes explicar el error, no solo copiaste código; entendiste una regla.
+> Antes de avanzar a la lección 4, completa el laboratorio en Replit: escribe el bucle, implementa las pistas condicionales con `else if` para avisar si el número esperado es mayor o menor, y asegúrate de entender cómo y cuándo entra en acción el `break`. ¡Te veo en la próxima sesión!
 
 ## Lista de control de grabación
 

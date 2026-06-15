@@ -27,9 +27,11 @@
 
 ## Punto de partida
 
-La última lección une el curso. El estudiante ya no mira piezas separadas: ahora identifica cómo Main, Game, Player, InputHelper y GameMessage colaboran para producir una aplicación pequeña.
+La última lección une el curso. Ya no miras piezas separadas: ahora identifica cómo Main, Game, Player, InputHelper y GameMessage colaboran para producir una aplicación pequeña.
 
-> **Analogía de la lección:** La encapsulación es una caja fuerte con ventanilla. Otros objetos pueden pedir operaciones, pero no deberían modificar directamente el interior.
+> [!TIP]
+> [!NOTE]
+> **Analogía de la lección**: La encapsulación es una caja fuerte con ventanilla. Otros objetos pueden pedir operaciones, pero no deberían modificar directamente el interior.
 
 Antes de abrir Replit, mira el objetivo técnico de esta sesión: al terminar deberías poder **integrar clases, métodos, entrada, bucles y encapsulación en un juego de adivinanzas**. No memorices cada palabra del código; identifica qué responsabilidad cumple cada bloque.
 
