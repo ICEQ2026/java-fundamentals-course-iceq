@@ -11,7 +11,7 @@
 [![Nivel](https://img.shields.io/badge/Nivel-Principiante-brightgreen?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración-10_min-blue?style=flat-square)](#)
 [![Módulo](https://img.shields.io/badge/Módulo-Guion-orange?style=flat-square)](#)
-[![Herramienta](https://img.shields.io/badge/Herramienta-Replit-blueviolet?style=flat-square)](#)
+[![Herramienta](https://img.shields.io/badge/Editor-OnlineGDB-blueviolet?style=flat-square)](#)
 
 </div>
 
@@ -19,7 +19,7 @@
 
 ## Propósito del video
 
-El video debe explicar **if, else, operadores relacionales y for** usando una demostración corta en Replit. La narración debe ser clara, técnica y cercana, sin convertir la sesión en una charla motivacional. La analogía principal será **guardias que revisan reglas y tornos que repiten el acceso**.
+El video debe explicar **if, else, operadores relacionales y for** usando una demostración corta en OnlineGDB. La narración debe ser clara, técnica y cercana, sin convertir la sesión en una charla motivacional. La analogía principal será **guardias que revisan reglas y tornos que repiten el acceso**.
 
 | Campo | Valor |
 |---|---|
@@ -49,7 +49,7 @@ El video debe explicar **if, else, operadores relacionales y for** usando una de
 
 ### Escena 2: código incorrecto controlado
 
-**Visual:** mostrar un error de compilación en Replit al usar `=` de asignación en lugar de `==` de comparación (ej: `if (guess = expectedNumber)`).
+**Visual:** mostrar un error de compilación en OnlineGDB al usar `=` de asignación en lugar de `==` de comparación (ej: `if (guess = expectedNumber)`).
 
 **Narración sugerida:**
 
@@ -67,7 +67,7 @@ El video debe explicar **if, else, operadores relacionales y for** usando una de
 
 ### Escena 4: ejecución y comprobación
 
-**Visual:** ejecutar el programa en Replit, mostrando cómo itera a través de los números `{3, 9, 7, 2, 1}` y se detiene en el intento 3 al encontrar el `7` gracias a la instrucción `break`.
+**Visual:** ejecutar el programa en OnlineGDB, mostrando cómo itera a través de los números `{3, 9, 7, 2, 1}` y se detiene en el intento 3 al encontrar el `7` gracias a la instrucción `break`.
 
 **Narración sugerida:**
 
@@ -79,7 +79,7 @@ El video debe explicar **if, else, operadores relacionales y for** usando una de
 
 **Narración sugerida:**
 
-> Antes de avanzar a la lección 4, completa el laboratorio en Replit: escribe el bucle, implementa las pistas condicionales con `else if` para avisar si el número esperado es mayor o menor, y asegúrate de entender cómo y cuándo entra en acción el `break`. ¡Te veo en la próxima sesión!
+> Antes de avanzar a la lección 4, completa el laboratorio en OnlineGDB: escribe el bucle, implementa las pistas condicionales con `else if` para avisar si el número esperado es mayor o menor, y asegúrate de entender cómo y cuándo entra en acción el `break`. ¡Te veo en la próxima sesión!
 
 ## Lista de control de grabación
 

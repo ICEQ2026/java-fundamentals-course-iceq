@@ -11,7 +11,7 @@
 [![Nivel](https://img.shields.io/badge/Nivel-Principiante-brightgreen?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración-7_min-blue?style=flat-square)](#)
 [![Módulo](https://img.shields.io/badge/Módulo-Guion-orange?style=flat-square)](#)
-[![Herramienta](https://img.shields.io/badge/Herramienta-Replit-blueviolet?style=flat-square)](#)
+[![Herramienta](https://img.shields.io/badge/Editor-OnlineGDB-blueviolet?style=flat-square)](#)
 
 </div>
 
@@ -19,7 +19,7 @@
 
 ## Propósito del video
 
-El video debe explicar **estructura mínima, método main y salida con System.out.println** usando una demostración corta en Replit. La narración debe ser clara, técnica y cercana, sin convertir la sesión en una charla motivacional. La analogía principal será **un director de escena que ordena cuándo empieza la función**.
+El video debe explicar **estructura mínima, método main y salida con System.out.println** usando una demostración corta en OnlineGDB. La narración debe ser clara, técnica y cercana, sin convertir la sesión en una charla motivacional. La analogía principal será **un director de escena que ordena cuándo empieza la función**.
 
 | Campo | Valor |
 |---|---|
@@ -49,7 +49,7 @@ El video debe explicar **estructura mínima, método main y salida con System.ou
 
 ### Escena 2: código incorrecto controlado
 
-**Visual:** mostrar el bloque de código incorrecto (falta de punto y coma en System.out.println) en Replit.
+**Visual:** mostrar el bloque de código incorrecto (falta de punto y coma en System.out.println) en OnlineGDB.
 
 **Narración sugerida:**
 
@@ -79,7 +79,7 @@ El video debe explicar **estructura mínima, método main y salida con System.ou
 
 **Narración sugerida:**
 
-> Antes de avanzar a la lección 2, realiza tu autoevaluación: asegúrate de que tu Repl compile de forma limpia, que comprendas el papel de la clase `Main` y el método `main`, y que hayas experimentado provocando y solucionando el error del punto y coma. ¡Nos vemos en el próximo video!
+> Antes de avanzar a la lección 2, realiza tu autoevaluación: asegúrate de que tu proyecto compile de forma limpia, que comprendas el papel de la clase `Main` y el método `main`, y que hayas experimentado provocando y solucionando el error del punto y coma. ¡Nos vemos en el próximo video!
 
 ## Lista de control de grabación
 

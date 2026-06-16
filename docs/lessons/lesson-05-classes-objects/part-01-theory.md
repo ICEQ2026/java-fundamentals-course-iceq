@@ -11,13 +11,11 @@
 [![Nivel](https://img.shields.io/badge/Nivel-Intermedio_inicial-brightgreen?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración-12_min-blue?style=flat-square)](#)
 [![Módulo](https://img.shields.io/badge/Módulo-Teoría-orange?style=flat-square)](#)
-[![Editor](https://img.shields.io/badge/Editor_principal-Replit-blueviolet?style=flat-square)](#)
+[![Editor](https://img.shields.io/badge/Editor-OnlineGDB-blueviolet?style=flat-square)](#)
 [![Sin_instalación](https://img.shields.io/badge/Sin_instalación-Navegador-lightgrey?style=flat-square)](#)
 
 </div>
 
-> **Laboratorio principal:** Replit pendiente.  
-> **Editor de respaldo:** JDoodle.
 
 ---
 
@@ -33,7 +31,7 @@ El proyecto ya tiene datos, reglas e interacción. Ahora necesita un modelo. En 
 > [!NOTE]
 > **Analogía de la lección**: Una clase es un plano. Un objeto es una construcción concreta hecha con ese plano. Puedes tener muchos jugadores desde la misma clase.
 
-Antes de abrir Replit, mira el objetivo técnico de esta sesión: al terminar deberías poder **crear una clase Player, instanciar objetos y llamar métodos**. No memorices cada palabra del código; identifica qué responsabilidad cumple cada bloque.
+Antes de abrir OnlineGDB, mira el objetivo técnico de esta sesión: al terminar deberías poder **crear una clase Player, instanciar objetos y llamar métodos**. No memorices cada palabra del código; identifica qué responsabilidad cumple cada bloque.
 
 ## Conceptos de la sesión
 
@@ -98,7 +96,7 @@ public class Main {
 
 - La estructura principal se mantiene estable.
 - Los nombres comunican intención.
-- El código se puede ejecutar en Replit sin instalación local.
+- El código se puede ejecutar en OnlineGDB sin instalación local.
 - El ejemplo prepara una pieza del proyecto final, no es una actividad aislada.
 
 ## Pausa de comprensión
@@ -111,9 +109,9 @@ Responde en una libreta o en un comentario del Repl:
 
 ## Material externo opcional
 
-- Replit se usará como editor principal porque permite ejecutar desde el navegador.
+- OnlineGDB se usará como editor principal porque permite ejecutar desde el navegador.
 - Dev.java y Oracle Java Tutorials se usan como referencia técnica para validar sintaxis y conceptos.
-- JDoodle u OnlineGDB quedan como respaldo si Replit no carga durante la sesión.
+
 
 ## Por qué aparece la Programación Orientada a Objetos
 
@@ -574,10 +572,9 @@ El siguiente diagrama muestra cómo varias clases pueden colaborar en un program
 
 <div align="center">
 
-**Siguiente:** [Laboratorio en Replit](part-02-practice.md)
+**Siguiente:** [Laboratorio en OnlineGDB](part-02-practice.md)
 
 </div>
-
 
 
 

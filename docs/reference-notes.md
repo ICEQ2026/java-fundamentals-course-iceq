@@ -20,9 +20,9 @@ Estas referencias sustentan la precisión técnica del curso. Los enlaces se man
    URL: https://docs.oracle.com/javase/tutorial/java/javaOO/index.html  
    Uso: clases, objetos, constructores y métodos.
 
-5. Replit Docs: Welcome and import flows  
-   URL: https://docs.replit.com/build/welcome  
-   URL: https://docs.replit.com/build/import-from-providers  
+5. OnlineGDB Docs: Welcome and import flows  
+   URL: https://docs.onlinegdb.com/build/welcome  
+   URL: https://docs.onlinegdb.com/build/import-from-providers  
    Uso: justificar prácticas desde navegador e integración con GitHub.
 
 6. MOOC.fi Java Programming  
@@ -31,7 +31,7 @@ Estas referencias sustentan la precisión técnica del curso. Los enlaces se man
 
 ## Alcance adoptado
 
-- Se usa Replit como herramienta principal por consistencia.
+- Se usa OnlineGDB como herramienta principal por consistencia.
 - No se exige instalación de JDK.
 - Se limita el alcance: no herencia, interfaces, paquetes, colecciones avanzadas ni pruebas automatizadas.
 - Se mantiene el proyecto final como aplicación de consola para que el tiempo total siga cerca de una hora.

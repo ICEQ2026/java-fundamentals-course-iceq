@@ -11,13 +11,11 @@
 [![Nivel](https://img.shields.io/badge/Nivel-Básico-brightgreen?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración-10_min-blue?style=flat-square)](#)
 [![Módulo](https://img.shields.io/badge/Módulo-Teoría-orange?style=flat-square)](#)
-[![Editor](https://img.shields.io/badge/Editor_principal-Replit-blueviolet?style=flat-square)](#)
+[![Editor](https://img.shields.io/badge/Editor-OnlineGDB-blueviolet?style=flat-square)](#)
 [![Sin_instalación](https://img.shields.io/badge/Sin_instalación-Navegador-lightgrey?style=flat-square)](#)
 
 </div>
 
-> **Laboratorio principal:** Replit pendiente.  
-> **Editor de respaldo:** OnlineGDB.
 
 ---
 
@@ -33,7 +31,7 @@ Ya puedes guardar datos; ahora necesitas reglas. El curso introduce decisiones c
 > [!NOTE]
 > **Analogía de la lección**: Un `if` funciona como un control de ingreso: revisa una condición y decide qué camino se abre. Un bucle es una rutina repetida con límite.
 
-Antes de abrir Replit, mira el objetivo técnico de esta sesión: al terminar deberías poder **usar if/else y for para representar reglas y repeticiones simples**. No memorices cada palabra del código; identifica qué responsabilidad cumple cada bloque.
+Antes de abrir OnlineGDB, mira el objetivo técnico de esta sesión: al terminar deberías poder **usar if/else y for para representar reglas y repeticiones simples**. No memorices cada palabra del código; identifica qué responsabilidad cumple cada bloque.
 
 ## Conceptos de la sesión
 
@@ -92,7 +90,7 @@ public class Main {
 
 - La estructura principal se mantiene estable.
 - Los nombres comunican intención.
-- El código se puede ejecutar en Replit sin instalación local.
+- El código se puede ejecutar en OnlineGDB sin instalación local.
 - El ejemplo prepara una habilidad que luego se puede reutilizar en programas más completos.
 
 ## Pausa de comprensión
@@ -472,7 +470,7 @@ Detalles importantes:
 | `new Scanner(System.in)` | Conecta el programa con la entrada de consola. |
 | `scanner.nextInt()` | Lee un número entero escrito por el usuario. |
 
-En Replit, la consola permite escribir el valor después de presionar **Run**.
+en OnlineGDB, la consola permite escribir el valor después de presionar **Run**.
 
 ## Error común con `Scanner`
 
@@ -632,17 +630,16 @@ Antes de pasar a la práctica, verifica que puedes explicar:
 
 ## Material externo opcional
 
-- Replit se usará como editor principal porque permite ejecutar desde el navegador.
+- OnlineGDB se usará como editor principal porque permite ejecutar desde el navegador.
 - Dev.java y Oracle Java Tutorials se usan como referencia técnica para validar sintaxis y conceptos.
-- JDoodle u OnlineGDB quedan como respaldo si Replit no carga durante la sesión.
+
 
 ---
 
 <div align="center">
 
-**Siguiente:** [Laboratorio en Replit](part-02-practice.md)
+**Siguiente:** [Laboratorio en OnlineGDB](part-02-practice.md)
 
 </div>
-
 
 

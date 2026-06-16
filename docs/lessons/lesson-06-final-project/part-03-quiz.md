@@ -47,7 +47,7 @@ La clase `Random` de `java.util` permite generar diferentes tipos de valores pse
 - [ ] a) Cargar todas las librerías necesarias del JDK al inicio de la partida.
 - [ ] b) Mantener al programa ejecutándose continuamente, solicitando intentos al jugador y evaluándolos repetidas veces hasta que se cumpla la condición de parada (ganar o quedarse sin intentos).
 - [ ] c) Evitar tener que escribir la clase `Player` y centralizar todo el código del juego en una sola clase.
-- [ ] d) Limpiar la consola de Replit después de cada intento del jugador.
+- [ ] d) Limpiar la consola de OnlineGDB después de cada intento del jugador.
 
 <details>
 <summary>Ver respuesta</summary>
@@ -65,7 +65,7 @@ Un juego interactivo requiere un bucle principal (game loop). Sin él, el progra
 **¿Por qué se considera una buena práctica de ingeniería de software separar el código del juego en clases independientes como `Game`, `Player` y `InputHelper`?**
 
 - [ ] a) Porque es un requisito sintáctico obligatorio de Java para poder ejecutar cualquier programa interactivo.
-- [ ] b) Reduce el tamaño de los archivos para que Replit los compile más rápido.
+- [ ] b) Reduce el tamaño de los archivos para que OnlineGDB los compile más rápido.
 - [ ] c) Sigue el principio de responsabilidad única, facilitando la organización del código, su mantenimiento futuro, la depuración de errores y el trabajo ordenado en equipo.
 - [ ] d) Evita tener que usar importaciones de paquetes externos de Java.
 
@@ -124,7 +124,7 @@ Si distribuyes los mensajes `System.out.println` por todo el código del juego, 
 
 **¿Por qué es importante reiniciar o inicializar el estado del juego (por ejemplo, definir los intentos en cero y generar un nuevo número secreto) al comenzar una nueva partida?**
 
-- [ ] a) Para liberar la memoria caché que utiliza el navegador al conectarse a Replit.
+- [ ] a) Para liberar la memoria caché que utiliza el navegador al conectarse a OnlineGDB.
 - [ ] b) Evita arrastrar variables o datos obsoletos de la ejecución anterior, asegurando que cada partida comience con las condiciones limpias del juego.
 - [ ] c) Es un paso necesario para que el objeto `Scanner` no conserve textos escritos previamente por el usuario.
 - [ ] d) Para que Java no compile de nuevo los archivos fuente de la lección.
@@ -166,7 +166,7 @@ El método `nextInt()` espera estrictamente caracteres que representen un númer
 
 - [ ] a) Permite que el programa imprima texto con formato especial en la consola.
 - [ ] b) Conecta el `Scanner` con el teclado o flujo de entrada estándar del sistema para capturar lo que el usuario tipea en la consola.
-- [ ] c) Le indica al programa que debe leer datos desde un archivo local guardado en Replit.
+- [ ] c) Le indica al programa que debe leer datos desde un archivo local guardado en OnlineGDB.
 - [ ] d) Genera los números aleatorios requeridos por el juego.
 
 <details>
@@ -283,7 +283,7 @@ public void iniciarPartida() {
 
 ### Nivel inicial
 - [ ] Comprendo la lógica básica del juego del Número Secreto y cómo interactúan los intentos.
-- [ ] Puedo ejecutar la solución completa en Replit y jugar de principio a fin sin errores.
+- [ ] Puedo ejecutar la solución completa en OnlineGDB y jugar de principio a fin sin errores.
 
 ### Nivel básico
 - [ ] Identifico el propósito de la clase `Random` y puedo generar valores aleatorios en rangos específicos.

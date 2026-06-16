@@ -11,13 +11,11 @@
 [![Nivel](https://img.shields.io/badge/Nivel-Intermedio_inicial-brightgreen?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración-12_min-blue?style=flat-square)](#)
 [![Módulo](https://img.shields.io/badge/Módulo-Práctica-blue?style=flat-square)](#)
-[![Editor](https://img.shields.io/badge/Editor_principal-Replit-blueviolet?style=flat-square)](#)
+[![Editor](https://img.shields.io/badge/Editor-OnlineGDB-blueviolet?style=flat-square)](#)
 [![Sin_instalación](https://img.shields.io/badge/Sin_instalación-Navegador-lightgrey?style=flat-square)](#)
 
 </div>
 
-> **Laboratorio principal:** Replit pendiente.  
-> **Editor de respaldo:** OnlineGDB.
 
 ---
 
@@ -25,7 +23,7 @@
   <img src="../../../assets/separator.png" alt="Separador visual del curso" width="100%">
 </p>
 
-## Laboratorio en Replit
+## Laboratorio en OnlineGDB
 
 La práctica final no busca añadir temas nuevos. Busca integrar lo aprendido en una aplicación de consola que pueda ejecutarse, revisarse y explicarse con claridad.
 
@@ -33,17 +31,14 @@ La práctica final no busca añadir temas nuevos. Busca integrar lo aprendido en
 
 ### Preparación
 
-1. Abre el enlace de Replit de esta lección.
+1. Abre el enlace de OnlineGDB de esta lección.
 2. Verifica que el archivo principal sea `Main.java` o el archivo indicado en la práctica.
 3. Presiona **Run** una vez antes de editar.
 4. Lee la consola. Si aparece un error, úsalo como pista.
 
-> [!TIP]
-> **Editor de respaldo**: si Replit no está disponible, usa OnlineGDB copiando los archivos Java de esta carpeta. La entrega oficial debe mantener Replit como enlace principal.
-
 ## Trabajo paso a paso
 
-1. Abre el Repl final.
+1. Abre el proyecto final.
 2. Ejecuta el starter y observa qué clases participan.
 3. Completa el constructor de `Player`.
 4. Protege el puntaje con `private` y métodos públicos.
@@ -67,14 +62,14 @@ Agrega una regla de vidas sin permitir que otro archivo escriba directamente liv
 
 La práctica queda lista cuando puedes mostrar:
 
-- Una captura o ejecución visible en Replit.
+- Una captura o ejecución visible en OnlineGDB.
 - El código starter modificado con intención clara.
 - Una explicación breve del error más importante que corregiste.
 - Una frase que conecte esta lección con el proyecto final.
 
 ## Archivos del proyecto final
 
-Confirma que el Repl contiene:
+Confirma que el proyecto contiene:
 
 ```text
 Main.java
@@ -405,7 +400,7 @@ Prueba al menos estos escenarios:
 - [ ] `InputHelper` valida números.
 - [ ] `GameMessage` agrupa mensajes.
 - [ ] `Game` coordina la partida.
-- [ ] El juego se ejecuta en Replit.
+- [ ] El juego se ejecuta en OnlineGDB.
 - [ ] El usuario puede jugar sin modificar código.
 - [ ] El código completo puede compararse con `completed-examples`.
 
@@ -413,7 +408,7 @@ Prueba al menos estos escenarios:
 
 ## Pregunta de cierre
 
-Si otra persona abre tu Repl, ¿podría entender qué cambiaste y por qué? Ajusta nombres, mensajes o comentarios si la respuesta es no.
+Si otra persona abre tu proyecto, ¿podría entender qué cambiaste y por qué? Ajusta nombres, mensajes o comentarios si la respuesta es no.
 
 ---
 
@@ -422,7 +417,6 @@ Si otra persona abre tu Repl, ¿podría entender qué cambiaste y por qué? Ajus
 **Siguiente:** [Quiz de comprensión](part-03-quiz.md)
 
 </div>
-
 
 
 

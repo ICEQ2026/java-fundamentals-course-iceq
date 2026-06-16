@@ -11,12 +11,11 @@
 [![Nivel](https://img.shields.io/badge/Nivel-Principiante-brightgreen?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración-9_min-blue?style=flat-square)](#)
 [![Módulo](https://img.shields.io/badge/Módulo-Teoría-orange?style=flat-square)](#)
-[![Editor](https://img.shields.io/badge/Editor_principal-Replit-blueviolet?style=flat-square)](#)
+[![Editor](https://img.shields.io/badge/Editor-OnlineGDB-blueviolet?style=flat-square)](#)
 [![Sin_instalación](https://img.shields.io/badge/Sin_instalación-Navegador-lightgrey?style=flat-square)](#)
 
 </div>
 
-> **Laboratorio principal:** Replit pendiente.  
 > **Archivo base:** `starter-files/lesson-02-variables/Main.java`.
 
 ---
@@ -719,10 +718,9 @@ Antes de decidir, el programa necesita datos. Por eso las variables son el puent
 
 <div align="center">
 
-**Siguiente:** [Laboratorio en Replit](part-02-practice.md)
+**Siguiente:** [Laboratorio en OnlineGDB](part-02-practice.md)
 
 </div>
-
 
 
 

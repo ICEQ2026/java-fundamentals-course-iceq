@@ -12,12 +12,12 @@
  *
  * Context:
  * This file is intentionally simple. The first skill is not writing a large
- * program; it is confirming that Replit can execute Java and that the console
+ * program; it is confirming that OnlineGDB can execute Java and that the console
  * shows the text sent by System.out.println.
  *
  * Contexto:
  * Este archivo es intencionalmente simple. La primera habilidad no es escribir
- * un programa grande; es confirmar que Replit puede ejecutar Java y que la consola
+ * un programa grande; es confirmar que OnlineGDB puede ejecutar Java y que la consola
  * muestra el texto enviado por System.out.println.
  *
  * Student work / Trabajo del estudiante:
@@ -28,8 +28,8 @@
  * 3. Run again and compare the console output.
  *    Ejecuta de nuevo y compara la salida de la consola.
  *
- * Keep the class name Main. Replit expects this starter to run from Main.java.
- * Mantén el nombre de la clase como Main. Replit espera que este starter se ejecute desde Main.java.
+ * Keep the class name Main. OnlineGDB expects this starter to run from Main.java.
+ * Mantén el nombre de la clase como Main. OnlineGDB espera que este starter se ejecute desde Main.java.
  */
 
 public class Main {

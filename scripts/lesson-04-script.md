@@ -11,7 +11,7 @@
 [![Nivel](https://img.shields.io/badge/Nivel-Principiante-brightgreen?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración-10_min-blue?style=flat-square)](#)
 [![Módulo](https://img.shields.io/badge/Módulo-Guion-orange?style=flat-square)](#)
-[![Herramienta](https://img.shields.io/badge/Herramienta-Replit-blueviolet?style=flat-square)](#)
+[![Herramienta](https://img.shields.io/badge/Editor-OnlineGDB-blueviolet?style=flat-square)](#)
 
 </div>
 
@@ -19,7 +19,7 @@
 
 ## Propósito del video
 
-El video debe explicar **métodos, parámetros, return y Scanner** usando una demostración corta en Replit. La narración debe ser clara, técnica y cercana, sin convertir la sesión en una charla motivacional. La analogía principal será **una receta con pasos reutilizables**.
+El video debe explicar **métodos, parámetros, return y Scanner** usando una demostración corta en OnlineGDB. La narración debe ser clara, técnica y cercana, sin convertir la sesión en una charla motivacional. La analogía principal será **una receta con pasos reutilizables**.
 
 | Campo | Valor |
 |---|---|
@@ -67,7 +67,7 @@ El video debe explicar **métodos, parámetros, return y Scanner** usando una de
 
 ### Escena 4: ejecución y comprobación
 
-**Visual:** presionar **Run**, escribir interactivamente dos números (ej: 12 y 8) en la consola de Replit y observar la salida "12 + 8 = 20".
+**Visual:** presionar **Run**, escribir interactivamente dos números (ej: 12 y 8) en la consola de OnlineGDB y observar la salida "12 + 8 = 20".
 
 **Narración sugerida:**
 

@@ -4,19 +4,18 @@
 
 <div align="center">
 
-# Lección 01: Laboratorio en Replit
+# Lección 01: Laboratorio en OnlineGDB
 
 ### Personalizar, ejecutar y corregir el primer programa Java
 
 [![Nivel](https://img.shields.io/badge/Nivel-Principiante-brightgreen?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración-15_a_20_min-blue?style=flat-square)](#)
 [![Módulo](https://img.shields.io/badge/Módulo-Práctica-blue?style=flat-square)](#)
-[![Editor](https://img.shields.io/badge/Editor_principal-Replit-blueviolet?style=flat-square)](#)
+[![Editor](https://img.shields.io/badge/Editor-OnlineGDB-blueviolet?style=flat-square)](#)
 [![Sin_instalación](https://img.shields.io/badge/Sin_instalación-Navegador-lightgrey?style=flat-square)](#)
 
 </div>
 
-> **Laboratorio principal:** Replit pendiente.  
 > **Archivo base:** `starter-files/lesson-01-hello-world/Main.java`.  
 > **Solución de referencia:** `completed-examples/lesson-01-hello-world/`.
 
@@ -50,13 +49,13 @@ Al finalizar, tendrás:
 
 ## Preparación del entorno
 
-### abrir Replit
+### abrir OnlineGDB
 
-Abre el enlace Replit de la lección 01 cuando esté disponible en el plan de curso.
+Abre el enlace OnlineGDB de la lección 01 cuando esté disponible en el plan de curso.
 
-Si todavía no existe el Repl, el equipo puede crearlo así:
+Si todavía no existe el proyecto, el equipo puede crearlo así:
 
-1. Entrar a Replit.
+1. Entrar a OnlineGDB.
 2. Crear un proyecto Java.
 3. Nombrarlo `java-iceq-01-hello-world`.
 4. Copiar el archivo `Main.java` desde esta carpeta.
@@ -68,7 +67,7 @@ Si todavía no existe el Repl, el equipo puede crearlo así:
 Antes de tocar código, identifica estas zonas:
 
 ```text
-Replit
+OnlineGDB
  |
  |-- Files / Archivos
  |     |
@@ -126,7 +125,7 @@ Si aparece eso, el entorno funciona. Este paso importa porque separa dos tipos d
 - problemas causados por cambios en el código.
 
 > [!TIP]
-> Si algo falla antes de modificar, no intentes resolverlo cambiando muchas líneas. Primero verifica que el archivo esté completo y que Replit esté usando Java.
+> Si algo falla antes de modificar, no intentes resolverlo cambiando muchas líneas. Primero verifica que el archivo esté completo y que OnlineGDB esté usando Java.
 
 ---
 
@@ -180,7 +179,7 @@ Iniciando mi primera práctica de Java.
 Ahora agrega otra instrucción debajo de la primera:
 
 ```java
-System.out.println("Estoy usando Replit desde el navegador.");
+System.out.println("Estoy usando OnlineGDB desde el navegador.");
 ```
 
 El programa debería quedar así:
@@ -189,7 +188,7 @@ El programa debería quedar así:
 public class Main {
     public static void main(String[] args) {
         System.out.println("Iniciando mi primera práctica de Java.");
-        System.out.println("Estoy usando Replit desde el navegador.");
+        System.out.println("Estoy usando OnlineGDB desde el navegador.");
     }
 }
 ```
@@ -200,7 +199,7 @@ Ejecuta.
 
 ```text
 Iniciando mi primera práctica de Java.
-Estoy usando Replit desde el navegador.
+Estoy usando OnlineGDB desde el navegador.
 ```
 
 ### Observación
@@ -254,7 +253,7 @@ System.out.println("--------------------------------");
 Ejemplo con signos iguales:
 
 ```java
-System.out.println("Replit + Java");
+System.out.println("OnlineGDB + Java");
 ```
 
 Ejemplo con espacios:
@@ -300,7 +299,7 @@ Presiona **Run**.
 
 ### Qué debería pasar
 
-Replit debe mostrar un error parecido a:
+OnlineGDB debe mostrar un error parecido a:
 
 ```text
 error: ';' expected
@@ -479,7 +478,7 @@ Salida esperada:
 
 ```text
 Curso de Java
-Primer programa en Replit
+Primer programa en OnlineGDB
 Objetivo: entender la consola
 Paso actual: modificar texto entre comillas
 Fin de la prueba
@@ -491,7 +490,7 @@ Código base:
 public class Main {
     public static void main(String[] args) {
         System.out.println("Curso de Java");
-        System.out.println("Primer programa en Replit");
+        System.out.println("Primer programa en OnlineGDB");
         System.out.println("Objetivo: entender la consola");
         System.out.println("Paso actual: modificar texto entre comillas");
         System.out.println("Fin de la prueba");
@@ -516,7 +515,7 @@ Este reto confirma que cada instrucción produce una línea visible. Más adelan
 | `class Main is public, should be declared in a file named Main.java` | Nombre de clase y archivo no coinciden. | Mantén archivo `Main.java`. |
 | La consola no cambia | No se ejecutó el código actualizado. | Presiona **Run** otra vez. |
 | La salida aparece en una línea inesperada | Falta o sobra un `println`. | Revisa el orden de instrucciones. |
-| Replit parece congelado | Problema temporal del navegador o conexión. | Recarga, espera o usa el editor de respaldo. |
+| OnlineGDB parece congelado | Problema temporal del navegador o conexión. | Recarga la página o intenta de nuevo. |
 
 ---
 
@@ -548,14 +547,14 @@ La bitácora ayuda a preparar preguntas para resolver dudas con el equipo o con 
 
 Antes de compartir tu práctica, verificar:
 
-- [ ] El Repl abre desde una ventana privada.
+- [ ] el proyecto abre desde una ventana privada.
 - [ ] El archivo se llama `Main.java`.
 - [ ] El botón **Run** funciona.
 - [ ] La consola se lee con claridad.
 - [ ] Puedes mostrar al menos un error real que corregiste.
 - [ ] Puedes corregir sin borrar todo el programa.
 - [ ] No dependes de instalación local.
-- [ ] El enlace Replit queda en `course-plan.md`.
+- [ ] El enlace OnlineGDB queda en `course-plan.md`.
 
 ---
 
@@ -568,7 +567,7 @@ Para considerar terminada la práctica, debes tener un programa que:
 - use al menos cinco instrucciones `System.out.println`;
 - tenga separadores visuales en consola;
 - conserve la estructura `public class Main`;
-- haya sido ejecutado en Replit;
+- haya sido ejecutado en OnlineGDB;
 - pueda explicarse en menos de un minuto.
 
 ---
@@ -583,7 +582,7 @@ public class Main {
         System.out.println("MI PRIMER PROGRAMA EN JAVA");
         System.out.println("Nombre: Valeria");
         System.out.println("Curso: Java Fundamentals");
-        System.out.println("Editor: Replit");
+        System.out.println("Editor: OnlineGDB");
         System.out.println("Meta: entender cómo empieza un programa");
     }
 }
@@ -636,7 +635,6 @@ Ese cambio parece pequeño, pero abre la puerta a programas más flexibles.
 **Siguiente:** [Quiz de comprensión](part-03-quiz.md)
 
 </div>
-
 
 
 

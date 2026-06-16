@@ -11,7 +11,7 @@
 [![Curso](https://img.shields.io/badge/Curso-1ASI0729-blue?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración_aprox.-60_min-blueviolet?style=flat-square)](#)
 [![Audiencia](https://img.shields.io/badge/Audiencia-12_a_17_años-brightgreen?style=flat-square)](#)
-[![Editor_principal](https://img.shields.io/badge/Editor_principal-Replit-orange?style=flat-square)](#)
+[![Editor_principal](https://img.shields.io/badge/Editor_principal-OnlineGDB-orange?style=flat-square)](#)
 
 </div>
 
@@ -53,11 +53,11 @@
 
 | Lección | Duración | Video del curso | Laboratorio Online | Contenido | Producto |
 |---|---:|---|---|---|---|
-| 01. Primer programa en Java | 7 min | [Ver lección](https://www.youtube.com/watch?v=PENDIENTE) | [Abrir Replit](https://replit.com/) | [Contenido](docs/lessons/lesson-01-hello-world/part-01-theory.md) | Mensaje en consola |
-| 02. Variables y tipos de datos | 9 min | [Ver lección](https://www.youtube.com/watch?v=PENDIENTE) | [Abrir Replit](https://replit.com/) | [Contenido](docs/lessons/lesson-02-variables/part-01-theory.md) | Ficha de estudiante |
-| 03. Condiciones y bucles | 10 min | [Ver lección](https://www.youtube.com/watch?v=PENDIENTE) | [Abrir Replit](https://replit.com/) | [Contenido](docs/lessons/lesson-03-if-loops/part-01-theory.md) | Intentos y pistas |
-| 04. Métodos y entrada por consola | 10 min | [Ver lección](https://www.youtube.com/watch?v=PENDIENTE) | [Abrir Replit](https://replit.com/) | [Contenido](docs/lessons/lesson-04-methods/part-01-theory.md) | Calculadora simple |
-| 05. Clases y objetos | 12 min | [Ver lección](https://www.youtube.com/watch?v=PENDIENTE) | [Abrir Replit](https://replit.com/) | [Contenido](docs/lessons/lesson-05-classes-objects/part-01-theory.md) | Modelo de jugador |
-| 06. Encapsulación y proyecto final | 12 min | [Ver lección](https://www.youtube.com/watch?v=PENDIENTE) | [Abrir Replit](https://replit.com/) | [Contenido](docs/lessons/lesson-06-final-project/part-01-theory.md) | Aventura del Número Secreto |
+| 01. Primer programa en Java | 7 min | [Ver lección](https://www.youtube.com/watch?v=PENDIENTE) | [Abrir OnlineGDB](https://onlinegdb.com/) | [Contenido](docs/lessons/lesson-01-hello-world/part-01-theory.md) | Mensaje en consola |
+| 02. Variables y tipos de datos | 9 min | [Ver lección](https://www.youtube.com/watch?v=PENDIENTE) | [Abrir OnlineGDB](https://onlinegdb.com/) | [Contenido](docs/lessons/lesson-02-variables/part-01-theory.md) | Ficha de estudiante |
+| 03. Condiciones y bucles | 10 min | [Ver lección](https://www.youtube.com/watch?v=PENDIENTE) | [Abrir OnlineGDB](https://onlinegdb.com/) | [Contenido](docs/lessons/lesson-03-if-loops/part-01-theory.md) | Intentos y pistas |
+| 04. Métodos y entrada por consola | 10 min | [Ver lección](https://www.youtube.com/watch?v=PENDIENTE) | [Abrir OnlineGDB](https://onlinegdb.com/) | [Contenido](docs/lessons/lesson-04-methods/part-01-theory.md) | Calculadora simple |
+| 05. Clases y objetos | 12 min | [Ver lección](https://www.youtube.com/watch?v=PENDIENTE) | [Abrir OnlineGDB](https://onlinegdb.com/) | [Contenido](docs/lessons/lesson-05-classes-objects/part-01-theory.md) | Modelo de jugador |
+| 06. Encapsulación y proyecto final | 12 min | [Ver lección](https://www.youtube.com/watch?v=PENDIENTE) | [Abrir OnlineGDB](https://onlinegdb.com/) | [Contenido](docs/lessons/lesson-06-final-project/part-01-theory.md) | Aventura del Número Secreto |
 
 ---

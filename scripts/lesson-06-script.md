@@ -11,7 +11,7 @@
 [![Nivel](https://img.shields.io/badge/Nivel-Principiante-brightgreen?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración-12_min-blue?style=flat-square)](#)
 [![Módulo](https://img.shields.io/badge/Módulo-Guion-orange?style=flat-square)](#)
-[![Herramienta](https://img.shields.io/badge/Herramienta-Replit-blueviolet?style=flat-square)](#)
+[![Herramienta](https://img.shields.io/badge/Editor-OnlineGDB-blueviolet?style=flat-square)](#)
 
 </div>
 
@@ -19,7 +19,7 @@
 
 ## Propósito del video
 
-El video debe explicar **private, getters, métodos públicos, arrays y proyecto integrado** usando una demostración corta en Replit. La narración debe ser clara, técnica y cercana, sin convertir la sesión en una charla motivacional. La analogía principal será **una caja fuerte con ventanilla para pedir operaciones sin tocar el interior**.
+El video debe explicar **private, getters, métodos públicos, arrays y proyecto integrado** usando una demostración corta en OnlineGDB. La narración debe ser clara, técnica y cercana, sin convertir la sesión en una charla motivacional. La analogía principal será **una caja fuerte con ventanilla para pedir operaciones sin tocar el interior**.
 
 | Campo | Valor |
 |---|---|
@@ -79,7 +79,7 @@ El video debe explicar **private, getters, métodos públicos, arrays y proyecto
 
 **Narración sugerida:**
 
-> ¡Felicitaciones por llegar al final! Al completar este proyecto, asegúrate de que todos tus archivos (`Main.java`, `Game.java`, `Player.java`, `InputHelper.java`, `GameMessage.java`) compilen de manera conjunta en Replit y que el juego termine limpiamente cuando el jugador gane o se quede sin vidas. Estás listo para compartir tu creación. ¡Hasta la próxima!
+> ¡Felicitaciones por llegar al final! Al completar este proyecto, asegúrate de que todos tus archivos (`Main.java`, `Game.java`, `Player.java`, `InputHelper.java`, `GameMessage.java`) compilen de manera conjunta en OnlineGDB y que el juego termine limpiamente cuando el jugador gane o se quede sin vidas. Estás listo para compartir tu creación. ¡Hasta la próxima!
 
 ## Lista de control de grabación
 

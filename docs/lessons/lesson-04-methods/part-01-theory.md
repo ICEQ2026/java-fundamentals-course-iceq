@@ -11,13 +11,11 @@
 [![Nivel](https://img.shields.io/badge/Nivel-Básico-brightgreen?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración-10_min-blue?style=flat-square)](#)
 [![Módulo](https://img.shields.io/badge/Módulo-Teoría-orange?style=flat-square)](#)
-[![Editor](https://img.shields.io/badge/Editor_principal-Replit-blueviolet?style=flat-square)](#)
+[![Editor](https://img.shields.io/badge/Editor-OnlineGDB-blueviolet?style=flat-square)](#)
 [![Sin_instalación](https://img.shields.io/badge/Sin_instalación-Navegador-lightgrey?style=flat-square)](#)
 
 </div>
 
-> **Laboratorio principal:** Replit pendiente.  
-> **Editor de respaldo:** OnlineGDB.
 
 ---
 
@@ -33,7 +31,7 @@ Hasta ahora el programa decide con datos escritos en el código. Esta lección a
 > [!NOTE]
 > **Analogía de la lección**: Un método se parece a una receta con nombre. Puedes llamarla varias veces sin volver a escribir todos los pasos.
 
-Antes de abrir Replit, mira el objetivo técnico de esta sesión: al terminar deberías poder **crear métodos simples y leer datos con Scanner**. No memorices cada palabra del código; identifica qué responsabilidad cumple cada bloque.
+Antes de abrir OnlineGDB, mira el objetivo técnico de esta sesión: al terminar deberías poder **crear métodos simples y leer datos con Scanner**. No memorices cada palabra del código; identifica qué responsabilidad cumple cada bloque.
 
 ## Conceptos de la sesión
 
@@ -102,7 +100,7 @@ public class Main {
 
 - La estructura principal se mantiene estable.
 - Los nombres comunican intención.
-- El código se puede ejecutar en Replit sin instalación local.
+- El código se puede ejecutar en OnlineGDB sin instalación local.
 - El ejemplo prepara una habilidad reutilizable: dividir un programa en acciones con nombre.
 
 ## Por qué aparecen los métodos
@@ -716,7 +714,7 @@ Consola muestra resultado
 - Oracle Java API: `Scanner`.
 - Dev.java: fundamentos de ejecución y estructura.
 
-Estas referencias son apoyo. La práctica principal debe realizarse en Replit con el material del repositorio.
+Estas referencias son apoyo. La práctica principal debe realizarse en OnlineGDB con el material del repositorio.
 
 ---
 
@@ -736,10 +734,9 @@ Estas referencias son apoyo. La práctica principal debe realizarse en Replit co
 
 <div align="center">
 
-**Siguiente:** [Laboratorio en Replit](part-02-practice.md)
+**Siguiente:** [Laboratorio en OnlineGDB](part-02-practice.md)
 
 </div>
-
 
 
 

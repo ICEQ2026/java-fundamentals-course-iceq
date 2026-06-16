@@ -27,7 +27,7 @@
 - [ ] a) Un archivo de extensión `.class` que contiene el ejecutable principal.
 - [ ] b) Un bloque de código con nombre que realiza una tarea específica y que puede ser llamado o invocado en cualquier parte del programa para evitar duplicar código.
 - [ ] c) Un tipo de dato primitivo que almacena exclusivamente textos muy largos.
-- [ ] d) El comando que se escribe en la terminal de Replit para compilar el proyecto.
+- [ ] d) El comando que se escribe en la terminal de OnlineGDB para compilar el proyecto.
 
 <details>
 <summary>Ver respuesta</summary>
@@ -164,7 +164,7 @@ El método `nextInt()` lee e interpreta el siguiente elemento de entrada como un
 
 **¿Por qué escribimos `import java.util.Scanner;` al inicio de nuestro archivo de código Java?**
 
-- [ ] a) Para indicarle a Replit qué versión de compilador de Java debe ejecutar.
+- [ ] a) Para indicarle a OnlineGDB qué versión de compilador de Java debe ejecutar.
 - [ ] b) Porque la clase `Scanner` no forma parte del paquete base por defecto (`java.lang`) y necesitamos indicarle a Java en qué biblioteca externa del SDK encontrar su definición.
 - [ ] c) Para importar todos los archivos java contenidos en el directorio `starter-files`.
 - [ ] d) Es una línea opcional que se puede borrar sin afectar la funcionalidad del programa.

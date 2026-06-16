@@ -11,7 +11,7 @@
 [![Nivel](https://img.shields.io/badge/Nivel-Principiante-brightgreen?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración-15_min-blue?style=flat-square)](#)
 [![Módulo](https://img.shields.io/badge/Módulo-Quiz-purple?style=flat-square)](#)
-[![Editor](https://img.shields.io/badge/Editor_principal-Replit-blueviolet?style=flat-square)](#)
+[![Editor](https://img.shields.io/badge/Editor-OnlineGDB-blueviolet?style=flat-square)](#)
 [![Sin_instalación](https://img.shields.io/badge/Sin_instalación-Navegador-lightgrey?style=flat-square)](#)
 
 </div>
@@ -51,7 +51,7 @@ Java busca exactamente el método `public static void main(String[] args)` para 
 **¿Qué hace la instrucción `System.out.println("Hola");` al ejecutarse?**
 
 - [ ] a) Envía un correo electrónico de bienvenida al programador.
-- [ ] b) Crea una nueva clase en Replit de forma automática.
+- [ ] b) Crea una nueva clase en OnlineGDB de forma automática.
 - [ ] c) Imprime el texto `"Hola"` en la consola y salta a la línea siguiente.
 - [ ] d) Traduce el archivo Java a un ejecutable del sistema operativo.
 
@@ -60,7 +60,7 @@ Java busca exactamente el método `public static void main(String[] args)` para 
 
 **Respuesta correcta: c)**
 
-`System.out.println` (abreviación de "print line") es la forma estándar en Java de enviar información a la salida estándar del sistema, que Replit muestra en el panel de la consola. El sufijo `ln` asegura que después de imprimir el texto entre comillas, el cursor salte a la siguiente línea, por lo que cualquier impresión posterior se verá abajo.
+`System.out.println` (abreviación de "print line") es la forma estándar en Java de enviar información a la salida estándar del sistema, que OnlineGDB muestra en el panel de la consola. El sufijo `ln` asegura que después de imprimir el texto entre comillas, el cursor salte a la siguiente línea, por lo que cualquier impresión posterior se verá abajo.
 
 </details>
 
@@ -120,7 +120,7 @@ En Java, no es lo mismo escribir `System` que `system`, ni `main` que `Main`. Si
 
 **Respuesta correcta: c)**
 
-En Java, la regla fundamental de organización exige que el nombre de la clase pública coincida de forma exacta y sensible a mayúsculas con el nombre del archivo físico en el disco (incluyendo la extensión `.java`). Por eso, en tu Repl inicial, el código vive dentro de `public class Main` y el archivo se llama `Main.java`.
+En Java, la regla fundamental de organización exige que el nombre de la clase pública coincida de forma exacta y sensible a mayúsculas con el nombre del archivo físico en el disco (incluyendo la extensión `.java`). Por eso, en tu proyecto inicial, el código vive dentro de `public class Main` y el archivo se llama `Main.java`.
 
 </details>
 
@@ -128,7 +128,7 @@ En Java, la regla fundamental de organización exige que el nombre de la clase p
 
 ## Pregunta 6
 
-**¿Qué diferencia principal hay entre el "Editor" y la "Consola" en Replit?**
+**¿Qué diferencia principal hay entre el "Editor" y la "Consola" en OnlineGDB?**
 
 - [ ] a) El Editor muestra la memoria del sistema y la Consola muestra la velocidad de red.
 - [ ] b) En el Editor escribes y modificas el código; en la Consola observas el resultado o la salida del programa al presionar **Run**.
@@ -140,7 +140,7 @@ En Java, la regla fundamental de organización exige que el nombre de la clase p
 
 **Respuesta correcta: b)**
 
-El Editor de Replit es tu área de escritura donde editas el archivo `Main.java`. La Consola (o Terminal) es la ventana negra o gris a la derecha donde la máquina virtual de Java muestra lo que imprimes con `System.out.println` y donde puedes interactuar con el programa una vez iniciado.
+El Editor de OnlineGDB es tu área de escritura donde editas el archivo `Main.java`. La Consola (o Terminal) es la ventana negra o gris a la derecha donde la máquina virtual de Java muestra lo que imprimes con `System.out.println` y donde puedes interactuar con el programa una vez iniciado.
 
 </details>
 
@@ -148,11 +148,11 @@ El Editor de Replit es tu área de escritura donde editas el archivo `Main.java`
 
 ## Pregunta 7
 
-**¿Cuál es el valor real de usar Replit en este curso en lugar de configurar herramientas en tu computadora local?**
+**¿Cuál es el valor real de usar OnlineGDB en este curso en lugar de configurar herramientas en tu computadora local?**
 
 - [ ] a) Hace que el código de Java corra más rápido que de forma local.
 - [ ] b) Permite empezar a programar de inmediato en el navegador sin perder tiempo instalando Java, el JDK o configurando un IDE pesado.
-- [ ] c) Replit escribe el código por ti de forma automática.
+- [ ] c) OnlineGDB escribe el código por ti de forma automática.
 - [ ] d) Evita tener que conectarse a internet para hacer las prácticas.
 
 <details>
@@ -160,7 +160,7 @@ El Editor de Replit es tu área de escritura donde editas el archivo `Main.java`
 
 **Respuesta correcta: b)**
 
-Configurar un entorno local de Java (descargar el JDK, configurar variables de entorno en el sistema y elegir un IDE como IntelliJ) puede tardar más de una hora y provocar frustración inicial. Replit proporciona un entorno en la nube preconfigurado que funciona al instante en cualquier navegador web moderno, permitiendo que te enfoques únicamente en los fundamentos de programación.
+Configurar un entorno local de Java (descargar el JDK, configurar variables de entorno en el sistema y elegir un IDE como IntelliJ) puede tardar más de una hora y provocar frustración inicial. OnlineGDB proporciona un entorno en la nube preconfigurado que funciona al instante en cualquier navegador web moderno, permitiendo que te enfoques únicamente en los fundamentos de programación.
 
 </details>
 
@@ -272,7 +272,7 @@ Se usó `system` con inicial minúscula en lugar de `System`. Java distingue may
 
 ### Nivel inicial
 - [ ] Entiendo que el código Java debe estar guardado en un archivo con extensión `.java`.
-- [ ] Puedo ubicar el botón **Run** en Replit y ver el texto impreso en consola.
+- [ ] Puedo ubicar el botón **Run** en OnlineGDB y ver el texto impreso en consola.
 
 ### Nivel básico
 - [ ] Identifico que el método `main` es el punto de inicio de la ejecución.

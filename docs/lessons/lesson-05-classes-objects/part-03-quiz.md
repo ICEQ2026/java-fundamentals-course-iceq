@@ -24,7 +24,7 @@
 
 **En la Programación Orientada a Objetos, ¿cuál es la analogía o definición más correcta de una "Clase"?**
 
-- [ ] a) El resultado final de la ejecución de una aplicación en Replit.
+- [ ] a) El resultado final de la ejecución de una aplicación en OnlineGDB.
 - [ ] b) Un molde, plano o plantilla que define los atributos (datos) y métodos (comportamientos) comunes que tendrán los objetos creados a partir de ella.
 - [ ] c) Un tipo de dato primitivo que solo puede almacenar números enteros de gran escala.
 - [ ] d) El conjunto de llaves `{}` que cierran el método `main`.

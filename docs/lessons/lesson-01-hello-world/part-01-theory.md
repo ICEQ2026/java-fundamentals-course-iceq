@@ -6,18 +6,16 @@
 
 # Lección 01: Primer programa en Java
 
-### Qué ocurre cuando presionas Run en Replit
+### Qué ocurre cuando presionas Run en OnlineGDB
 
 [![Nivel](https://img.shields.io/badge/Nivel-Principiante-brightgreen?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración-7_min-blue?style=flat-square)](#)
 [![Módulo](https://img.shields.io/badge/Módulo-Teoría-orange?style=flat-square)](#)
-[![Editor](https://img.shields.io/badge/Editor_principal-Replit-blueviolet?style=flat-square)](#)
+[![Editor](https://img.shields.io/badge/Editor-OnlineGDB-blueviolet?style=flat-square)](#)
 [![Sin_instalación](https://img.shields.io/badge/Sin_instalación-Navegador-lightgrey?style=flat-square)](#)
 
 </div>
 
-> **Laboratorio principal:** Replit pendiente.  
-> **Editor de respaldo:** OnlineGDB, solo si Replit no carga durante la sesión.
 
 ---
 
@@ -36,13 +34,13 @@ Esta primera lección debe resolver una ansiedad común: muchas personas creen q
 
 Java es estricto, pero esa exigencia no es un obstáculo. Es una forma de recibir retroalimentación clara. El compilador no se burla tuyo; señala una regla que todavía no se cumplió.
 
-En esta lección no buscamos que entiendas todo lo que aparece en `public static void main(String[] args)`. Eso llegará después. Buscamos que puedas abrir Replit, reconocer el archivo principal, ejecutar un programa mínimo y modificar una salida en consola sin destruir la estructura.
+En esta lección no buscamos que entiendas todo lo que aparece en `public static void main(String[] args)`. Eso llegará después. Buscamos que puedas abrir OnlineGDB, reconocer el archivo principal, ejecutar un programa mínimo y modificar una salida en consola sin destruir la estructura.
 
 ### Resultado esperado
 
 Al terminar esta parte, debes poder:
 
-- abrir un proyecto Java en Replit;
+- abrir un proyecto Java en OnlineGDB;
 - identificar el archivo `Main.java`;
 - reconocer la clase `Main`;
 - ubicar el método `main`;
@@ -65,11 +63,11 @@ Mantener esos límites hace que el curso sea más realista. Un buen curso introd
 
 ---
 
-## Replit como aula de programación
+## OnlineGDB como aula de programación
 
-Replit será el entorno principal del curso porque cumple el requisito central del enunciado: solo necesitas un navegador. No se instalará Java localmente y no se pedirá configurar IntelliJ, Eclipse o Visual Studio Code.
+OnlineGDB será el entorno principal del curso porque cumple el requisito central del enunciado: solo necesitas un navegador. No se instalará Java localmente y no se pedirá configurar IntelliJ, Eclipse o Visual Studio Code.
 
-Cuando abres Replit para Java, normalmente verás tres zonas:
+Cuando abres OnlineGDB para Java, normalmente verás tres zonas:
 
 ```text
 +---------------------------------------------------------------+
@@ -109,7 +107,7 @@ No es porque Java quiera ser difícil. Es porque la computadora necesita instruc
 La consola muestra el resultado del programa. En esta lección solo usaremos salida de texto, así que todo lo visible ocurrirá ahí.
 
 > [!TIP]
-> **Consejo de lectura**: Aumenta el tamaño de fuente de Replit si el código se ve pequeño. El objetivo es leer cada símbolo sin forzar la vista.
+> **Consejo de lectura**: Aumenta el tamaño de fuente de OnlineGDB si el código se ve pequeño. El objetivo es leer cada símbolo sin forzar la vista.
 
 ---
 
@@ -210,7 +208,7 @@ Este es el programa mínimo de la lección:
 ```java
 public class Main {
     public static void main(String[] args) {
-        System.out.println("Hola Java desde Replit");
+        System.out.println("Hola Java desde OnlineGDB");
     }
 }
 ```
@@ -244,7 +242,7 @@ No hace falta memorizar todas las palabras por separado hoy. Sí hace falta resp
 ### Capa 3: la instrucción visible
 
 ```java
-System.out.println("Hola Java desde Replit");
+System.out.println("Hola Java desde OnlineGDB");
 ```
 
 Esta instrucción imprime texto en la consola.
@@ -254,7 +252,7 @@ Descomposición:
 - `System`: acceso al sistema.
 - `out`: salida estándar.
 - `println`: imprimir una línea.
-- `"Hola Java desde Replit"`: texto que se mostrará.
+- `"Hola Java desde OnlineGDB"`: texto que se mostrará.
 - `;`: fin de la instrucción.
 
 ### Capa 4: las llaves
@@ -309,7 +307,7 @@ Para ti:
 ### Línea 3
 
 ```java
-        System.out.println("Hola Java desde Replit");
+        System.out.println("Hola Java desde OnlineGDB");
 ```
 
 Esta línea produce el resultado visible.
@@ -345,7 +343,7 @@ En tu primera práctica, debes distinguir entre partes seguras y partes delicada
 ### Seguro para modificar
 
 ```java
-"Hola Java desde Replit"
+"Hola Java desde OnlineGDB"
 ```
 
 Puedes cambiarlo por:
@@ -503,7 +501,7 @@ System.out.println("Hola Java");
 | Consola | Zona donde aparece el resultado. | Salida de `println`. |
 | Instrucción | Orden individual dentro del programa. | `System.out.println(...)`. |
 | String | Texto entre comillas dobles. | `"Hola"`. |
-| Compilar | Revisar y traducir el código antes de ejecutar. | Replit lo hace al presionar Run. |
+| Compilar | Revisar y traducir el código antes de ejecutar. | OnlineGDB lo hace al presionar Run. |
 | Ejecutar | Hacer que el programa corra. | Presionar Run. |
 
 ---
@@ -517,9 +515,9 @@ Main.java
  |     |
  |     |-- public static void main(String[] args)
  |            |
- |            |-- System.out.println("Hola Java desde Replit");
+ |            |-- System.out.println("Hola Java desde OnlineGDB");
  |
- |-- consola muestra: Hola Java desde Replit
+ |-- consola muestra: Hola Java desde OnlineGDB
 ```
 
 Este mapa ayuda a explicar que no todo está al mismo nivel. La instrucción vive dentro del método, y el método vive dentro de la clase.
@@ -537,7 +535,7 @@ Main.java           public class Main {
                     }
 
 [3] Consola
-Hola Java desde Replit
+Hola Java desde OnlineGDB
 ```
 
 ---
@@ -548,7 +546,7 @@ Para ampliar o verificar conceptos, se puede revisar documentación oficial:
 
 - Dev.java: introducción moderna a Java.
 - Oracle Java Tutorials: primer programa y método `main`.
-- Replit Docs: uso del entorno desde navegador.
+- OnlineGDB Docs: uso del entorno desde navegador.
 
 No se debe depender de un recurso externo para completar la lección. El material del repositorio debe sostener la explicación por sí mismo.
 
@@ -558,7 +556,7 @@ No se debe depender de un recurso externo para completar la lección. El materia
 
 Responde sin ejecutar todavía:
 
-1. ¿Qué archivo abre Replit para esta lección?
+1. ¿Qué archivo abre OnlineGDB para esta lección?
 2. ¿Qué línea imprime texto?
 3. ¿Qué parte indica dónde empieza el programa?
 4. ¿Qué símbolo termina la instrucción?
@@ -566,7 +564,7 @@ Responde sin ejecutar todavía:
 6. ¿Qué ocurriría si borras una llave?
 7. ¿Qué parte puedes personalizar con tu nombre?
 8. ¿Por qué el texto va entre comillas?
-9. ¿Qué zona de Replit muestra el resultado?
+9. ¿Qué zona de OnlineGDB muestra el resultado?
 10. ¿Qué diferencia hay entre escribir código y ejecutarlo?
 
 ---
@@ -679,7 +677,7 @@ System.out.println("texto");
 Para ejecutar:
 
 ```text
-Presiona Run en Replit.
+Presiona Run en OnlineGDB.
 ```
 
 Para revisar:
@@ -692,7 +690,7 @@ Mira la consola.
 
 ## Checklist antes de pasar a la práctica
 
-- [ ] Sé abrir el proyecto en Replit.
+- [ ] Sé abrir el proyecto en OnlineGDB.
 - [ ] Sé ubicar `Main.java`.
 - [ ] Sé reconocer `public class Main`.
 - [ ] Sé reconocer el método `main`.
@@ -715,16 +713,15 @@ escribir -> ejecutar -> observar -> corregir -> volver a ejecutar
 
 Ese ciclo se repetirá en todas las lecciones. La diferencia es que cada vez habrá más elementos: variables, condiciones, bucles, métodos, objetos y reglas protegidas.
 
-El objetivo inmediato es simple: que llegues al laboratorio sabiendo qué puede cambiar, qué debe cuidar y cómo interpretar la primera respuesta de Replit.
+El objetivo inmediato es simple: que llegues al laboratorio sabiendo qué puede cambiar, qué debe cuidar y cómo interpretar la primera respuesta de OnlineGDB.
 
 ---
 
 <div align="center">
 
-**Siguiente:** [Laboratorio en Replit](part-02-practice.md)
+**Siguiente:** [Laboratorio en OnlineGDB](part-02-practice.md)
 
 </div>
-
 
 
 

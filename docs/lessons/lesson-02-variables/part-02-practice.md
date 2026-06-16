@@ -4,19 +4,18 @@
 
 <div align="center">
 
-# Lección 02: Laboratorio en Replit
+# Lección 02: Laboratorio en OnlineGDB
 
 ### Construir una ficha de estudiante con variables
 
 [![Nivel](https://img.shields.io/badge/Nivel-Principiante-brightgreen?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración-20_min-blue?style=flat-square)](#)
 [![Módulo](https://img.shields.io/badge/Módulo-Práctica-blue?style=flat-square)](#)
-[![Editor](https://img.shields.io/badge/Editor_principal-Replit-blueviolet?style=flat-square)](#)
+[![Editor](https://img.shields.io/badge/Editor-OnlineGDB-blueviolet?style=flat-square)](#)
 [![Sin_instalación](https://img.shields.io/badge/Sin_instalación-Navegador-lightgrey?style=flat-square)](#)
 
 </div>
 
-> **Laboratorio principal:** Replit pendiente.  
 > **Archivo base:** `starter-files/lesson-02-variables/Main.java`.  
 > **Solución de referencia:** `completed-examples/lesson-02-variables/`.
 
@@ -82,7 +81,7 @@ Resultado posible:
 ```text
 ```
 
-Es decir, puede no aparecer nada. Eso no significa que Replit esté roto; significa que todavía no hay instrucciones de impresión.
+Es decir, puede no aparecer nada. Eso no significa que OnlineGDB esté roto; significa que todavía no hay instrucciones de impresión.
 
 ---
 
@@ -524,7 +523,7 @@ public class Main {
 
 Tu práctica está lista cuando puedes mostrar:
 
-- código ejecutado en Replit;
+- código ejecutado en OnlineGDB;
 - al menos cinco variables;
 - al menos cuatro tipos usados;
 - salida ordenada con separadores;
@@ -577,7 +576,6 @@ En la Lección 03, esos datos servirán para tomar decisiones.
 **Siguiente:** [Quiz de comprensión](part-03-quiz.md)
 
 </div>
-
 
 
 

@@ -126,7 +126,7 @@ El bucle `while` ("mientras") evalúa una condición al inicio de cada iteració
 
 - [ ] a) El compilador detiene el programa marcando un error inmediato.
 - [ ] b) El programa termina automáticamente tras completar 100 iteraciones por seguridad.
-- [ ] c) Se genera un **bucle infinito**, el programa queda atrapado repitiendo el bloque sin parar y se puede congelar o requerir forzar su parada en Replit.
+- [ ] c) Se genera un **bucle infinito**, el programa queda atrapado repitiendo el bloque sin parar y se puede congelar o requerir forzar su parada en OnlineGDB.
 - [ ] d) El bucle se ignora por completo y pasa a la línea siguiente.
 
 <details>

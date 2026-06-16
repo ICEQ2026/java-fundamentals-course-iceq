@@ -11,7 +11,7 @@
 [![Nivel](https://img.shields.io/badge/Nivel-Principiante-brightgreen?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración-12_min-blue?style=flat-square)](#)
 [![Módulo](https://img.shields.io/badge/Módulo-Guion-orange?style=flat-square)](#)
-[![Herramienta](https://img.shields.io/badge/Herramienta-Replit-blueviolet?style=flat-square)](#)
+[![Herramienta](https://img.shields.io/badge/Editor-OnlineGDB-blueviolet?style=flat-square)](#)
 
 </div>
 
@@ -19,7 +19,7 @@
 
 ## Propósito del video
 
-El video debe explicar **clases, objetos, atributos, constructores y new** usando una demostración corta en Replit. La narración debe ser clara, técnica y cercana, sin convertir la sesión en una charla motivacional. La analogía principal será **un plano de arquitectura y las casas construidas desde ese plano**.
+El video debe explicar **clases, objetos, atributos, constructores y new** usando una demostración corta en OnlineGDB. La narración debe ser clara, técnica y cercana, sin convertir la sesión en una charla motivacional. La analogía principal será **un plano de arquitectura y las casas construidas desde ese plano**.
 
 | Campo | Valor |
 |---|---|
@@ -49,7 +49,7 @@ El video debe explicar **clases, objetos, atributos, constructores y new** usand
 
 ### Escena 2: código incorrecto controlado
 
-**Visual:** mostrar un error de compilación en Replit al intentar acceder directamente a un campo privado (ej: `firstPlayer.score = 50;` en `Main.java`).
+**Visual:** mostrar un error de compilación en OnlineGDB al intentar acceder directamente a un campo privado (ej: `firstPlayer.score = 50;` en `Main.java`).
 
 **Narración sugerida:**
 
@@ -67,7 +67,7 @@ El video debe explicar **clases, objetos, atributos, constructores y new** usand
 
 ### Escena 4: ejecución y comprobación
 
-**Visual:** ejecutar el programa en Replit, instanciando a "Valeria" y "Mateo", mostrando cómo cada objeto mantiene su puntaje de forma aislada.
+**Visual:** ejecutar el programa en OnlineGDB, instanciando a "Valeria" y "Mateo", mostrando cómo cada objeto mantiene su puntaje de forma aislada.
 
 **Narración sugerida:**
 

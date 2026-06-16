@@ -27,7 +27,7 @@
 - [ ] a) Cambiar el color de fondo de la consola de ejecución.
 - [ ] b) Reservar un espacio de memoria con un nombre asociado para guardar un dato que pueda ser usado o modificado más tarde.
 - [ ] c) Obligar al usuario a ingresar datos utilizando el teclado de forma obligatoria.
-- [ ] d) Comprimir el archivo Java para que ocupe menos espacio en el servidor de Replit.
+- [ ] d) Comprimir el archivo Java para que ocupe menos espacio en el servidor de OnlineGDB.
 
 <details>
 <summary>Ver respuesta</summary>
@@ -146,7 +146,7 @@ El tipo `boolean` (booleano) solo puede guardar dos valores lógicos posibles: `
 
 - [ ] a) Declarar reserva memoria y especifica el tipo; reasignar cambia su contenido sin volver a especificar el tipo.
 - [ ] b) Declarar solo funciona para texto; reasignar es exclusivo para números enteros.
-- [ ] c) La declaración se realiza en Replit y la reasignación en el navegador local del estudiante.
+- [ ] c) La declaración se realiza en OnlineGDB y la reasignación en el navegador local del estudiante.
 - [ ] d) No hay diferencia, ambas operaciones se escriben exactamente igual usando la palabra clave de tipo.
 
 <details>

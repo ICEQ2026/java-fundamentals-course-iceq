@@ -11,7 +11,7 @@
 [![Nivel](https://img.shields.io/badge/Nivel-Principiante-brightgreen?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración-10_min-blue?style=flat-square)](#)
 [![Módulo](https://img.shields.io/badge/Módulo-Solución-blue?style=flat-square)](#)
-[![Herramienta](https://img.shields.io/badge/Herramienta-Replit-blueviolet?style=flat-square)](#)
+[![Herramienta](https://img.shields.io/badge/Editor-OnlineGDB-blueviolet?style=flat-square)](#)
 
 </div>
 
@@ -25,12 +25,12 @@ Esta carpeta contiene una solución completa para la lección 03. Debe usarse de
 |---|---|
 | Tema | if, else, else if, operadores relacionales, for y break |
 | Producto | Reglas y repeticiones con número esperado |
-| Editor sugerido | Replit |
+| Editor sugerido | OnlineGDB |
 | Comparación recomendada | Revisar diferencias contra el código starter antes de copiar. |
 
 ## Cómo revisar la solución
 
-1. Abre los archivos Java de esta carpeta en Replit.
+1. Abre los archivos Java de esta carpeta en OnlineGDB.
 2. Ejecuta el programa sin modificarlo.
 3. Compara la salida con el objetivo de la práctica.
 4. Cambia un dato pequeño y vuelve a ejecutar.

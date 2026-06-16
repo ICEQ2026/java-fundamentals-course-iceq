@@ -10,7 +10,7 @@
 
 [![Curso](https://img.shields.io/badge/Curso-1ASI0729-blue?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración_aprox.-60_min-blueviolet?style=flat-square)](#)
-[![Plataforma](https://img.shields.io/badge/Plataforma-Replit-orange?style=flat-square)](#)
+[![Plataforma](https://img.shields.io/badge/Plataforma-OnlineGDB-orange?style=flat-square)](#)
 [![Audiencia](https://img.shields.io/badge/Audiencia-Principiantes-brightgreen?style=flat-square)](#)
 
 </div>
@@ -33,7 +33,7 @@ Este curso de aproximadamente 1 hora introduce a estudiantes de secundaria a la 
 - **Edad**: Estudiantes de 12 a 17 años.
 - **Experiencia**: Sin experiencia previa en programación o desarrollo de software.
 - **Prerrequisitos**: Solo necesitan saber usar un navegador web moderno (Chrome, Firefox, Safari, Edge).
-- **Estilo de aprendizaje**: Preferencia por resultados interactivos rápidos, explicaciones concisas con analogías y laboratorios guiados en Replit.
+- **Estilo de aprendizaje**: Preferencia por resultados interactivos rápidos, explicaciones concisas con analogías y laboratorios guiados en OnlineGDB.
 
 ---
 
@@ -53,7 +53,7 @@ java-fundamentals-course-iceq/
 │   ├── banner.png
 │   └── separator.png
 ├── docs/                              ← Guías y material del estudiante
-│   ├── replit-lab-guide.md            ← Guía de entorno Replit
+│   ├── online-editor-guide.md            ← Guía de entorno OnlineGDB
 │   ├── online-editor-links.md         ← Enlaces de editores alternativos
 │   ├── communication-style-guide.md   ← Guía de estilo de comunicación
 │   ├── reference-notes.md             ← Notas de referencia técnica
@@ -93,15 +93,15 @@ java-fundamentals-course-iceq/
 ## Orden recomendado
 
 1. Leer `course-plan.md`.
-2. Preparar el entorno con `docs/replit-lab-guide.md`.
+2. Preparar el entorno con `docs/online-editor-guide.md`.
 3. Estudiar cada lección desde `docs/lessons/`.
-4. Importar o copiar el código de `starter-files/` en Replit para trabajar la práctica.
+4. Importar o copiar el código de `starter-files/` en OnlineGDB para trabajar la práctica.
 5. Comparar la práctica terminada con `completed-examples/`.
 6. Resolver el quiz de autoevaluación correspondiente al final de cada lección.
 ---
 
 >[!NOTE]
-> **Cada carpeta de `starter-files` y `completed-examples` está pensada para copiarse y ejecutarse como un Repl independiente. Por eso varias lecciones tienen una clase `Main` en el default package. Si un IDE local intenta compilar todas las carpetas a la vez, puede marcar clases duplicadas; la validación correcta es compilar cada lección por separado.**
+> **Cada carpeta de `starter-files` y `completed-examples` está pensada para copiarse y ejecutarse como un proyecto independiente. Por eso varias lecciones tienen una clase `Main` en el default package. Si un IDE local intenta compilar todas las carpetas a la vez, puede marcar clases duplicadas; la validación correcta es compilar cada lección por separado.**
 
 ---
 
@@ -109,7 +109,7 @@ java-fundamentals-course-iceq/
 
 - Oracle Java Tutorials: Java Language Basics, Classes and Objects.
 - Dev.java: Learn Java Tutorials by Oracle.
-- Replit Docs: Workspace guide and Java project importing.
+- OnlineGDB Docs: Workspace guide and Java project importing.
 
 ---
 

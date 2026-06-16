@@ -11,13 +11,11 @@
 [![Nivel](https://img.shields.io/badge/Nivel-Intermedio_inicial-brightgreen?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración-12_min-blue?style=flat-square)](#)
 [![Módulo](https://img.shields.io/badge/Módulo-Práctica-blue?style=flat-square)](#)
-[![Editor](https://img.shields.io/badge/Editor_principal-Replit-blueviolet?style=flat-square)](#)
+[![Editor](https://img.shields.io/badge/Editor-OnlineGDB-blueviolet?style=flat-square)](#)
 [![Sin_instalación](https://img.shields.io/badge/Sin_instalación-Navegador-lightgrey?style=flat-square)](#)
 
 </div>
 
-> **Laboratorio principal:** Replit pendiente.  
-> **Editor de respaldo:** JDoodle.
 
 ---
 
@@ -25,7 +23,7 @@
   <img src="../../../assets/separator.png" alt="Separador visual del curso" width="100%">
 </p>
 
-## Laboratorio en Replit
+## Laboratorio en OnlineGDB
 
 La práctica convierte variables sueltas en un modelo simple. Es el puente entre programación básica y POO.
 
@@ -33,17 +31,14 @@ La práctica convierte variables sueltas en un modelo simple. Es el puente entre
 
 ### Preparación
 
-1. Abre el enlace de Replit de esta lección.
+1. Abre el enlace de OnlineGDB de esta lección.
 2. Verifica que el archivo principal sea `Main.java` o el archivo indicado en la práctica.
 3. Presiona **Run** una vez antes de editar.
 4. Lee la consola. Si aparece un error, úsalo como pista.
 
-> [!TIP]
-> **Editor de respaldo**: si Replit no está disponible, usa JDoodle copiando los archivos Java de esta carpeta. La entrega oficial debe mantener Replit como enlace principal.
-
 ## Trabajo paso a paso
 
-1. Abre el Repl de la lección 05.
+1. Abre el proyecto de la lección 05.
 2. En `Player.java`, agrega atributos `name` y `score`.
 3. Crea un constructor que reciba `name`.
 4. Agrega un método para mostrar estado.
@@ -66,12 +61,12 @@ Crea un segundo jugador con otro nombre. Ejecuta y explica por qué ambos objeto
 
 La práctica queda lista cuando puedes mostrar:
 
-- Una captura o ejecución visible en Replit.
+- Una captura o ejecución visible en OnlineGDB.
 - El código starter modificado con intención clara.
 - Una explicación breve del error más importante que corregiste.
 - Una frase que conecte esta lección con el proyecto final.
 
-## Revisión de archivos en Replit
+## Revisión de archivos en OnlineGDB
 
 Esta práctica usa más de un archivo. Antes de editar, confirma que ves:
 
@@ -455,14 +450,14 @@ public class Main {
 - [ ] `Main.java` crea un objeto `Player`.
 - [ ] `Main.java` llama un método del objeto.
 - [ ] Se crea al menos una `TreasureRoom`.
-- [ ] El programa compila en Replit.
+- [ ] El programa compila en OnlineGDB.
 - [ ] Puedes explicar clase vs objeto.
 
 ---
 
 ## Pregunta de cierre
 
-Si otra persona abre tu Repl, ¿podría entender qué cambiaste y por qué? Ajusta nombres, mensajes o comentarios si la respuesta es no.
+Si otra persona abre tu proyecto, ¿podría entender qué cambiaste y por qué? Ajusta nombres, mensajes o comentarios si la respuesta es no.
 
 ---
 
@@ -471,7 +466,6 @@ Si otra persona abre tu Repl, ¿podría entender qué cambiaste y por qué? Ajus
 **Siguiente:** [Quiz de comprensión](part-03-quiz.md)
 
 </div>
-
 
 
 

@@ -11,7 +11,7 @@
 [![Nivel](https://img.shields.io/badge/Nivel-Principiante-brightgreen?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración-9_min-blue?style=flat-square)](#)
 [![Módulo](https://img.shields.io/badge/Módulo-Guion-orange?style=flat-square)](#)
-[![Herramienta](https://img.shields.io/badge/Herramienta-Replit-blueviolet?style=flat-square)](#)
+[![Herramienta](https://img.shields.io/badge/Editor-OnlineGDB-blueviolet?style=flat-square)](#)
 
 </div>
 
@@ -19,7 +19,7 @@
 
 ## Propósito del video
 
-El video debe explicar **String, int, double, boolean y concatenación** usando una demostración corta en Replit. La narración debe ser clara, técnica y cercana, sin convertir la sesión en una charla motivacional. La analogía principal será **cajas fuertes etiquetadas para guardar cada tipo de dato**.
+El video debe explicar **String, int, double, boolean y concatenación** usando una demostración corta en OnlineGDB. La narración debe ser clara, técnica y cercana, sin convertir la sesión en una charla motivacional. La analogía principal será **cajas fuertes etiquetadas para guardar cada tipo de dato**.
 
 | Campo | Valor |
 |---|---|
@@ -49,7 +49,7 @@ El video debe explicar **String, int, double, boolean y concatenación** usando 
 
 ### Escena 2: código incorrecto controlado
 
-**Visual:** mostrar un error de discrepancia de tipos en Replit (por ejemplo, declarar `int age = "quince";`).
+**Visual:** mostrar un error de discrepancia de tipos en OnlineGDB (por ejemplo, declarar `int age = "quince";`).
 
 **Narración sugerida:**
 

@@ -11,13 +11,11 @@
 [![Nivel](https://img.shields.io/badge/Nivel-Básico-brightgreen?style=flat-square)](#)
 [![Duración](https://img.shields.io/badge/Duración-10_min-blue?style=flat-square)](#)
 [![Módulo](https://img.shields.io/badge/Módulo-Práctica-blue?style=flat-square)](#)
-[![Editor](https://img.shields.io/badge/Editor_principal-Replit-blueviolet?style=flat-square)](#)
+[![Editor](https://img.shields.io/badge/Editor-OnlineGDB-blueviolet?style=flat-square)](#)
 [![Sin_instalación](https://img.shields.io/badge/Sin_instalación-Navegador-lightgrey?style=flat-square)](#)
 
 </div>
 
-> **Laboratorio principal:** Replit pendiente.  
-> **Editor de respaldo:** OnlineGDB.
 
 ---
 
@@ -25,25 +23,22 @@
   <img src="../../../assets/separator.png" alt="Separador visual del curso" width="100%">
 </p>
 
-## Laboratorio en Replit
+## Laboratorio en OnlineGDB
 
 La calculadora es pequeña, pero enseña dos ideas centrales para cualquier programa de consola: leer datos y separar acciones repetibles.
 
-**Reto central:** Crear una calculadora mínima en Replit.
+**Reto central:** Crear una calculadora mínima en OnlineGDB.
 
 ### Preparación
 
-1. Abre el enlace de Replit de esta lección.
+1. Abre el enlace de OnlineGDB de esta lección.
 2. Verifica que el archivo principal sea `Main.java` o el archivo indicado en la práctica.
 3. Presiona **Run** una vez antes de editar.
 4. Lee la consola. Si aparece un error, úsalo como pista.
 
-> [!TIP]
-> **Editor de respaldo**: si Replit no está disponible, usa OnlineGDB copiando los archivos Java de esta carpeta. La entrega oficial debe mantener Replit como enlace principal.
-
 ## Trabajo paso a paso
 
-1. Abre el Repl de la lección 04.
+1. Abre el proyecto de la lección 04.
 2. Crea `printStartMessage`.
 3. Lee un número entero con `scanner.nextInt()`.
 4. Crea un método `add(int a, int b)`.
@@ -66,7 +61,7 @@ Agrega un método `multiply(int a, int b)` y muestra suma y multiplicación sin 
 
 La práctica queda lista cuando puedes mostrar:
 
-- Una captura o ejecución visible en Replit.
+- Una captura o ejecución visible en OnlineGDB.
 - El código starter modificado con intención clara.
 - Una explicación breve del error más importante que corregiste.
 - Una frase que explique cómo los métodos ordenan un programa.
@@ -465,7 +460,7 @@ Esta práctica es el puente entre programas que solo muestran información y pro
 
 ## Pregunta de cierre
 
-Si otra persona abre tu Repl, ¿podría entender qué cambiaste y por qué? Ajusta nombres, mensajes o comentarios si la respuesta es no.
+Si otra persona abre tu proyecto, ¿podría entender qué cambiaste y por qué? Ajusta nombres, mensajes o comentarios si la respuesta es no.
 
 ---
 
@@ -474,7 +469,6 @@ Si otra persona abre tu Repl, ¿podría entender qué cambiaste y por qué? Ajus
 **Siguiente:** [Quiz de comprensión](part-03-quiz.md)
 
 </div>
-
 
 
 
