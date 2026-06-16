@@ -18,8 +18,8 @@
 
 > **Archivo base:** `starter-files/lesson-04-methods/Main.java`  
 > **Solución de referencia:** `completed-examples/lesson-04-methods/`  
-> **Editor Online (Código Inicial):** [Abrir en OnlineGDB](https://onlinegdb.com/pxzwmg4HCT)  
-> **Editor Online (Solución Completa):** [Ver en OnlineGDB](https://onlinegdb.com/hyRNtdXKv)
+> **Editor Online (Código Inicial):** [Abrir en OnlineGDB](https://onlinegdb.com/FKkblaXeZ)  
+> **Editor Online (Solución Completa):** [Ver en OnlineGDB](https://onlinegdb.com/scclTR8f2)
 
 ---
 

@@ -18,8 +18,8 @@
 
 > **Archivo base:** `starter-files/lesson-02-variables/Main.java`  
 > **Solución de referencia:** `completed-examples/lesson-02-variables/`  
-> **Editor Online (Código Inicial):** [Abrir en OnlineGDB](https://onlinegdb.com/G0VVqt0sSv)  
-> **Editor Online (Solución Completa):** [Ver en OnlineGDB](https://onlinegdb.com/yc3WSrvTqB)
+> **Editor Online (Código Inicial):** [Abrir en OnlineGDB](https://onlinegdb.com/YfvQXps3Q)  
+> **Editor Online (Solución Completa):** [Ver en OnlineGDB](https://onlinegdb.com/EwwhQb_U9)
 
 ---
 

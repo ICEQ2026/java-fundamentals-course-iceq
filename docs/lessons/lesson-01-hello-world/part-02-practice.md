@@ -18,8 +18,8 @@
 
 > **Archivo base:** `starter-files/lesson-01-hello-world/Main.java`  
 > **Solución de referencia:** `completed-examples/lesson-01-hello-world/`  
-> **Editor Online (Código Inicial):** [Abrir en OnlineGDB](https://onlinegdb.com/zJHD1Wz0m)  
-> **Editor Online (Solución Completa):** [Ver en OnlineGDB](https://onlinegdb.com/Fg58fCBH0)
+> **Editor Online (Código Inicial):** [Abrir en OnlineGDB](https://onlinegdb.com/MSGkbKeOb)  
+> **Editor Online (Solución Completa):** [Ver en OnlineGDB](https://onlinegdb.com/H6-MG2_jr)
 
 ---
 
