@@ -16,8 +16,10 @@
 
 </div>
 
-> **Archivo base:** `starter-files/lesson-01-hello-world/Main.java`.  
-> **Solución de referencia:** `completed-examples/lesson-01-hello-world/`.
+> **Archivo base:** `starter-files/lesson-01-hello-world/Main.java`  
+> **Solución de referencia:** `completed-examples/lesson-01-hello-world/`  
+> **Editor Online (Código Inicial):** [Abrir en OnlineGDB](https://onlinegdb.com/zJHD1Wz0m)  
+> **Editor Online (Solución Completa):** [Ver en OnlineGDB](https://onlinegdb.com/Fg58fCBH0)
 
 ---
 
@@ -69,15 +71,15 @@ Antes de tocar código, identifica estas zonas:
 ```text
 OnlineGDB
  |
- |-- Files / Archivos
+ |-- Pestañas superiores (Archivos)
  |     |
  |     |-- Main.java
  |
- |-- Editor
+ |-- Editor de código (debajo de pestañas)
  |     |
  |     |-- aquí escribes Java
  |
- |-- Console / Terminal
+ |-- Consola / Terminal (parte inferior)
        |
        |-- aquí ves la salida
 ```

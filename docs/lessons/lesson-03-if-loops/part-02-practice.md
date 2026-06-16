@@ -16,6 +16,10 @@
 
 </div>
 
+> **Archivo base:** `starter-files/lesson-03-if-loops/Main.java`  
+> **Solución de referencia:** `completed-examples/lesson-03-if-loops/`  
+> **Editor Online (Código Inicial):** [Abrir en OnlineGDB](https://onlinegdb.com/EMJ9EMkiw)  
+> **Editor Online (Solución Completa):** [Ver en OnlineGDB](https://onlinegdb.com/Zfjyzahnl)
 
 ---
 

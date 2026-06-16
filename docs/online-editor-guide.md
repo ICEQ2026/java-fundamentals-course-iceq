@@ -19,6 +19,15 @@ OnlineGDB es el editor principal del curso porque permite escribir y ejecutar Ja
 4. Presiona el botón **Run** (o la tecla **F9**) en el menú superior para compilar y ejecutar tu programa.
 5. La consola de entrada y salida se abrirá en la parte inferior de la pantalla.
 
+## Proyectos con múltiples archivos (Pestañas superiores)
+
+A partir de la lección 05, tus prácticas y soluciones contendrán más de un archivo `.java` (por ejemplo, `Main.java`, `Player.java`, `TreasureRoom.java`).
+
+En OnlineGDB, estos archivos se visualizan y editan a través de **pestañas superiores** ubicadas justo encima del editor de código:
+1. Haz clic en la pestaña de cada archivo para abrir su código y editarlo.
+2. Al presionar **Run** (o la tecla **F9**), OnlineGDB compilará automáticamente todos los archivos presentes en las pestañas de forma conjunta.
+3. Asegúrate de tener abiertos los archivos correctos y no renombrar las clases públicas dentro de ellos para evitar errores de vinculación.
+
 ## Regla de `Main.java`
 
 En Java, un archivo con una clase pública debe tener el mismo nombre que esa clase. En OnlineGDB, la clase por defecto es `Main` y debe estar contenida en el archivo principal `Main.java`.

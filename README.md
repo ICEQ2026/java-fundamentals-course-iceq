@@ -53,8 +53,8 @@ java-fundamentals-course-iceq/
 │   ├── banner.png
 │   └── separator.png
 ├── docs/                              ← Guías y material del estudiante
-│   ├── online-editor-guide.md            ← Guía de entorno OnlineGDB
-│   ├── online-editor-links.md         ← Enlaces de editores alternativos
+│   ├── online-editor-guide.md         ← Guía de entorno OnlineGDB
+│   ├── labs-links.md                  ← Enlaces a laboratorios online
 │   ├── communication-style-guide.md   ← Guía de estilo de comunicación
 │   ├── reference-notes.md             ← Notas de referencia técnica
 │   └── lessons/                       ← Lecciones y laboratorios

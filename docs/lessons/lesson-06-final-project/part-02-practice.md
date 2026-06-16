@@ -16,6 +16,10 @@
 
 </div>
 
+> **Archivo base:** `starter-files/lesson-06-final-project/`  
+> **Solución de referencia:** `completed-examples/lesson-06-final-project/`  
+> **Editor Online (Código Inicial):** [Abrir en OnlineGDB](https://onlinegdb.com/XHGqJGZS1)  
+> **Editor Online (Solución Completa):** [Ver en OnlineGDB](https://onlinegdb.com/pWuLq2jfj)
 
 ---
 

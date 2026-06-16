@@ -67,32 +67,34 @@ Mantener esos límites hace que el curso sea más realista. Un buen curso introd
 
 OnlineGDB será el entorno principal del curso porque cumple el requisito central del enunciado: solo necesitas un navegador. No se instalará Java localmente y no se pedirá configurar IntelliJ, Eclipse o Visual Studio Code.
 
-Cuando abres OnlineGDB para Java, normalmente verás tres zonas:
+Cuando abres OnlineGDB para Java, normalmente verás tres zonas principales:
 
 ```text
 +---------------------------------------------------------------+
-| Panel de archivos       | Editor de código                    |
-|                         |                                     |
-| Main.java               | public class Main {                 |
-|                         |     public static void main(...) {  |
-|                         |         ...                         |
-|                         |     }                               |
-|                         | }                                   |
-+-------------------------+-------------------------------------+
-| Consola / Terminal                                            |
-| Aquí aparece el resultado cuando presionas Run                 |
+| [Fork this] [Run] [Debug] ...                  Language: Java |
++---------------------------------------------------------------+
+| Main.java                                                     |
++---------------------------------------------------------------+
+| 1 | public class Main {                                       |
+| 2 |     public static void main(String[] args) {              |
+| 3 |         System.out.println("Hola");                       |
+| 4 |     }                                                     |
+| 5 | }                                                         |
++---------------------------------------------------------------+
+| Consola (input/output)                                        |
+| Aquí aparece el resultado cuando presionas Run                |
 +---------------------------------------------------------------+
 ```
 
-### Zona 1: panel de archivos
+### Zona 1: pestañas de archivos
 
-El panel de archivos muestra qué documentos forman parte del proyecto. Para esta lección nos interesa `Main.java`.
+En la parte superior del editor verás pestañas con los nombres de los archivos abiertos (como `Main.java`). En lecciones posteriores que utilicen varios archivos, podrás hacer clic en cada pestaña para navegar entre ellos.
 
-El nombre importa. En Java, si una clase pública se llama `Main`, el archivo debe llamarse `Main.java`. Este detalle parece pequeño, pero aparece en errores reales de compilación.
+El nombre del archivo importa. En Java, si una clase pública se llama `Main`, el archivo debe llamarse `Main.java` (y estar seleccionado en su pestaña correspondiente). Este detalle parece pequeño, pero aparece en errores reales de compilación.
 
-### Zona 2: editor
+### Zona 2: editor de código
 
-El editor es el espacio donde se escribe código. Es parecido a un documento de texto, pero con reglas más estrictas:
+El editor es el espacio de escritura principal ubicado debajo de las pestañas. Es parecido a un procesador de textos, pero con reglas y colores estructurados:
 
 - las mayúsculas importan;
 - las comillas importan;
@@ -529,12 +531,15 @@ Este mapa ayuda a explicar que no todo está al mismo nivel. La instrucción viv
 En esta lección conviene reconocer tres zonas del entorno:
 
 ```text
-[1] Archivos        [2] Editor
-Main.java           public class Main {
-                        ...
-                    }
+[1] Pestañas (Archivos)
+Main.java
 
-[3] Consola
+[2] Editor (debajo de las pestañas)
+public class Main {
+    ...
+}
+
+[3] Consola (parte inferior)
 Hola Java desde OnlineGDB
 ```
 
