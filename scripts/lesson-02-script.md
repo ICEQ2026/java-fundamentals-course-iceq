@@ -27,19 +27,42 @@ El video debe explicar **String, int, double, boolean y concatenación** usando 
 | Producto visible | Ficha de estudiante |
 | Archivo de partida | `starter-files/lesson-02-variables` |
 | Solución de referencia | `completed-examples/lesson-02-variables` |
+| Material de teoría | [Lesson_2.pptx](https://docs.google.com/presentation/d/1DMUItfF_qLu5PUPS6NUGM_Ll2nKlG6adixuTCp2YK7s/edit?usp=sharing) |
+
+## Reparto del tiempo
+
+| Bloque | Duración aprox. | Pantalla |
+|---|---|---|
+| Bloque A — Teoría con diapositivas | 4.5 min (mitad) | Presentación `Lesson_2.pptx` completa, de la primera a la última diapositiva |
+| Bloque B — Codificación en vivo | 4.5 min (mitad) | OnlineGDB, escenas 1 a 5 de este guion |
+
+> La persona que grabe debe abrir [Lesson_2.pptx](https://docs.google.com/presentation/d/1DMUItfF_qLu5PUPS6NUGM_Ll2nKlG6adixuTCp2YK7s/edit?usp=sharing) en Google Slides, compartir pantalla en modo presentación y recorrerla completa antes de abrir OnlineGDB. Solo al terminar la última diapositiva se cambia de pantalla para iniciar el Bloque B.
 
 ## Estructura de pantalla
 
 | Zona | Uso |
 |---|---|
-| Editor online | Mostrar código, errores y ejecución. |
+| Diapositivas (Bloque A) | Explicar teoría: variables, tipos primitivos, declaración, camelCase y concatenación, apoyándose en `Lesson_2.pptx`. |
+| Editor online (Bloque B) | Mostrar código, errores y ejecución. |
 | Consola | Evidenciar salida o mensaje de error. |
 | Narración | Explicar intención, regla y corrección. |
 | Texto breve en pantalla | Mostrar solo nombres de conceptos y pasos. |
 
 ## Guion por escenas
 
-### Escena 1: contexto del problema
+### Bloque A — Teoría con diapositivas
+
+**Visual:** presentación `Lesson_2.pptx` en modo presentación, de inicio a fin.
+
+**Narración sugerida:**
+
+> Antes de tocar el editor, vamos a ver con calma qué es una variable, qué tipos primitivos existen en Java, cómo se estructura una declaración y por qué usamos camelCase para nombrar variables. Recorre cada diapositiva explicando el concepto que muestra y, si la diapositiva trae un ejemplo de código, léelo en voz alta señalando cada parte antes de pasar a la siguiente.
+
+**Punto didáctico:** este bloque es expositivo, sin editor de código en pantalla. Sirve para que la persona que mira entienda el "por qué" antes del "cómo".
+
+### Bloque B — Codificación en vivo en OnlineGDB
+
+#### Escena 1: contexto del problema
 
 **Visual:** editor online abierto, sin ejecutar todavía.
 
@@ -47,7 +70,7 @@ El video debe explicar **String, int, double, boolean y concatenación** usando 
 
 > En esta lección vamos a trabajar String, int, double, boolean y concatenación. Antes de escribir código, conviene entender qué problema estamos resolviendo: necesitamos producir Ficha de estudiante. Usaremos una comparación simple: cajas fuertes etiquetadas para guardar cada tipo de dato. Esa imagen nos ayudará a ubicar cada instrucción dentro del programa.
 
-### Escena 2: código incorrecto controlado
+#### Escena 2: código incorrecto controlado
 
 **Visual:** mostrar un error de discrepancia de tipos en OnlineGDB (por ejemplo, declarar `int age = "quince";`).
 
@@ -57,7 +80,7 @@ El video debe explicar **String, int, double, boolean y concatenación** usando 
 
 **Punto didáctico:** señalar el error en la consola, explicar la diferencia entre números enteros y texto con comillas, y por qué falló la compilación.
 
-### Escena 3: construcción de la solución mínima
+#### Escena 3: construcción de la solución mínima
 
 **Visual:** corregir la asignación a `int age = 15;` y declarar variables adicionales (`String studentName`, `double averageGrade`, `boolean active`).
 
@@ -65,7 +88,7 @@ El video debe explicar **String, int, double, boolean y concatenación** usando 
 
 > Para resolverlo, asignamos el valor numérico `15` a nuestra variable `age`. Además, declaramos `studentName` como `String` para textos, `averageGrade` como `double` para decimales y `active` como `boolean` para valores lógicos de verdadero o falso. Ahora cada caja fuerte tiene la etiqueta y el contenido correspondiente.
 
-### Escena 4: ejecución y comprobación
+#### Escena 4: ejecución y comprobación
 
 **Visual:** imprimir los datos en la consola usando la concatenación con el operador `+`. Ejecutar y ver los datos mostrados con etiquetas claras.
 
@@ -73,7 +96,7 @@ El video debe explicar **String, int, double, boolean y concatenación** usando 
 
 > Ahora unimos nuestros datos usando el operador `+` para la concatenación, por ejemplo: `"Nombre: " + studentName`. Al presionar **Run**, la consola imprime una hermosa ficha del estudiante con etiquetas legibles. Los datos dinámicos guardados en memoria ahora son visibles en la interfaz.
 
-### Escena 5: cierre técnico
+#### Escena 5: cierre técnico
 
 **Visual:** mostrar la sección de criterios de éxito de la práctica 2.
 
@@ -85,6 +108,8 @@ El video debe explicar **String, int, double, boolean y concatenación** usando 
 
 | Revisión | Estado |
 |---|---|
+| Se presenta `Lesson_2.pptx` completa antes de abrir el editor. | |
+| El Bloque A (teoría) y el Bloque B (código) ocupan, cada uno, aproximadamente la mitad del tiempo objetivo. | |
 | Se muestra el editor online indicado. | |
 | Se lee un error real o un error preparado. | |
 | Se explica el porqué antes de mostrar la solución. | |
