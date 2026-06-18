@@ -17,6 +17,56 @@
 
 ---
 
+## 📖 Lecciones
+
+| # | Lección | ⏱ | 🟢 Código inicial | ✅ Solución completa |
+|---|---|---|---|---|
+| 1 | Introducción a Java y sintaxis básica | 8 min | [Abrir](https://onlinegdb.com/MSGkbKeOb) | [Ver](https://onlinegdb.com/H6-MG2_jr) |
+| 2 | Operadores y estructuras de control | 7 min | [Abrir](https://onlinegdb.com/YfvQXps3Q) | [Ver](https://onlinegdb.com/EwwhQb_U9) |
+| 3 | Métodos y Entrada/Salida | 5 min | [Abrir](https://onlinegdb.com/FUVtXESMU) | [Ver](https://onlinegdb.com/HxXhlHg1V) |
+| 4 | Introducción a la POO: clases, objetos y constructores | 14 min | [Abrir](https://onlinegdb.com/FKkblaXeZ) | [Ver](https://onlinegdb.com/scclTR8f2) |
+| 5 | POO básica y estructuras de datos simples | 5 min | [Abrir](https://onlinegdb.com/ByDi4BB5V) | [Ver](https://onlinegdb.com/sbQ0jDP3x) |
+| 6 | Proyecto POO y próximos pasos | 14 min | [Abrir](https://onlinegdb.com/5iZQLdbuT) | [Ver](https://onlinegdb.com/7kkveYhAi_) |
+
+---
+
+### Lección 1: Introducción a Java y sintaxis básica (8 minutos)
+**Descripción**: Qué es la programación, qué es Java, para qué se usa y cómo funcionan las variables y los tipos de datos.
+**Ver diapositivas**: [Google Slides](https://docs.google.com/presentation/d/1sprmNEi_l7CcgXUW5FXiSdLdRUQjF06H-bfKQ30MYj0/edit?usp=sharing)
+**Conclusiones clave**: Java se usa en muchas aplicaciones; las variables permiten almacenar datos en un programa.
+**Práctica**: [Código inicial](https://onlinegdb.com/MSGkbKeOb) 👈 ¡Inicio inmediato! · [Solución completa](https://onlinegdb.com/H6-MG2_jr)
+
+### Lección 2: Operadores y estructuras de control (7 minutos)
+**Descripción**: Aprende a usar operadores aritméticos y lógicos, sentencias if-else y bucles como for y while.
+**Ver diapositivas**: [Google Slides](https://docs.google.com/presentation/d/1DMUItfF_qLu5PUPS6NUGM_Ll2nKlG6adixuTCp2YK7s/edit?slide=id.p1)
+**Conclusiones clave**: Los operadores permiten hacer cálculos y comparaciones; las estructuras de control permiten tomar decisiones y repetir acciones.
+**Práctica**: [Código inicial](https://onlinegdb.com/YfvQXps3Q) 👈 ¡Inicio inmediato! · [Solución completa](https://onlinegdb.com/EwwhQb_U9)
+
+### Lección 3: Métodos y Entrada/Salida (5 minutos)
+**Descripción**: Crea métodos reutilizables, organiza tu código y usa la entrada por consola con Scanner.
+**Ver diapositivas**: [Google Slides](https://docs.google.com/presentation/d/1ALH1pRKjewmX0ygyONVt7DwzcqxJeEGRN0p28dCHrG8/edit?slide=id.p2)
+**Conclusiones clave**: Los métodos ayudan a dividir el código en partes reutilizables; la entrada/salida permite interactuar con el usuario.
+**Práctica**: [Código inicial](https://onlinegdb.com/FUVtXESMU) 👈 ¡Inicio inmediato! · [Solución completa](https://onlinegdb.com/HxXhlHg1V)
+
+### Lección 4: Introducción a la POO: clases, objetos y constructores (14 minutos)
+**Descripción**: Introducción a la Programación Orientada a Objetos: definición de clases, creación de objetos y uso de constructores.
+**Ver diapositivas**: [Google Slides](https://docs.google.com/presentation/d/1IPBxFwuU-O2OF1JNLGSi1J6Ta6m7MVzgdIubuaqNOGM/edit?slide=id.p1)
+**Conclusiones clave**: Una clase define la estructura de un objeto; los objetos combinan datos y comportamiento.
+**Práctica**: [Código inicial](https://onlinegdb.com/FKkblaXeZ) 👈 ¡Inicio inmediato! · [Solución completa](https://onlinegdb.com/scclTR8f2)
+
+### Lección 5: POO básica y estructuras de datos simples (5 minutos)
+**Descripción**: Aplica encapsulación con getters y setters y trabaja con arrays de objetos para organizar la información.
+**Ver diapositivas**: [Google Slides](https://docs.google.com/presentation/d/1raVBHI2qWbQCTI_lIZZjC_1B1Wn4pghPyYe1Qa-oe00/edit?slide=id.p1)
+**Conclusiones clave**: La encapsulación protege los datos; los arrays permiten manejar colecciones de objetos.
+**Práctica**: [Código inicial](https://onlinegdb.com/ByDi4BB5V) 👈 ¡Inicio inmediato! · [Solución completa](https://onlinegdb.com/sbQ0jDP3x)
+
+### Lección 6: Proyecto POO y próximos pasos (14 minutos)
+**Descripción**: Integra todo lo aprendido en un programa sencillo orientado a objetos, revisa buenas prácticas y dónde seguir aprendiendo.
+**Conclusiones clave**: Aprender a crear un proyecto en POO, explorar la documentación oficial de Java.
+**Práctica**: [Código inicial](https://onlinegdb.com/5iZQLdbuT) 👈 ¡Inicio inmediato! · [Solución completa](https://onlinegdb.com/7kkveYhAi_)
+
+---
+
 ## Resumen
 
 Este curso de aproximadamente 1 hora introduce a estudiantes de secundaria a la programación y a la Programación Orientada a Objetos (POO) usando Java. **No requiere descargas ni instalaciones.** Solo abre tu navegador web.
@@ -98,7 +148,6 @@ java-fundamentals-course-iceq/
 4. Importar o copiar el código de `starter-files/` en OnlineGDB para trabajar la práctica.
 5. Comparar la práctica terminada con `completed-examples/`.
 6. Resolver el quiz de autoevaluación correspondiente al final de cada lección.
----
 
 >[!NOTE]
 > **Cada carpeta de `starter-files` y `completed-examples` está pensada para copiarse y ejecutarse como un proyecto independiente. Por eso varias lecciones tienen una clase `Main` en el default package. Si un IDE local intenta compilar todas las carpetas a la vez, puede marcar clases duplicadas; la validación correcta es compilar cada lección por separado.**
