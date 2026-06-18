@@ -27,19 +27,42 @@ El video debe explicar **estructura mínima, método main y salida con System.ou
 | Producto visible | Mensaje en consola |
 | Archivo de partida | `starter-files/lesson-01-hello-world` |
 | Solución de referencia | `completed-examples/lesson-01-hello-world` |
+| Material de teoría | [Lesson_1.pptx](https://docs.google.com/presentation/d/1sprmNEi_l7CcgXUW5FXiSdLdRUQjF06H-bfKQ30MYj0/edit?usp=sharing) |
+
+## Reparto del tiempo
+
+| Bloque | Duración aprox. | Pantalla |
+|---|---|---|
+| Bloque A — Teoría con diapositivas | 3.5 min (mitad) | Presentación `Lesson_1.pptx` completa, de la primera a la última diapositiva |
+| Bloque B — Codificación en vivo | 3.5 min (mitad) | OnlineGDB, escenas 1 a 5 de este guion |
+
+> La persona que grabe debe abrir [Lesson_1.pptx](https://docs.google.com/presentation/d/1sprmNEi_l7CcgXUW5FXiSdLdRUQjF06H-bfKQ30MYj0/edit?usp=sharing) en Google Slides, compartir pantalla en modo presentación y recorrerla completa antes de abrir OnlineGDB. Solo al terminar la última diapositiva se cambia de pantalla para iniciar el Bloque B.
 
 ## Estructura de pantalla
 
 | Zona | Uso |
 |---|---|
-| Editor online | Mostrar código, errores y ejecución. |
+| Diapositivas (Bloque A) | Explicar teoría: estructura mínima, clase, método main y System.out.println, apoyándose en `Lesson_1.pptx`. |
+| Editor online (Bloque B) | Mostrar código, errores y ejecución. |
 | Consola | Evidenciar salida o mensaje de error. |
 | Narración | Explicar intención, regla y corrección. |
 | Texto breve en pantalla | Mostrar solo nombres de conceptos y pasos. |
 
 ## Guion por escenas
 
-### Escena 1: contexto del problema
+### Bloque A — Teoría con diapositivas
+
+**Visual:** presentación `Lesson_1.pptx` en modo presentación, de inicio a fin.
+
+**Narración sugerida:**
+
+> Antes de tocar el editor, vamos a ver con calma qué necesita un programa en Java para funcionar: la estructura mínima, la clase, el método main como punto de entrada y cómo mostramos un mensaje con System.out.println. Recorre cada diapositiva explicando el concepto que muestra y, si la diapositiva trae un ejemplo de código, léelo en voz alta señalando cada parte antes de pasar a la siguiente.
+
+**Punto didáctico:** este bloque es expositivo, sin editor de código en pantalla. Sirve para que la persona que mira entienda el "por qué" antes del "cómo".
+
+### Bloque B — Codificación en vivo en OnlineGDB
+
+#### Escena 1: contexto del problema
 
 **Visual:** editor online abierto, sin ejecutar todavía.
 
@@ -47,7 +70,7 @@ El video debe explicar **estructura mínima, método main y salida con System.ou
 
 > En esta lección vamos a trabajar estructura mínima, método main y salida con System.out.println. Antes de escribir código, conviene entender qué problema estamos resolviendo: necesitamos producir Mensaje en consola. Usaremos una comparación simple: un director de escena que ordena cuándo empieza la función. Esa imagen nos ayudará a ubicar cada instrucción dentro del programa.
 
-### Escena 2: código incorrecto controlado
+#### Escena 2: código incorrecto controlado
 
 **Visual:** mostrar el bloque de código incorrecto (falta de punto y coma en System.out.println) en OnlineGDB.
 
@@ -57,7 +80,7 @@ El video debe explicar **estructura mínima, método main y salida con System.ou
 
 **Punto didáctico:** señalar la línea marcada por el compilador, resaltar el símbolo faltante y explicar que el compilador ayuda a corregir.
 
-### Escena 3: construcción de la solución mínima
+#### Escena 3: construcción de la solución mínima
 
 **Visual:** agregar el punto y coma al final de la línea e inspeccionar la clase Main y el método main.
 
@@ -65,7 +88,7 @@ El video debe explicar **estructura mínima, método main y salida con System.ou
 
 > Corregimos el error simplemente colocando el punto y coma al final de `System.out.println("Hello, World")`. Nota que todo nuestro código vive dentro de la clase `Main`, la cual debe llamarse exactamente igual que nuestro archivo `Main.java`. Además, está envuelto en el bloque `public static void main`, que funciona como el punto de inicio que Java busca para ejecutar el programa.
 
-### Escena 4: ejecución y comprobación
+#### Escena 4: ejecución y comprobación
 
 **Visual:** presionar el botón **Run** y ver "Hello, World" en la consola. Luego, cambiar el texto a "Bienvenido a Java" y ejecutar de nuevo.
 
@@ -73,7 +96,7 @@ El video debe explicar **estructura mínima, método main y salida con System.ou
 
 > Al presionar **Run**, la consola muestra limpiamente nuestro mensaje. ¡Nuestra primera compilación exitosa! Ahora hagamos una prueba de control: cambiemos el texto entre las comillas dobles por "Bienvenido a Java" y ejecutemos de nuevo. La salida cambia inmediatamente, demostrando que controlamos el flujo de salida.
 
-### Escena 5: cierre técnico
+#### Escena 5: cierre técnico
 
 **Visual:** mostrar la sección de criterios de éxito de la práctica 1.
 
@@ -85,6 +108,8 @@ El video debe explicar **estructura mínima, método main y salida con System.ou
 
 | Revisión | Estado |
 |---|---|
+| Se presenta `Lesson_1.pptx` completa antes de abrir el editor. | |
+| El Bloque A (teoría) y el Bloque B (código) ocupan, cada uno, aproximadamente la mitad del tiempo objetivo. | |
 | Se muestra el editor online indicado. | |
 | Se lee un error real o un error preparado. | |
 | Se explica el porqué antes de mostrar la solución. | |
