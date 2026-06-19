@@ -8,7 +8,7 @@ OnlineGDB es la herramienta principal para todas las prácticas.
 | 02 | [Abrir Editor](https://onlinegdb.com/YfvQXps3Q) | [Ver Solución](https://onlinegdb.com/EwwhQb_U9) |
 | 03 | [Abrir Editor](https://onlinegdb.com/FUVtXESMU) | [Ver Solución](https://onlinegdb.com/HxXhlHg1V) |
 | 04 | [Abrir Editor](https://onlinegdb.com/FKkblaXeZ) | [Ver Solución](https://onlinegdb.com/scclTR8f2) |
-| 05 | [Abrir Editor](https://onlinegdb.com/ByDi4BB5V) | [Ver Solución](https://onlinegdb.com/sbQ0jDP3x) |
+| 05 | [Abrir Editor](https://onlinegdb.com/aF2E2zbVy) | [Ver Solución](https://onlinegdb.com/sbQ0jDP3x) |
 | 06 | [Abrir Editor](https://onlinegdb.com/5iZQLdbuT) | [Ver Solución](https://onlinegdb.com/7kkveYhAi_) |
 
 ## Cómo usar esta tabla

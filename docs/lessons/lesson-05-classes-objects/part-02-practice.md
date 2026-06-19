@@ -18,7 +18,7 @@
 
 > **Archivo base:** `starter-files/lesson-05-classes-objects/`  
 > **Solución de referencia:** `completed-examples/lesson-05-classes-objects/`  
-> **Editor Online (Código Inicial):** [Abrir en OnlineGDB](https://onlinegdb.com/ByDi4BB5V)  
+> **Editor Online (Código Inicial):** [Abrir en OnlineGDB](https://onlinegdb.com/aF2E2zbVy)  
 > **Editor Online (Solución Completa):** [Ver en OnlineGDB](https://onlinegdb.com/sbQ0jDP3x)
 
 ---

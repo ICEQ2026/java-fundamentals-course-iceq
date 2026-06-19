@@ -98,7 +98,7 @@ java-fundamentals-course-iceq/
 | 2 | Variables y tipos de datos | 9 min | [Ver](https://www.youtube.com/watch?v=4YTVcC-n2tQ&list=PLM5eBAr4_g1ksPKCGROWekvWAVdQ5rjv3) | [Abrir](https://onlinegdb.com/YfvQXps3Q) | [Ver](https://onlinegdb.com/EwwhQb_U9) |
 | 3 | Condiciones y bucles | 10 min | [Ver](https://www.youtube.com/watch?v=dxSWsmNYXAg&list=PLM5eBAr4_g1ksPKCGROWekvWAVdQ5rjv3) | [Abrir](https://onlinegdb.com/FUVtXESMU) | [Ver](https://onlinegdb.com/HxXhlHg1V) |
 | 4 | Métodos y entrada por consola | 10 min | [Ver](https://www.youtube.com/watch?v=TdgOCwKrJVg&list=PLM5eBAr4_g1ksPKCGROWekvWAVdQ5rjv3) | [Abrir](https://onlinegdb.com/FKkblaXeZ) | [Ver](https://onlinegdb.com/scclTR8f2) |
-| 5 | Clases y objetos | 12 min | [Ver](https://www.youtube.com/watch?v=wzFHXIOHsT0&list=PLM5eBAr4_g1ksPKCGROWekvWAVdQ5rjv3) | [Abrir](https://onlinegdb.com/ByDi4BB5V) | [Ver](https://onlinegdb.com/sbQ0jDP3x) |
+| 5 | Clases y objetos | 12 min | [Ver](https://www.youtube.com/watch?v=wzFHXIOHsT0&list=PLM5eBAr4_g1ksPKCGROWekvWAVdQ5rjv3) | [Abrir](https://onlinegdb.com/aF2E2zbVy) | [Ver](https://onlinegdb.com/sbQ0jDP3x) |
 | 6 | Encapsulación y proyecto final | 12 min | [Ver](https://www.youtube.com/watch?v=sjAOKtgyEWQ&list=PLM5eBAr4_g1ksPKCGROWekvWAVdQ5rjv3) | [Abrir](https://onlinegdb.com/5iZQLdbuT) | [Ver](https://onlinegdb.com/7kkveYhAi_) |
 
 <br>
@@ -149,7 +149,7 @@ java-fundamentals-course-iceq/
 - **Ver video**: [YouTube](https://www.youtube.com/watch?v=wzFHXIOHsT0&list=PLM5eBAr4_g1ksPKCGROWekvWAVdQ5rjv3)
 - **Ver diapositivas**: [Google Slides](https://docs.google.com/presentation/d/1raVBHI2qWbQCTI_lIZZjC_1B1Wn4pghPyYe1Qa-oe00/edit?slide=id.p1)
 - **Conclusiones clave**: Una clase define la estructura de un objeto (datos y comportamiento); los constructores inicializan los objetos al crearlos con `new`.
-- **Práctica**: [Código inicial](https://onlinegdb.com/ByDi4BB5V) 👈 ¡Inicio inmediato! · [Solución completa](https://onlinegdb.com/sbQ0jDP3x)
+- **Práctica**: [Código inicial](https://onlinegdb.com/aF2E2zbVy) 👈 ¡Inicio inmediato! · [Solución completa](https://onlinegdb.com/sbQ0jDP3x)
 
 <br>
 
