@@ -63,3 +63,6 @@
 | 06. Encapsulación y proyecto final | 12 min | [Ver lección](https://www.youtube.com/watch?v=sjAOKtgyEWQ&list=PLM5eBAr4_g1ksPKCGROWekvWAVdQ5rjv3) | Sin diapositivas (lección práctica) | [Abrir OnlineGDB](https://onlinegdb.com/5iZQLdbuT) | [Contenido](docs/lessons/lesson-06-final-project/part-01-theory.md) | Aventura del Número Secreto |
 
 ---
+
+
+**Link del repositorio:**  https://github.com/ICEQ2026/java-fundamentals-course-iceq
