@@ -13,6 +13,8 @@
 [![Audiencia](https://img.shields.io/badge/Audiencia-12_a_17_años-brightgreen?style=flat-square)](#)
 [![Editor_principal](https://img.shields.io/badge/Editor_principal-OnlineGDB-orange?style=flat-square)](#)
 
+**Repositorio del curso**: [https://github.com/ICEQ2026/java-fundamentals-course-iceq](https://github.com/ICEQ2026/java-fundamentals-course-iceq)
+
 </div>
 
 ---
@@ -36,8 +38,8 @@
 - **Conclusiones clave**: Creación y llamada de métodos estáticos, envío de parámetros, retorno de valor (`return`), e importación y uso de `Scanner`.
 
 ### Lección 5: Clases y objetos (12 minutos)
-- **Descripción**: Comienza a modelar objetos reales con sus propios atributos protegidos y comportamientos.
-- **Conclusiones clave**: Declaración de clases, instanciación con `new`, encapsulación de campos con `private`, constructor con `this` y métodos "getters".
+- **Descripción**: Comienza a modelar objetos reales agrupando atributos y comportamiento en clases.
+- **Conclusiones clave**: Programación Orientada a Objetos, clases como planos, objetos como instancias, atributos como estado, constructores, `this`, `new` y separación en archivos `.java`.
 
 ### Lección 6: Encapsulación y proyecto final (12 minutos)
 - **Descripción**: Desarrolla el juego "Aventura del Número Secreto" integrando estructuras, clases, entrada de usuario y validaciones.
@@ -57,7 +59,7 @@
 | 02. Variables y tipos de datos | 9 min | [Ver lección](https://www.youtube.com/watch?v=4YTVcC-n2tQ&list=PLM5eBAr4_g1ksPKCGROWekvWAVdQ5rjv3) | [Ver diapositivas](https://docs.google.com/presentation/d/1DMUItfF_qLu5PUPS6NUGM_Ll2nKlG6adixuTCp2YK7s/edit?usp=sharing) | [Abrir OnlineGDB](https://onlinegdb.com/YfvQXps3Q) | [Contenido](docs/lessons/lesson-02-variables/part-01-theory.md) | Ficha de estudiante |
 | 03. Condiciones y bucles | 10 min | [Ver lección](https://www.youtube.com/watch?v=dxSWsmNYXAg&list=PLM5eBAr4_g1ksPKCGROWekvWAVdQ5rjv3) | [Ver diapositivas](https://docs.google.com/presentation/d/1ALH1pRKjewmX0ygyONVt7DwzcqxJeEGRN0p28dCHrG8/edit?usp=sharing) | [Abrir OnlineGDB](https://onlinegdb.com/FUVtXESMU) | [Contenido](docs/lessons/lesson-03-if-loops/part-01-theory.md) | Intentos y pistas |
 | 04. Métodos y entrada por consola | 10 min | [Ver lección](https://www.youtube.com/watch?v=TdgOCwKrJVg&list=PLM5eBAr4_g1ksPKCGROWekvWAVdQ5rjv3) | [Ver diapositivas](https://docs.google.com/presentation/d/1IPBxFwuU-O2OF1JNLGSi1J6Ta6m7MVzgdIubuaqNOGM/edit?usp=sharing) | [Abrir OnlineGDB](https://onlinegdb.com/FKkblaXeZ) | [Contenido](docs/lessons/lesson-04-methods/part-01-theory.md) | Calculadora simple |
-| 05. Clases y objetos | 12 min | [Ver lección](https://www.youtube.com/watch?v=wzFHXIOHsT0&list=PLM5eBAr4_g1ksPKCGROWekvWAVdQ5rjv3) | [Ver diapositivas](https://docs.google.com/presentation/d/1raVBHI2qWbQCTI_lIZZjC_1B1Wn4pghPyYe1Qa-oe00/edit?usp=sharing) | [Abrir OnlineGDB](https://onlinegdb.com/ByDi4BB5V) | [Contenido](docs/lessons/lesson-05-classes-objects/part-01-theory.md) | Modelo de jugador |
+| 05. Clases y objetos | 12 min | [Ver lección](https://www.youtube.com/watch?v=wzFHXIOHsT0&list=PLM5eBAr4_g1ksPKCGROWekvWAVdQ5rjv3) | [Ver diapositivas](https://docs.google.com/presentation/d/1raVBHI2qWbQCTI_lIZZjC_1B1Wn4pghPyYe1Qa-oe00/edit?usp=sharing) | [Abrir OnlineGDB](https://onlinegdb.com/ByDi4BB5V) | [Contenido](docs/lessons/lesson-05-classes-objects/part-01-theory.md) | Mini banco con `CuentaBancaria` |
 | 06. Encapsulación y proyecto final | 12 min | [Ver lección](https://www.youtube.com/watch?v=sjAOKtgyEWQ&list=PLM5eBAr4_g1ksPKCGROWekvWAVdQ5rjv3) | Sin diapositivas (lección práctica) | [Abrir OnlineGDB](https://onlinegdb.com/5iZQLdbuT) | [Contenido](docs/lessons/lesson-06-final-project/part-01-theory.md) | Aventura del Número Secreto |
 
 ---
